@@ -1,0 +1,35 @@
+{
+  "run_id": "RUN-20261105T105006-2u9y",
+  "extractor_version": "page-extractor-v2",
+  "pages_parsed": 905,
+  "parse_status": {
+    "ok": 905,
+    "partial": 0,
+    "failed": 0
+  },
+  "classification_counts_this_run": {
+    "movie": 815,
+    "pending": 54,
+    "box_set": 16,
+    "non_movie": 13,
+    "concert_other": 3,
+    "series": 4
+  },
+  "classification_counts_table": {
+    "box_set": 16,
+    "concert_other": 3,
+    "movie": 68540,
+    "non_movie": 9896,
+    "pending": 922,
+    "series": 34089
+  },
+  "classification_rows_total": 113466,
+  "products_total": 253059,
+  "coverage": {
+    "parsed_over_all_products": 0.0036,
+    "classified_over_all_products": 0.4484,
+    "movie_over_parsed": 0.9006,
+    "movie_over_all_products": 0.2708
+  },
+  "note": "两个口径必须分开读：classification_counts_this_run 只含本次解析的页面；classification_counts_table 是全表分布，其中无页面的商品由 s03b 按 SNAP 类目路径初判（basis=third_party_category），证据强度弱于页面解析。没有页面也没有类目的商品不进表 —— 不能凭空给类别。"
+}

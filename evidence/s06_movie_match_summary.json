@@ -1,0 +1,32 @@
+{
+  "run_id": "RUN-20261105T105012-ebw8",
+  "rules_version": "merge-rules-v1.0.0",
+  "products_participating": 71388,
+  "blocking": {
+    "buckets": 36404,
+    "candidate_pairs": 41876,
+    "all_pairs": 2548087578,
+    "reduction_pct": 100.0,
+    "max_bucket": 87
+  },
+  "decisions": {
+    "pairs_scored": 19386,
+    "auto_merge": 2291,
+    "manual_review": 6849,
+    "no_merge": 10246
+  },
+  "transitive_conflicts": 162,
+  "clusters": 44919,
+  "singletons": 44824,
+  "movies_created": 43838,
+  "product_movie_links": 45515,
+  "before_after": {
+    "products": 71388,
+    "movies": 43838,
+    "compression_ratio": 1.628
+  },
+  "thresholds": {
+    "auto_merge": 0.86,
+    "manual_review": 0.62
+  }
+}

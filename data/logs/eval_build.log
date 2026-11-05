@@ -1,0 +1,14 @@
+库：D:\课\大三\数据存储与管理\etl_project\data\db\etl.sqlite3
+可核对商品 44,805 个（有成功页面快照 + 有标题）
+构建 IMDb 标题索引…
+  title.basics 扫描 12,928,096 行，命中标题键 11,952 个
+  商品→tconst：标题命中 12,483，唯一 6,517，靠年份消歧 3，仍歧义 5,963，无命中 32,322
+构建 IMDb 姓名索引…
+  name.basics 扫描 15,788,010 行，命中姓名键 198 个
+组对…
+  署名 256 个，唯一匹配 nconst 83 个
+  写出 D:\课\大三\数据存储与管理\etl_project\evidence\eval\eval_movies.csv（100 对，label 列留空待人工填写）
+  写出 D:\课\大三\数据存储与管理\etl_project\evidence\eval\eval_persons.csv（100 对，label 列留空待人工填写）
+
+下一步：打开两份 CSV，在 `label` 列填 1（应合并）或 0（不应合并），
+       然后跑 `python scripts/build_eval_set.py --import` 写回库。

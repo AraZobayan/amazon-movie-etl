@@ -1,0 +1,71 @@
+{
+  "run_id": "RUN-20261104T115114-quu2",
+  "trigger": "consecutive_access_restricted",
+  "threshold": 10,
+  "observed": [
+    {
+      "product_id": "B00064LJVY",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B00064LJVY"
+    },
+    {
+      "product_id": "B0006989TE",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B0006989TE"
+    },
+    {
+      "product_id": "B005LAIHXQ",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B005LAIHXQ"
+    },
+    {
+      "product_id": "B005LAIHY0",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B005LAIHY0"
+    },
+    {
+      "product_id": "B0016RDEH2",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B0016RDEH2"
+    },
+    {
+      "product_id": "B001MBUGLY",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B001MBUGLY"
+    },
+    {
+      "product_id": "B0085Z8F4A",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B0085Z8F4A"
+    },
+    {
+      "product_id": "B00005JPA6",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B00005JPA6"
+    },
+    {
+      "product_id": "B00005JPTK",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B00005JPTK"
+    },
+    {
+      "product_id": "B000O76ZQC",
+      "http_status": 200,
+      "reason_code": "captcha_page",
+      "final_url": "https://www.amazon.com/dp/B000O76ZQC"
+    }
+  ],
+  "live_attempted": 51,
+  "network_requests": 51,
+  "note": "站点开始成片拒绝访问，主动停止。未使用任何绕过手段；剩余 ASIN 保留在清单中，状态为 not_collected。",
+  "logged_at": "2026-11-04T11:55:37Z"
+}

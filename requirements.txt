@@ -1,0 +1,18 @@
+# 本项目只依赖 Python 标准库，没有任何第三方包。
+#
+# 这意味着：不需要 pip install，不需要虚拟环境，不需要联网装包。
+# 只要 Python >= 3.10（用到 PEP 604 的 X | None 等现代语法）就能直接运行整条 ETL 流水线。
+#
+# 数据库用的是 Python 自带的 sqlite3 模块；HTTP 用的是 urllib.request；
+# gzip 解压用的是 zlib；哈希用的是 hashlib。全部内置。
+#
+# 唯一"可选"的依赖是 PostgreSQL 驱动，只有在你真的把仓库迁到 PG 时才需要：
+#   psycopg[binary]>=3.1      # 对应 sql/schema_postgres.sql
+#
+# 注意范围：上面说的"零第三方依赖"对 src/、scripts/、tests/ 成立；
+# dags/etl_pipeline.py 需要 Airflow 2.10+ 才能被调度器解析（它只 import airflow，
+# 不参与 s01~s11 的计算）。Airflow 只用于编排，核心 ETL 不依赖它：
+#   apache-airflow>=2.10      # 仅 dags/ 需要，Docker 里跑（见 docs/项目报告.md 10.1）
+#
+# 所以这个文件留空也是有意义的：它本身就是一个工程结论——
+# 一个数据仓库项目并不一定需要一堆框架。

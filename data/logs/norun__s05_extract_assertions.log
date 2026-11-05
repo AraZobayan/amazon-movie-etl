@@ -1,0 +1,48 @@
+[2026-11-03T01:38:53Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 83 份
+[2026-11-03T01:38:53Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T01:38:54Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  0.1s  {"title": 81, "date": 68, "format": 68, "studio": 77, "director": 87, "cast": 194}
+[2026-11-03T01:38:54Z] [INFO ] [s05_extract_assertions] 断言总数 575；分布 [('cast', 194), ('director', 87), ('title', 81), ('studio', 77), ('release_date', 68), ('edition_format', 68)]
+[2026-11-03T02:01:24Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 715 份
+[2026-11-03T02:01:24Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T02:01:26Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.1s  {"title": 713, "date": 700, "format": 700, "studio": 709, "director": 899, "cast": 2926}
+[2026-11-03T02:01:26Z] [INFO ] [s05_extract_assertions] 断言总数 6,645；分布 [('cast', 2925), ('director', 898), ('title', 713), ('studio', 709), ('release_date', 700), ('edition_format', 700)]
+[2026-11-03T02:14:12Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 716 份
+[2026-11-03T02:14:12Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T02:14:14Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.2s  {"title": 714, "date": 702, "format": 702, "studio": 710, "director": 929, "cast": 2955}
+[2026-11-03T02:14:14Z] [INFO ] [s05_extract_assertions] 断言总数 6,710；分布 [('cast', 2955), ('director', 927), ('title', 714), ('studio', 710), ('release_date', 702), ('edition_format', 702)]
+[2026-11-03T02:32:55Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 708 份
+[2026-11-03T02:32:55Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T02:32:56Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.2s  {"title": 706, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-03T02:32:56Z] [INFO ] [s05_extract_assertions] 断言总数 6,635；分布 [('cast', 2926), ('director', 913), ('title', 706), ('studio', 702), ('release_date', 694), ('edition_format', 694)]
+[2026-11-03T02:43:22Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 708 份
+[2026-11-03T02:43:22Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T02:43:24Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.3s  {"title": 706, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-03T02:43:24Z] [INFO ] [s05_extract_assertions] 断言总数 6,635；分布 [('cast', 2926), ('director', 913), ('title', 706), ('studio', 702), ('release_date', 694), ('edition_format', 694)]
+[2026-11-03T02:48:22Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 716 份
+[2026-11-03T02:48:22Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T02:48:22Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  0.1s  {"title": 714, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-03T02:48:22Z] [INFO ] [s05_extract_assertions] 断言总数 14,744；分布 [('cast', 4011), ('canonical_name', 3799), ('release_date', 1426), ('title', 1405), ('studio', 1393), ('edition_format', 1385), ('director', 956), ('genre', 287), ('external_id', 82)]
+[2026-11-03T03:03:33Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 708 份
+[2026-11-03T03:03:33Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T03:03:34Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.1s  {"title": 706, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-03T03:03:34Z] [INFO ] [s05_extract_assertions] 断言总数 6,635；分布 [('cast', 2926), ('director', 913), ('title', 706), ('studio', 702), ('release_date', 694), ('edition_format', 694)]
+[2026-11-04T11:03:59Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 806 份
+[2026-11-04T11:03:59Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-04T11:04:00Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.4s  {"title": 806, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-04T11:04:00Z] [INFO ] [s05_extract_assertions] 断言总数 77,308；分布 [('title', 71379), ('cast', 2926), ('director', 913), ('studio', 702), ('release_date', 694), ('edition_format', 694)]
+[2026-11-04T11:57:02Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 905 份
+[2026-11-04T11:57:02Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-04T11:57:03Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  0.2s  {"title": 905, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-04T11:57:03Z] [INFO ] [s05_extract_assertions] 断言总数 130,051；分布 [('title', 116852), ('cast', 3912), ('canonical_name', 3799), ('release_date', 1422), ('studio', 1393), ('edition_format', 1385), ('director', 952), ('genre', 262), ('external_id', 74)]
+[2026-11-04T11:58:56Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 905 份
+[2026-11-04T11:58:56Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-04T11:58:56Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  0.2s  {"title": 905, "date": 694, "format": 834, "studio": 844, "director": 915, "cast": 2926}
+[2026-11-04T11:58:56Z] [INFO ] [s05_extract_assertions] 断言总数 130,352；分布 [('title', 116871), ('cast', 3912), ('canonical_name', 3799), ('studio', 1535), ('edition_format', 1525), ('release_date', 1422), ('director', 952), ('genre', 262), ('external_id', 74)]
+[2026-11-04T12:01:17Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 905 份
+[2026-11-04T12:01:17Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-04T12:01:17Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  0.2s  {"title": 905, "date": 819, "date_yearonly": 6, "format": 834, "studio": 844, "director": 915, "cast": 2926}
+[2026-11-04T12:01:17Z] [INFO ] [s05_extract_assertions] 断言总数 130,895；分布 [('title', 117032), ('cast', 3912), ('canonical_name', 3799), ('studio', 1666), ('edition_format', 1650), ('release_date', 1548), ('director', 952), ('genre', 262), ('external_id', 74)]
+[2026-11-05T10:50:11Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 905 份
+[2026-11-05T10:50:11Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-05T10:50:11Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  0.2s  {"title": 905, "date": 819, "date_yearonly": 6, "format": 834, "studio": 844, "director": 915, "cast": 2926}
+[2026-11-05T10:50:11Z] [INFO ] [s05_extract_assertions] 断言总数 131,293；分布 [('title', 117106), ('cast', 3967), ('canonical_name', 3799), ('studio', 1736), ('edition_format', 1716), ('release_date', 1668), ('director', 954), ('genre', 269), ('external_id', 78)]

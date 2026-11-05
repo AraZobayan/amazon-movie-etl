@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-05T11:21:45Z",
+  "cut_at": 200000,
+  "bound_records": 400000,
+  "phase1_rows": 200000,
+  "phase2_rows_after_resume": 400000,
+  "reference_rows": 400000,
+  "reference_mode": "有界对照：一次跑完前 400,000 条",
+  "duplicate_primary_keys": 0,
+  "identity_check": {
+    "valid": 399995,
+    "quarantined": 5,
+    "sum": 400000,
+    "total": 400000,
+    "ok": true
+  },
+  "checkpoints": [
+    {
+      "step_name": "parse",
+      "batch_no": 5,
+      "cursor_value": "400000",
+      "rows_done": 200000
+    }
+  ],
+  "recovery_ok": true,
+  "scope_note": "本次为有界验证：两阶段合计处理前 400,000 条，三个阶段都停在同一条记录序号上。断点逻辑与输入总量无关，所以这个规模足以证明检查点游标正确；全量 7,911,696 条的最终计数见 s01_ingest_summary.json。",
+  "conclusion": "续跑后记录数与一次跑完一致，且无重复主键：断点恢复成立"
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "RUN-20261104T091044-8hwc",
+  "source_file": "data/raw/movies.txt.gz",
+  "source_sha256": "4b6ee09ea4880f3fb197b1407d45dfb08a892fbb48a9e7a2d74aa0572cdcc715",
+  "source_bytes": 3321791660,
+  "is_slice": false,
+  "elapsed_seconds": 6448.0,
+  "throughput_records_per_sec": 1227,
+  "records_read": 7911696,
+  "valid_records": 7911629,
+  "quarantined_records": 67,
+  "quarantine_rows": 67,
+  "identity_check": {
+    "formula": "读取记录数 = 有效记录数 + 隔离记录数",
+    "left": 7911696,
+    "right": 7911696,
+    "ok": true
+  },
+  "stg_review_rows": 7911629,
+  "logical_reviews": 7895810,
+  "logical_reviews_merged_from_multiple_raw": 13893,
+  "dedup_removed": 15819,
+  "distinct_products": 253059,
+  "distinct_reviewers": 889172,
+  "quarantine_reasons": {
+    "helpful_exceeds_total": 43,
+    "missing_or_bad_product_id,missing_reviewer_id": 12,
+    "score_out_of_range,bad_review_time": 12
+  },
+  "official_stats": {
+    "reviews": 7911684,
+    "products": 253059,
+    "users": 889176
+  },
+  "note": "全量运行：输入为完整源文件（3321791660 字节），记录数应与官方统计一致。",
+  "regenerated_note": "本文件由主库重算生成（2026-11-05）：原文件被 verify_recovery.py 的有界验证覆盖成 40 万条口径。所有计数直接取自 data/db/etl.sqlite3 的 COUNT(*)，run_id 与 elapsed_seconds 取自 meta_etl_run（2026-11-04T09:10:44Z → 10:58:16Z）。根因已修复：s01 新增 --summary 参数，验证脚本改写临时路径。",
+  "run_window_utc": {
+    "started_at": "2026-11-04T09:10:44Z",
+    "finished_at": "2026-11-04T10:58:16Z"
+  }
+}

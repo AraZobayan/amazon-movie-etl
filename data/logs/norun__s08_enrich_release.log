@@ -1,0 +1,218 @@
+[2026-11-03T01:38:55Z] [INFO ] [s08_enrich_release] 待补全作品 12 部（上限 12）
+[2026-11-03T01:38:55Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T01:38:57Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Amélie: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:38:58Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Apocalypse Now: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:38:58Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Batman Begins: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:38:58Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Blade Runner: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:38:58Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Blade Runner 2049: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:38:59Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Casablanca: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:38:59Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Cinema Paradiso: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:39:00Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Creed: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:39:00Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Inception, The: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:39:00Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Interstellar: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:39:01Z] [WARN ] [s08_enrich_release] Wikidata 查询失败 Kill Bill Vol. 1 & 2 Double Feature: HTTP Error 429: Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage (797a132)
+[2026-11-03T01:39:01Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  5.6s  {"queried": 12, "matched": 0, "not_found": 12, "cached": 0, "assertions": 0}
+[2026-11-03T01:39:01Z] [INFO ] [s08_enrich_release] 查询 12 部，匹配成功 0，未找到 12，新增断言 0（缓存命中 0）
+[2026-11-03T01:41:58Z] [INFO ] [s08_enrich_release] 待补全作品 6 部（上限 6，接受阈值 0.7）
+[2026-11-03T01:41:58Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T01:42:21Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），5s 后重试 1/2
+[2026-11-03T01:42:27Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），10s 后重试 2/2
+[2026-11-03T01:42:39Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），5s 后重试 1/2
+[2026-11-03T01:42:44Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），10s 后重试 2/2
+[2026-11-03T01:42:55Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  57.1s  {"queried": 6, "matched": 3, "not_found": 2, "rejected": 1, "ambiguous": 0, "cached": 0, "assertions": 145, "requests": 14, "precision": {"day": 3}, "fallback_used": 0, "search_variant_hits": {"The Aliens": 1, "Amélie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "-": 2}}
+[2026-11-03T01:42:55Z] [INFO ] [s08_enrich_release] 查询 6 部：匹配 3，拒绝 1，歧义 0，未找到 2；新增断言 145；HTTP 请求 14（缓存命中 0）
+[2026-11-03T01:42:55Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 3}
+[2026-11-03T01:43:41Z] [INFO ] [s08_enrich_release] 待补全作品 40 部（上限 40，接受阈值 0.7）
+[2026-11-03T01:43:41Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T01:44:23Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:44:32Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:44:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:44:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:45:55Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），2s 后重试 1/2
+[2026-11-03T01:45:57Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:46:43Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:46:52Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:47:30Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:47:39Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:47:56Z] [ERROR] [s08_enrich_release] 步骤失败: enrich -> IntegrityError: CHECK constraint failed: severity IN ('info','warn','error')
+[2026-11-03T01:48:11Z] [INFO ] [s08_enrich_release] 待补全作品 40 部（上限 40，接受阈值 0.7）
+[2026-11-03T01:48:11Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T01:48:57Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:49:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:49:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:50:43Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），2s 后重试 1/2
+[2026-11-03T01:51:04Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），3s 后重试 2/2
+[2026-11-03T01:51:31Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:51:40Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:51:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:52:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:52:38Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:52:57Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:53:33Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  322.4s  {"queried": 40, "matched": 35, "not_found": 3, "rejected": 2, "ambiguous": 0, "source_unavailable": 0, "cached": 19, "assertions": 662, "requests": 121, "precision": {"day": 35}, "search_variant_hits": {"Aliens": 1, "Amélie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 1, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 1, "Rocky": 1, "The Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T01:53:33Z] [INFO ] [s08_enrich_release] 查询 40 部：匹配 35，拒绝 2，歧义 0，未找到 3；新增断言 662；HTTP 请求 121（缓存命中 19）
+[2026-11-03T01:53:33Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 35}
+[2026-11-03T02:01:28Z] [INFO ] [s08_enrich_release] 待补全作品 44 部（上限 44，接受阈值 0.7）
+[2026-11-03T02:01:28Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:01:47Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），2s 后重试 1/2
+[2026-11-03T02:02:52Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T02:03:23Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  114.7s  {"queried": 44, "matched": 37, "not_found": 4, "rejected": 3, "ambiguous": 0, "source_unavailable": 0, "cached": 37, "assertions": 1416, "requests": 125, "precision": {"day": 37}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 2, "Princess Mononoke": 1, "Pulp Fiction": 2, "Rashomon": 1, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Godfather": 1, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:03:23Z] [INFO ] [s08_enrich_release] 查询 44 部：匹配 37，拒绝 3，歧义 0，未找到 4；新增断言 1416；HTTP 请求 125（缓存命中 37）
+[2026-11-03T02:03:23Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-03T02:14:16Z] [INFO ] [s08_enrich_release] 待补全作品 45 部（上限 45，接受阈值 0.7）
+[2026-11-03T02:14:16Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:15:05Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  48.7s  {"queried": 45, "matched": 37, "not_found": 4, "rejected": 3, "ambiguous": 1, "source_unavailable": 0, "cached": 41, "assertions": 1415, "requests": 127, "precision": {"day": 37}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 2, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 1, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 3, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 2, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:15:05Z] [INFO ] [s08_enrich_release] 查询 45 部：匹配 37，拒绝 3，歧义 1，未找到 4；新增断言 1415；HTTP 请求 127（缓存命中 41）
+[2026-11-03T02:15:05Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-03T02:18:36Z] [INFO ] [s08_enrich_release] 待补全作品 45 部（上限 45，接受阈值 0.7）
+[2026-11-03T02:18:36Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:19:22Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  46.0s  {"queried": 45, "matched": 37, "not_found": 4, "rejected": 3, "ambiguous": 1, "source_unavailable": 0, "cached": 41, "assertions": 0, "requests": 127, "precision": {"day": 37}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 2, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 1, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 3, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 2, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:19:22Z] [INFO ] [s08_enrich_release] 查询 45 部：匹配 37，拒绝 3，歧义 1，未找到 4；新增断言 0；HTTP 请求 127（缓存命中 41）
+[2026-11-03T02:19:22Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-03T02:20:46Z] [INFO ] [s08_enrich_release] 待补全作品 45 部（上限 45，接受阈值 0.7）
+[2026-11-03T02:20:46Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:21:32Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  46.0s  {"queried": 45, "matched": 37, "not_found": 4, "rejected": 3, "ambiguous": 1, "source_unavailable": 0, "cached": 41, "assertions": 0, "requests": 127, "precision": {"day": 37}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 2, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 1, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 3, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 2, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:21:32Z] [INFO ] [s08_enrich_release] 查询 45 部：匹配 37，拒绝 3，歧义 1，未找到 4；新增断言 0；HTTP 请求 127（缓存命中 41）
+[2026-11-03T02:21:32Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-03T02:32:59Z] [INFO ] [s08_enrich_release] 待补全作品 49 部（上限 49，接受阈值 0.7）
+[2026-11-03T02:32:59Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:33:53Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  54.0s  {"queried": 49, "matched": 41, "not_found": 5, "rejected": 3, "ambiguous": 0, "source_unavailable": 0, "cached": 44, "assertions": 1538, "requests": 141, "precision": {"day": 41}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 2, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 3, "Ocean's Eleven": 3, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 2, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:33:53Z] [INFO ] [s08_enrich_release] 查询 49 部：匹配 41，拒绝 3，歧义 0，未找到 5；新增断言 1538；HTTP 请求 141（缓存命中 44）
+[2026-11-03T02:33:53Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 41}
+[2026-11-03T02:43:26Z] [INFO ] [s08_enrich_release] 待补全作品 49 部（上限 49，接受阈值 0.7）
+[2026-11-03T02:43:26Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:44:18Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  52.2s  {"queried": 49, "matched": 41, "not_found": 5, "rejected": 3, "ambiguous": 0, "source_unavailable": 0, "cached": 44, "assertions": 1538, "requests": 141, "precision": {"day": 41}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 2, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 3, "Ocean's Eleven": 3, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 2, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:44:18Z] [INFO ] [s08_enrich_release] 查询 49 部：匹配 41，拒绝 3，歧义 0，未找到 5；新增断言 1538；HTTP 请求 141（缓存命中 44）
+[2026-11-03T02:44:18Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 41}
+[2026-11-03T02:48:25Z] [INFO ] [s08_enrich_release] 待补全作品 50 部（上限 50，接受阈值 0.7）
+[2026-11-03T02:48:25Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:49:18Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  53.8s  {"queried": 50, "matched": 41, "not_found": 6, "rejected": 3, "ambiguous": 0, "source_unavailable": 0, "cached": 44, "assertions": 0, "requests": 143, "precision": {"day": 41}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 2, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 3, "Ocean's Eleven": 3, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 2, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Star Trek: The Next Generation Motion Picture 5-Movie Collection": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:49:18Z] [INFO ] [s08_enrich_release] 查询 50 部：匹配 41，拒绝 3，歧义 0，未找到 6；新增断言 0；HTTP 请求 143（缓存命中 44）
+[2026-11-03T02:49:18Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 41}
+[2026-11-03T03:03:36Z] [INFO ] [s08_enrich_release] 待补全作品 49 部（上限 49，接受阈值 0.7）
+[2026-11-03T03:03:36Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T08:38:18Z] [INFO ] [s08_enrich_release] 待补全作品 4 部（上限 4，接受阈值 0.7）
+[2026-11-04T08:38:18Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T08:38:20Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  2.5s  {"queried": 4, "matched": 2, "not_found": 1, "rejected": 1, "ambiguous": 0, "source_unavailable": 0, "cached": 3, "assertions": 0, "requests": 9, "precision": {"day": 2}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1}, "budget_exhausted": false, "processed": 4, "skipped_over_budget": 0}
+[2026-11-04T08:38:20Z] [INFO ] [s08_enrich_release] 查询 4 部：匹配 2，拒绝 1，歧义 0，未找到 1；新增断言 0；HTTP 请求 9（缓存命中 3）
+[2026-11-04T08:38:20Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 2}
+[2026-11-04T08:38:55Z] [INFO ] [s08_enrich_release] 待补全作品 3 部（上限 3，接受阈值 0.7）
+[2026-11-04T08:38:55Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T08:38:56Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  1.2s  {"queried": 3, "matched": 1, "not_found": 1, "rejected": 1, "ambiguous": 0, "source_unavailable": 0, "cached": 2, "assertions": 0, "requests": 6, "precision": {"day": 1}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1}, "budget_exhausted": false, "processed": 3, "skipped_over_budget": 0}
+[2026-11-04T08:38:56Z] [INFO ] [s08_enrich_release] 查询 3 部：匹配 1，拒绝 1，歧义 0，未找到 1；新增断言 0；HTTP 请求 6（缓存命中 2）
+[2026-11-04T08:38:56Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 1}
+[2026-11-04T08:43:24Z] [INFO ] [s08_enrich_release] 待补全作品 49 部（上限 49，接受阈值 0.7）
+[2026-11-04T08:43:24Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T08:44:15Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  51.7s  {"queried": 49, "matched": 41, "not_found": 5, "rejected": 3, "ambiguous": 0, "source_unavailable": 0, "cached": 44, "assertions": 569, "requests": 141, "precision": {"day": 41}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 2, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 3, "Ocean's Eleven": 3, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 2, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}, "budget_exhausted": false, "processed": 49, "skipped_over_budget": 0}
+[2026-11-04T08:44:15Z] [INFO ] [s08_enrich_release] 查询 49 部：匹配 41，拒绝 3，歧义 0，未找到 5；新增断言 569；HTTP 请求 141（缓存命中 44）
+[2026-11-04T08:44:15Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 41}
+[2026-11-04T09:00:50Z] [INFO ] [s08_enrich_release] 待补全作品 49 部（上限 49，接受阈值 0.7）
+[2026-11-04T09:00:50Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T09:01:41Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  51.5s  {"queried": 49, "matched": 41, "not_found": 5, "rejected": 3, "ambiguous": 0, "source_unavailable": 0, "cached": 44, "assertions": 0, "requests": 141, "precision": {"day": 41}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 2, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 3, "Ocean's Eleven": 3, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 2, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}, "budget_exhausted": false, "processed": 49, "skipped_over_budget": 0}
+[2026-11-04T09:01:41Z] [INFO ] [s08_enrich_release] 查询 49 部：匹配 41，拒绝 3，歧义 0，未找到 5；新增断言 0；HTTP 请求 141（缓存命中 44）
+[2026-11-04T09:01:41Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 41}
+[2026-11-04T11:05:02Z] [INFO ] [s08_enrich_release] 待补全作品 800 部（全库 43,707 部，上限 800，排序=importance，接受阈值 0.7）
+[2026-11-04T11:05:02Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T11:06:20Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:06:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:06:47Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:07:15Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:07:39Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:08:05Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:08:27Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:08:57Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），2s 后重试 1/2
+[2026-11-04T11:09:26Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:09:56Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:09:59Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:10:32Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:11:04Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:11:25Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:11:33Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:11:51Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:12:00Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:12:42Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:12:54Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:13:22Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:13:48Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:14:26Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:14:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:14:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:15:25Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:15:34Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:15:53Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:16:14Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:16:23Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:16:41Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:16:51Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:17:22Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:17:31Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:17:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:17:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:18:28Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:18:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:18:56Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:19:22Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:19:31Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:19:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:19:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:20:28Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:20:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:20:55Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:21:27Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:21:49Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:22:14Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:22:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:22:38Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:22:56Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:23:36Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:23:40Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:23:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:24:20Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:24:28Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:24:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:24:55Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:25:25Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:25:34Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:25:52Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:26:32Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:26:36Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:26:45Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:27:24Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:27:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:27:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:28:24Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:28:58Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:29:01Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:29:48Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:30:13Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:30:16Z] [WARN ] [s08_enrich_release] 时间预算 1500s 用尽：已处理 172 部，剩余 628 部留待下次（缓存已保留，重跑会命中缓存）
+[2026-11-04T11:30:16Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  1513.3s  {"queried": 172, "matched": 37, "not_found": 31, "rejected": 99, "ambiguous": 0, "source_unavailable": 5, "cached": 44, "assertions": 1398, "requests": 363, "precision": {"day": 37}, "search_variant_hits": {"The Godfather": 1, "The Matrix Revolutions": 1, "The Godfather Part II": 1, "The Lord of the Rings: The Return of the King": 1, "The Silence of the Lambs": 1, "The Lord of the Rings: The Two Towers": 1, "Aliens": 1, "Batman Begins": 1, "Cinema Paradiso": 1, "Ocean's Eleven": 2, "Seven Samurai": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Lord of the Rings: The Fellowship of the Ring": 1, "Apocalypse Now": 1, "Interstellar": 1, "Rocky": 1, "Spirited Away": 1, "True Grit": 2, "Casablanca": 1, "Creed": 1, "Kill Bill: Vol. 2": 2, "Princess Mononoke": 1, "Pulp Fiction": 1, "The Matrix": 1, "Amelie": 1, "Space Jam": 1, "Taxi Driver": 1, "The Shawshank Redemption": 1, "Alien": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "The Matrix Reloaded": 1, "Goodfellas": 1, "Inception": 1, "Rashomon": 1, "Phantom of the Opera": 1, "Kill Bill: Vol. 1": 1, "Midsummer Night's Dream": 1, "Titanic": 1, "Treasure Island": 2, "Great Expectations": 1, "Heist": 1, "Little Women": 1, "-": 5, "Peter Pan": 1, "Three Musketeers": 1, "20,000 Leagues Under the Sea": 1, "A Christmas Carol": 1, "A Midsummer Night's Dream": 1, "Angel and the Badman/Blue Steel": 1, "Anne of Green Gables": 1, "Arabian Nights": 1, "Bachelor": 1, "Bad Company": 1, "Blood &amp; Sand": 1, "Borderline": 1, "Buffalo Soldiers": 1, "Carrie": 1, "Chaplin": 1, "Crime and Punishment": 1, "Cursed": 1, "Cyrano de Bergerac": 1, "Dead Silence": 1, "Deadline": 1, "Deep Red": 1, "Face": 1, "Fair Game": 1, "Father of the Bride": 1, "First Love": 1, "Freeway": 1, "Frightmare": 1, "Godzilla's Revenge": 1, "Hamlet": 1, "Harvest": 1, "Heidi": 1, "Hercules/Hercules Unchained": 1, "Immortal": 1, "Ivanhoe": 1, "JIGSAW": 1, "Jack the Ripper": 1, "Jumanji": 1, "Kickboxer": 1, "Legion of the Dead": 1, "Les Miserables": 1, "Like Water for Chocolate": 1, "Lost World": 1, "Mutiny on the Bounty": 1, "Once upon a Time": 1, "Parasite": 1, "Reckless": 1, "Romance": 1, "Romeo &amp; Juliet": 1, "Salome": 1, "Shall We Dance": 1, "She": 1, "Shock": 1, "Sleeping Dogs Lie": 1, "Suburbia": 1, "Terror of Mechagodzilla": 1, "The Canterville Ghost": 1, "The Circle": 1, "Hole": 1, "The Journey": 1, "The Last of the Mohicans": 1, "The Three Musketeers": 1, "The Trip": 1, "Trapped": 1, "Virus": 1, "12 Angry Men": 1, "A Fine Romance": 1, "A Killing Affair": 1, "A Simple Plan": 1, "A Star Is Born": 1, "Stranger Among Us": 1, "Abandon": 1, "Abide as the Self: The Essential Teachings of Ramana Maharshi": 1, "Absolution": 2, "Addams Family Values": 1, "Adios Amigo": 1, "Adventures of Kotetsu": 1, "Affliction": 1, "Africa Screams": 1, "After Sex": 1, "Agent Aika: Lace in Space": 1, "Alice": 1, "Alice Through The Looking Glass": 1, "Alice Through the Looking Glass": 1, "All Creatures Great &amp; Small": 1, "All Night Long": 1, "Alone in the Dark": 1, "Always": 1, "Amateur": 1, "American Beer": 1, "American History X": 1, "American Pie": 1, "Amore": 1, "Amy": 1, "And Now the Screaming Starts": 1, "Angel Eyes": 1, "Angel Heart": 1, "Angel of Death": 1, "Angel of the Night": 1, "Angela": 1, "Angelitos Negros": 1, "Angels": 1, "Anna Karenina": 1, "Another Woman": 1, "Apache Rose": 1, "Apollo 11: Men on the Moon": 1, "Are We There Yet?": 1, "Arlington Road": 1, "Armitage - Dual Matrix": 1, "Assassins/The Specialist": 1, "Asylum": 1, "Audition": 1, "Axe": 1, "Bad Girls": 1, "Bandits": 1, "Bandwagon": 1, "Bastard - The Complete Boxed Set": 1, "Bastard Kung Fu Master": 1}, "budget_exhausted": true, "processed": 172, "skipped_over_budget": 628}
+[2026-11-04T11:30:16Z] [INFO ] [s08_enrich_release] 查询 172 部：匹配 37，拒绝 99，歧义 0，未找到 31；新增断言 1398；HTTP 请求 363（缓存命中 44）
+[2026-11-04T11:30:16Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-04T12:20:00Z] [INFO ] [s08_enrich_release] 待补全作品 800 部（全库 43,838 部，上限 800，排序=importance，接受阈值 0.7）
+[2026-11-04T12:20:00Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T12:20:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），1.6s 后重试 1/2
+[2026-11-04T12:20:33Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），3.2s 后重试 2/2
+[2026-11-04T12:20:48Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8.0s 后重试 1/2
+[2026-11-04T12:21:25Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3.0s 后重试 2/2
+[2026-11-04T12:24:39Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:26:05Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:27:36Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:31:56Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:32:54Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:34:42Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:35:58Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:37:01Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:37:28Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3.0s 后重试 2/2
+[2026-11-04T12:39:22Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:40:20Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:42:20Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:44:08Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:45:07Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:45:37Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:46:52Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），6.0s 后重试 1/2
+[2026-11-04T12:47:31Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:48:29Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:51:38Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:52:12Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:52:39Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3.0s 后重试 2/2
+[2026-11-04T12:53:27Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2

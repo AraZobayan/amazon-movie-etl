@@ -1,0 +1,21 @@
+{
+  "run_id": "RUN-20261105T105108-qqrz",
+  "rules_version": "person-rules-v1.0.0",
+  "credits": 3799,
+  "distinct_normalized_names": 532,
+  "blocks": 243,
+  "decisions": {
+    "pairs_scored": 543,
+    "auto_merge": 126,
+    "manual_review": 417,
+    "no_merge": 0
+  },
+  "persons_created": 406,
+  "persons_with_alias": 128,
+  "movie_person_links": 972,
+  "compression": {
+    "names": 532,
+    "persons": 406,
+    "ratio": 1.31
+  }
+}

@@ -1,0 +1,81 @@
+[fresh] 已重建数据库 D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3
+[2026-11-03T02:57:09Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T025709-mt42，共 12 步
+[2026-11-03T02:57:09Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T02:57:09Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T025709-e842  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:57:10Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:57:19Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,403 条/s  批次 1  隔离 1
+[2026-11-03T02:57:40Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,628 条/s  批次 2  隔离 1
+[2026-11-03T02:58:04Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,192 条/s  批次 3  隔离 1
+[2026-11-03T02:58:30Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  1,985 条/s  批次 4  隔离 1
+[2026-11-03T02:58:57Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,854 条/s  批次 5  隔离 1
+[2026-11-03T02:59:26Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,756 条/s  批次 6  隔离 3
+[2026-11-03T02:59:56Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,684 条/s  批次 7  隔离 3
+[2026-11-03T03:00:25Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,638 条/s  批次 8  隔离 3
+[2026-11-03T03:00:54Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,601 条/s  批次 9  隔离 5
+[2026-11-03T03:01:26Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,562 条/s  批次 10  隔离 5
+[2026-11-03T03:01:57Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,532 条/s  批次 11  隔离 6
+[2026-11-03T03:02:28Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,506 条/s  批次 12  隔离 6
+[2026-11-03T03:03:01Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,479 条/s  批次 13  隔离 6
+[2026-11-03T03:03:04Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T03:03:16Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T03:03:16Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T03:03:16Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 366.5s
+[2026-11-03T03:03:16Z] [INFO ] [run_all] [s01] 完成，用时 367.1s
+[2026-11-03T03:03:16Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T03:03:16Z] [INFO ] [s02_build_product_list] 步骤开始: build_list
+[2026-11-03T03:03:17Z] [INFO ] [s02_build_product_list] 步骤完成: build_list  0.1s  {"products_in_list": 16480, "inserted": 16480}
+[2026-11-03T03:03:17Z] [INFO ] [s02_build_product_list] 采集清单已导出 16,480 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\product_list.csv
+[2026-11-03T03:03:17Z] [INFO ] [run_all] [s02] 完成，用时 0.6s
+[2026-11-03T03:03:17Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T03:03:17Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T03:03:20Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T03:03:20Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T03:03:20Z] [INFO ] [run_all] [s02b] 完成，用时 3.3s
+[2026-11-03T03:03:20Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:22Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:24Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> access_restricted (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:25Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> access_restricted (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:26Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:28Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:29Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:30Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,703
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 2
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [s03] 完成，用时 11.6s
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 708 份
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.2s  {"pages": 708, "ok": 702, "partial": 6, "failed": 0, "classification": {"movie": 687, "box_set": 4, "non_movie": 8, "concert_other": 2, "series": 1, "pending": 6}}
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 解析 708 页（ok=702, partial=6, failed=0）；分类分布 {'movie': 687, 'box_set': 4, 'non_movie': 8, 'concert_other': 2, 'series': 1, 'pending': 6}
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [s04] 完成，用时 0.6s
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T03:03:33Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 708 份
+[2026-11-03T03:03:33Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-03T03:03:34Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.1s  {"title": 706, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-03T03:03:34Z] [INFO ] [s05_extract_assertions] 断言总数 6,635；分布 [('cast', 2926), ('director', 913), ('title', 706), ('studio', 702), ('release_date', 694), ('edition_format', 694)]
+[2026-11-03T03:03:34Z] [INFO ] [run_all] [s05] 完成，用时 1.5s
+[2026-11-03T03:03:34Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T03:03:34Z] [INFO ] [s06_match_movies] 可参与匹配的产品 706 个
+[2026-11-03T03:03:34Z] [INFO ] [s06_match_movies] 分块：43 个桶，最大桶 35，候选对 6,745（全量两两比较需 248,865，省 97.29%）
+[2026-11-03T03:03:35Z] [INFO ] [s06_match_movies] 候选对 6,745：自动合并 2,743 / 人工复核 2,755 / 不合并 1,247
+[2026-11-03T03:03:35Z] [INFO ] [s06_match_movies] 产品 706 -> 作品 49（压缩比 14.41）；传递冲突 237
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [s06] 完成，用时 1.1s
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 627；自动合并 126，待复核 417
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [s07] 完成，用时 0.7s
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T03:03:36Z] [INFO ] [s08_enrich_release] 待补全作品 49 部（上限 49，接受阈值 0.7）
+[2026-11-03T03:03:36Z] [INFO ] [s08_enrich_release] 步骤开始: enrich

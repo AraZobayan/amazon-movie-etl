@@ -1,0 +1,56 @@
+[2026-11-03T01:38:54Z] [INFO ] [s07_resolve_persons] 演职员署名 234 条
+[2026-11-03T01:38:54Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 99 个
+[2026-11-03T01:38:54Z] [INFO ] [s07_resolve_persons] 姓氏分块：93 块，最大块 3
+[2026-11-03T01:38:54Z] [INFO ] [s07_resolve_persons] 姓名 99 -> 人物 99（含别名的人物 0）；关系 150；自动合并 0，待复核 4
+[2026-11-03T02:01:27Z] [INFO ] [s07_resolve_persons] 演职员署名 3,776 条
+[2026-11-03T02:01:27Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 527 个
+[2026-11-03T02:01:27Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-03T02:01:27Z] [INFO ] [s07_resolve_persons] 姓名 527 -> 人物 527（含别名的人物 84）；关系 761；自动合并 0，待复核 439
+[2026-11-03T02:14:15Z] [INFO ] [s07_resolve_persons] 演职员署名 3,838 条
+[2026-11-03T02:14:15Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:14:15Z] [INFO ] [s07_resolve_persons] 姓氏分块：244 块，最大块 6
+[2026-11-03T02:14:15Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 264（含别名的人物 119）；关系 423；自动合并 270，待复核 260
+[2026-11-03T02:18:36Z] [INFO ] [s07_resolve_persons] 演职员署名 3,838 条
+[2026-11-03T02:18:36Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:18:36Z] [INFO ] [s07_resolve_persons] 姓氏分块：244 块，最大块 6
+[2026-11-03T02:18:36Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 392（含别名的人物 134）；关系 617；自动合并 141，待复核 389
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 演职员署名 3,838 条
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 姓氏分块：244 块，最大块 6
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 392（含别名的人物 134）；关系 617；自动合并 141，待复核 389
+[2026-11-03T02:32:58Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-03T02:32:58Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:32:58Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-03T02:32:58Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 389（含别名的人物 135）；关系 609；自动合并 144，待复核 399
+[2026-11-03T02:43:25Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-03T02:43:25Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:43:25Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-03T02:43:25Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 627；自动合并 126，待复核 417
+[2026-11-03T02:48:24Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-03T02:48:24Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:48:24Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-03T02:48:24Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 627；自动合并 126，待复核 417
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-03T03:03:35Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 627；自动合并 126，待复核 417
+[2026-11-04T11:05:01Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-04T11:05:01Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-04T11:05:01Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-04T11:05:02Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 972；自动合并 126，待复核 417
+[2026-11-04T11:57:45Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-04T11:57:45Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-04T11:57:45Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-04T11:57:45Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 972；自动合并 126，待复核 417
+[2026-11-04T11:59:41Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-04T11:59:41Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-04T11:59:41Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-04T11:59:41Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 972；自动合并 126，待复核 417
+[2026-11-04T12:02:01Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-04T12:02:01Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-04T12:02:01Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-04T12:02:01Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 972；自动合并 126，待复核 417
+[2026-11-05T10:51:08Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-05T10:51:08Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-05T10:51:08Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-05T10:51:08Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 972；自动合并 126，待复核 417

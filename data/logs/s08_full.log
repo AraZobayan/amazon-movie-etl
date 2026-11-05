@@ -1,0 +1,16 @@
+[2026-11-03T01:48:11Z] [INFO ] [s08_enrich_release] 待补全作品 40 部（上限 40，接受阈值 0.7）
+[2026-11-03T01:48:11Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T01:48:57Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:49:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:49:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:50:43Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），2s 后重试 1/2
+[2026-11-03T01:51:04Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），3s 后重试 2/2
+[2026-11-03T01:51:31Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:51:40Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:51:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:52:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:52:38Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-03T01:52:57Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-03T01:53:33Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  322.4s  {"queried": 40, "matched": 35, "not_found": 3, "rejected": 2, "ambiguous": 0, "source_unavailable": 0, "cached": 19, "assertions": 662, "requests": 121, "precision": {"day": 35}, "search_variant_hits": {"Aliens": 1, "Amélie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 1, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 1, "Rocky": 1, "The Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Collection": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T01:53:33Z] [INFO ] [s08_enrich_release] 查询 40 部：匹配 35，拒绝 2，歧义 0，未找到 3；新增断言 662；HTTP 请求 121（缓存命中 19）
+[2026-11-03T01:53:33Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 35}

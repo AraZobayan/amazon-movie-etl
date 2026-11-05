@@ -1,0 +1,43 @@
+{
+  "run_id": "RUN-20261105T105011-uk9q",
+  "extractor_version": "field-extractor-v2",
+  "assertions_total": 131293,
+  "by_field": [
+    {
+      "field_name": "title",
+      "n": 117106
+    },
+    {
+      "field_name": "cast",
+      "n": 3967
+    },
+    {
+      "field_name": "canonical_name",
+      "n": 3799
+    },
+    {
+      "field_name": "studio",
+      "n": 1736
+    },
+    {
+      "field_name": "edition_format",
+      "n": 1716
+    },
+    {
+      "field_name": "release_date",
+      "n": 1668
+    },
+    {
+      "field_name": "director",
+      "n": 954
+    },
+    {
+      "field_name": "genre",
+      "n": 269
+    },
+    {
+      "field_name": "external_id",
+      "n": 78
+    }
+  ]
+}

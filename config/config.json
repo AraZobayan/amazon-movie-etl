@@ -1,0 +1,101 @@
+{
+  "tool_version": "1.0.0",
+  "rules_version": "v1.0.0",
+  "source": {
+    "url": "https://snap.stanford.edu/data/movies.txt.gz",
+    "official_review_count": 7911684,
+    "official_product_count": 253059,
+    "official_user_count": 889176,
+    "raw_file": "data/raw/movies.txt.gz",
+    "raw_file_full": "data/raw/movies.txt.gz",
+    "raw_file_slice": "data/raw/movies.slice.gz",
+    "is_slice": false,
+    "range_bytes": 0,
+    "full_byte_size": 3321791660,
+    "note": "当前库由完整源文件（3,321,791,660 字节 / 7,911,696 条）建成，raw_file 因此指向全量文件 —— 否则 `python -m src.s12_run_all --fresh` 会用 220MB 切片重建出一个与 evidence/ 口径不同的库。切片文件保留在 raw_file_slice 供快速调试（`--file data/raw/movies.slice.gz`）。is_slice 只是文档标记：s01 落库时按实际字节数比对 full_byte_size 自行判定，不读这个字段。"
+  },
+  "db": {
+    "path": "data/db/etl.sqlite3"
+  },
+  "batch": {
+    "reviews_per_batch": 40000,
+    "commit_every_batches": 5,
+    "page_size": 200
+  },
+  "collect": {
+    "mode": "offline_first",
+    "max_products": 900,
+    "live_sample": 3000,
+    "delay_seconds": 3.0,
+    "timeout_seconds": 12,
+    "max_retries": 2,
+    "user_agent": "etl-coursework/1.0 (student project; contact: course)",
+    "respect_robots": true,
+    "base_url_template": "https://www.amazon.com/dp/{asin}",
+    "max_consecutive_blocked": 10,
+    "note_live_cap": "实测：约 100~140 次请求后 Amazon 开始返回验证码页；提高间隔到 3s 仍在 12 条后触发。按合规要求停止，不绕过。"
+  },
+  "classify": {
+    "non_movie_keywords": [
+      "music",
+      "cd",
+      "vinyl",
+      "audio cd",
+      "mp3",
+      "headphones",
+      "poster",
+      "t-shirt",
+      "book",
+      "paperback",
+      "kindle",
+      "video game",
+      "board game",
+      "toy"
+    ],
+    "series_keywords": [
+      "season",
+      "the complete series",
+      "episodes"
+    ],
+    "box_set_keywords": [
+      "box set",
+      "collection",
+      "trilogy",
+      "double feature",
+      "4 film",
+      "5 film",
+      "pack"
+    ],
+    "concert_keywords": [
+      "concert",
+      "live at",
+      "in concert",
+      "tour"
+    ]
+  },
+  "match": {
+    "movie_auto_merge": 0.86,
+    "movie_manual_review": 0.62,
+    "max_block_size": 60,
+    "min_title_similarity": 0.55,
+    "note_person": "人物侧不读阈值：s07 是规则驱动（缩写可唯一展开 0.90 自动合并；缩写歧义/同姓 0.55 待复核）。早期版本这里有两个 person_* 阈值键，没有任何代码读取，已删除以免'看起来可调、实际无效'。"
+  },
+  "enrich": {
+    "cache_dir": "data/snapshots/wikidata",
+    "delay_seconds": 0.8,
+    "max_delay_seconds": 8.0,
+    "note_throttle": "delay_seconds 只是**起始**间隔。实际间隔由 s08 的 Throttle 按站点反馈自适应：遇 429 翻倍（封顶 max_delay_seconds），连续 6 次成功后每次减 0.2s。固定间隔无论取多少都是错的——取小了被限流，取大了在站点恢复后白等。",
+    "accept_threshold": 0.7,
+    "max_movies": 800,
+    "budget_seconds": 1500,
+    "note_selection": "全量库有近 10 万个 movie 实体（绝大多数只有一个商品版本的长尾作品），逐个查 Wikidata 需要几十小时。这里只补「商品版本数最多」的前 800 部：同样的查询次数，覆盖的商品数从几百变成上万。未选中的作品不是补全失败，而是没有查询，报告里必须分开表述。"
+  },
+  "evaluation": {
+    "pairs_per_type": 100,
+    "dev_ratio": 0.4
+  },
+  "third_party": {
+    "snap_meta_file": "../_tmp/meta_Movies_and_TV.json.gz",
+    "note": "SNAP 随 movies.txt 发布的同批 ASIN 商品元数据（Python repr 格式）。只补标题/类目/品牌，没有演职员。与实时采集分开统计。"
+  }
+}

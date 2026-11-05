@@ -1,0 +1,56 @@
+[2026-11-03T01:39:01Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 40 部
+[2026-11-03T01:39:01Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T01:39:01Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.0s  {"movies": 40, "with_theatrical": 0, "only_physical": 40, "no_date": 0, "conflicts": 16, "genre_members": 0, "precision": {}}
+[2026-11-03T01:39:01Z] [INFO ] [s09_resolve_fields] 上映日期选定 0 部；仅有发售日 40 部；完全缺失 0 部；冲突登记 16；投影不一致 0
+[2026-11-03T02:03:23Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 44 部
+[2026-11-03T02:03:23Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:03:23Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.2s  {"movies": 44, "with_theatrical": 37, "only_physical": 7, "no_date": 0, "conflicts": 41, "genre_members": 267, "precision": {"day": 37}}
+[2026-11-03T02:03:24Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 7 部；完全缺失 0 部；冲突登记 41；投影不一致 0
+[2026-11-03T02:15:05Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 45 部
+[2026-11-03T02:15:05Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:15:05Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.5s  {"movies": 45, "with_theatrical": 37, "only_physical": 8, "no_date": 0, "conflicts": 41, "genre_members": 263, "precision": {"day": 37}}
+[2026-11-03T02:15:06Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 41；投影不一致 0
+[2026-11-03T02:19:23Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 45 部
+[2026-11-03T02:19:23Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:19:23Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.1s  {"movies": 45, "with_theatrical": 37, "only_physical": 8, "no_date": 0, "conflicts": 41, "genre_members": 263, "precision": {"day": 37}}
+[2026-11-03T02:19:23Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 41；投影不一致 0
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 45 部
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.1s  {"movies": 45, "with_theatrical": 37, "only_physical": 8, "no_date": 0, "conflicts": 41, "genre_members": 263, "precision": {"day": 37}}
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 41；投影不一致 0
+[2026-11-03T02:33:53Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 49 部
+[2026-11-03T02:33:53Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:33:53Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.2s  {"movies": 49, "with_theatrical": 41, "only_physical": 8, "no_date": 0, "conflicts": 45, "genre_members": 287, "precision": {"day": 41}}
+[2026-11-03T02:33:53Z] [INFO ] [s09_resolve_fields] 上映日期选定 41 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 45；投影不一致 0
+[2026-11-03T02:44:19Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 49 部
+[2026-11-03T02:44:19Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:44:20Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.2s  {"movies": 49, "with_theatrical": 41, "only_physical": 8, "no_date": 0, "conflicts": 45, "genre_members": 287, "precision": {"day": 41}}
+[2026-11-03T02:44:20Z] [INFO ] [s09_resolve_fields] 上映日期选定 41 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 45；投影不一致 0
+[2026-11-03T02:49:19Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 50 部
+[2026-11-03T02:49:19Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:49:19Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.1s  {"movies": 50, "with_theatrical": 41, "only_physical": 8, "no_date": 1, "conflicts": 45, "genre_members": 287, "precision": {"day": 41}}
+[2026-11-03T02:49:19Z] [INFO ] [s09_resolve_fields] 上映日期选定 41 部；仅有发售日 8 部；完全缺失 1 部；冲突登记 45；投影不一致 0
+[2026-11-04T08:36:54Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 49 部
+[2026-11-04T08:36:54Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-04T08:36:54Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.2s  {"movies": 49, "with_theatrical": 27, "only_physical": 22, "no_date": 0, "conflicts": 45, "genre_members": 204, "precision": {"day": 27}}
+[2026-11-04T08:36:54Z] [INFO ] [s09_resolve_fields] 上映日期选定 27 部；仅有发售日 22 部；完全缺失 0 部；冲突登记 45；投影不一致 0
+[2026-11-04T08:44:19Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 49 部
+[2026-11-04T08:44:19Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-04T08:44:19Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.1s  {"movies": 49, "with_theatrical": 41, "only_physical": 8, "no_date": 0, "conflicts": 45, "genre_members": 287, "precision": {"day": 41}}
+[2026-11-04T08:44:19Z] [INFO ] [s09_resolve_fields] 上映日期选定 41 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 45；投影不一致 0
+[2026-11-04T09:32:00Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 49 部
+[2026-11-04T09:32:00Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-04T09:32:00Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.1s  {"movies": 49, "with_theatrical": 41, "only_physical": 8, "no_date": 0, "conflicts": 45, "genre_members": 287, "precision": {"day": 41}}
+[2026-11-04T09:32:00Z] [INFO ] [s09_resolve_fields] 上映日期选定 41 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 45；投影不一致 0
+[2026-11-04T11:30:16Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 43,707 部
+[2026-11-04T11:30:16Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-04T11:30:54Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  37.7s  {"movies": 43707, "with_theatrical": 37, "only_physical": 76, "no_date": 43594, "conflicts": 44, "genre_members": 262, "precision": {"day": 37}}
+[2026-11-04T11:30:55Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 76 部；完全缺失 43,594 部；冲突登记 44；投影不一致 0
+[2026-11-05T10:18:12Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 43,838 部
+[2026-11-05T10:18:12Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-05T10:18:44Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  32.5s  {"movies": 43838, "with_theatrical": 39, "only_physical": 176, "no_date": 43623, "conflicts": 49, "genre_members": 269, "precision": {"day": 39}}
+[2026-11-05T10:18:45Z] [INFO ] [s09_resolve_fields] 上映日期选定 39 部；仅有发售日 176 部；完全缺失 43,623 部；冲突登记 49；投影不一致 0
+[2026-11-05T10:51:09Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 43,838 部
+[2026-11-05T10:51:09Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-05T10:51:43Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  34.6s  {"movies": 43838, "with_theatrical": 39, "only_physical": 176, "no_date": 43623, "conflicts": 49, "genre_members": 269, "precision": {"day": 39}}
+[2026-11-05T10:51:44Z] [INFO ] [s09_resolve_fields] 上映日期选定 39 部；仅有发售日 176 部；完全缺失 43,623 部；冲突登记 49；投影不一致 0

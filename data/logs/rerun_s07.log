@@ -1,0 +1,58 @@
+[2026-11-03T02:20:45Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T022045-49v4，共 12 步
+[2026-11-03T02:20:45Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 演职员署名 3,838 条
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 姓氏分块：244 块，最大块 6
+[2026-11-03T02:20:45Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 392（含别名的人物 134）；关系 617；自动合并 141，待复核 389
+[2026-11-03T02:20:45Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:20:45Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:20:46Z] [INFO ] [s08_enrich_release] 待补全作品 45 部（上限 45，接受阈值 0.7）
+[2026-11-03T02:20:46Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-03T02:21:32Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  46.0s  {"queried": 45, "matched": 37, "not_found": 4, "rejected": 3, "ambiguous": 1, "source_unavailable": 0, "cached": 41, "assertions": 0, "requests": 127, "precision": {"day": 37}, "search_variant_hits": {"Alien": 1, "Aliens": 1, "Amelie": 1, "Apocalypse Now": 1, "Batman Begins": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "Casablanca": 1, "Cinema Paradiso": 1, "Creed": 1, "Goodfellas": 1, "Inception": 1, "Interstellar": 1, "Kill Bill Vol. 1 & 2 Double Feature": 1, "Kill Bill: Vol. 1": 1, "Kill Bill: Vol. 2": 1, "Ocean's Eleven": 2, "Princess Mononoke": 1, "Pulp Fiction": 1, "Rashomon": 1, "Rocky": 1, "Seven Samurai": 1, "Space Jam": 1, "Spirited Away": 1, "Taxi Driver": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 3, "The Godfather": 1, "The Godfather Collection": 1, "The Godfather Part II": 2, "The Lord of the Rings Trilogy": 1, "The Lord of the Rings: The Fellowship of the Ring": 1, "The Lord of the Rings: The Return of the King": 1, "The Lord of the Rings: The Two Towers": 1, "The Matrix": 1, "The Matrix Reloaded": 1, "The Matrix Revolutions": 1, "The Shawshank Redemption": 1, "The Silence of the Lambs": 1, "True Grit": 2}}
+[2026-11-03T02:21:32Z] [INFO ] [s08_enrich_release] 查询 45 部：匹配 37，拒绝 3，歧义 1，未找到 4；新增断言 0；HTTP 请求 127（缓存命中 41）
+[2026-11-03T02:21:32Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [s08] 完成，用时 46.5s
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 45 部
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  0.1s  {"movies": 45, "with_theatrical": 37, "only_physical": 8, "no_date": 0, "conflicts": 41, "genre_members": 263, "precision": {"day": 37}}
+[2026-11-03T02:21:32Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 8 部；完全缺失 0 部；冲突登记 41；投影不一致 0
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [s09] 完成，用时 0.7s
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=82.2%  genres=82.2%  external_id=82.2%
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] movie 评价集: n=64  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.0
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] person 评价集: n=61  P=1.0  R=0.9032  F1=0.9492  (误合并 0 / 漏合并 3)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.92 F1=0.9583
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-03T02:22:44Z] [INFO ] [run_all] [s10] 完成，用时 72.0s
+[2026-11-03T02:22:44Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-46ae9dc7205fcb63', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 8 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 16 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:22:46Z] [INFO ] [run_all] [s11] 完成，用时 1.5s
+[2026-11-03T02:22:46Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s07   ok              0.6s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s08   ok             46.5s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s09   ok              0.7s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s10   ok             72.0s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s11   ok              1.5s
+[2026-11-03T02:22:46Z] [INFO ] [run_all] 总计 121.3s

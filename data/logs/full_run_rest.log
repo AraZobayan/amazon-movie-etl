@@ -1,0 +1,281 @@
+[2026-11-04T11:01:43Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261104T110143-tpw1，共 13 步
+[2026-11-04T11:01:43Z] [INFO ] [run_all] [2/13] 执行 s02: -m src.s02_build_product_list
+[2026-11-04T11:01:43Z] [INFO ] [s02_build_product_list] 步骤开始: build_list
+[2026-11-04T11:01:45Z] [INFO ] [s02_build_product_list] 步骤完成: build_list  1.6s  {"products_in_list": 253059, "inserted": 253059}
+[2026-11-04T11:01:47Z] [INFO ] [s02_build_product_list] 采集清单已导出 253,059 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\product_list.csv
+[2026-11-04T11:01:47Z] [INFO ] [run_all] [s02] 完成，用时 4.3s
+[2026-11-04T11:01:47Z] [INFO ] [run_all] [3/13] s02b 按 --skip-fixture-gen 跳过（已有夹具仍会被 s03 装载）
+[2026-11-04T11:01:47Z] [INFO ] [run_all] [4/13] 执行 s03: -m src.s03_collect_pages
+[2026-11-04T11:01:48Z] [INFO ] [s03_collect_pages] 待处理产品 253,059 个；robots 允许 /dp/ ? True
+[2026-11-04T11:01:48Z] [INFO ] [s03_collect_pages] 检测到 149 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:01:48Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3000 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages] 第二轮顺序：149 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 0790731010 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B00005AXLU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B000UGBOT0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B004FQX5A2 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B00006AUMG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B0000AISJU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B0033BISW0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B003L20IG0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 6300270971 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B0063FGG5E -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 6305763283 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B00004WCM4 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B00005RDR9 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B000FSME5G -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B000RHDZC6 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B001GJ5CHA -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B00267N3E0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B00267N3EA -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B002HQZX9I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B003XU02QG -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B004GJ1YCO -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B00004VYPW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B0014NZNAO -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B001L57ZZG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B001L57ZZQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B0095D5454 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 0767802594 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00004R6WT -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00004RLFN -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00004WI6S -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00005NGAL -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00006AUMZ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B0002EXFNI -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B00092ZLS0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B001BTZVFS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B005FUTC1I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B0079ZWUNY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B00005KHJX -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B0002DRDBY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B000EQ5UHS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B000JZ3TYA -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B000SFOW8I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B00569I5BQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B00004Y632 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B0006OBPTA -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B003Q7B7B0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 6301744136 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B00005A8TY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B00006IUFW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B0001KZNDS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B00006RCNY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B003IB91FI -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 B006FYGF8Q -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 0783233477 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 6304946627 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 B00000693S -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 B00004CM9L -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00004R99P -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00004R99Q -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00004RNEN -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00005Q4GZ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B00006420T -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B000OHZL1C -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B0018CWW9Q -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B0024S48HC -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B003HFECN6 -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B004EAPX22 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B006CVE6V0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B006Z7Z3R2 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 0790732246 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B00004CJPG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B00005OCMS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B000096KHO -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B000E8N96K -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B000T5O49O -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B000XS8RPY -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B00112S8RS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B0042RJWTC -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B008ALNQDY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 6300216195 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 6303257933 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B00004CJP1 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B000057X1K -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B0000C66B8 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B000KWZ1UM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B000OYC7BW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B0032SMR1W -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 0790743515 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 6300134946 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B00004CK6F -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B00004R99I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B00004R99J -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B00009ATIX -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B0000V46Q8 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B0013527KC -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B00004CXZQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B00005ABTU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B00005K3NR -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B0000AV3G4 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B000ANVPPQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B0012OX7EO -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B001AYWYD6 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B007OM18SK -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 6304286961 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004CNYM -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004TT6G -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00377SS3E -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 0780624963 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 6305399255 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004CXQ6 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B0000DBJDM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00020JQ76 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001FQKRUG -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001M9ELP8 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B004WJT5H4 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B0058YKDOQ -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00004CJP3 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001LMAKAG -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001LMAKAQ -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 6304765223 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00005BAUA -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00005LKL7 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001G6JB2U -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001Y8DJW8 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B006GH79S2 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 6305074593 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B0017V8Q3E -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [WARN ] [s03_collect_pages] 连续 10 次访问受限（HTTP 200 / captcha_page+snapshot_cache），触发熔断：停止实时采集，剩余 ASIN 标为未采集。已采集 137 条。
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages] 清单共 253,059 个产品；状态之和 253,059 -> 互斥性检查通过
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 252,153
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   success            source_type=live                 104
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 23
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 10
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-04T11:02:17Z] [INFO ] [run_all] [s03] 完成，用时 29.8s
+[2026-11-04T11:02:17Z] [INFO ] [run_all] [5/13] 执行 s03b: -m src.s03b_ingest_thirdparty
+[2026-11-04T11:02:17Z] [INFO ] [s03b_ingest_thirdparty] 计算 SHA-256（95.2 MB）…
+[2026-11-04T11:02:18Z] [INFO ] [s03b_ingest_thirdparty] 文件证据：../_tmp/meta_Movies_and_TV.json.gz  99,875,519 字节  sha256=8af9f02f7741a086…
+[2026-11-04T11:02:18Z] [INFO ] [s03b_ingest_thirdparty] 步骤开始: ingest_third_party
+[2026-11-04T11:03:57Z] [INFO ] [s03b_ingest_thirdparty] 步骤完成: ingest_third_party  99.1s  {"lines": 208321, "parsed": 208321, "with_title": 70573, "parse_error": 0, "no_asin": 0, "not_in_list": 95591, "assertions": 70573, "classified": 112730, "by_category": {"movie": 67860, "series": 34113, "non_movie": 9887, "pending": 870}}
+[2026-11-04T11:03:57Z] [INFO ] [s03b_ingest_thirdparty] 扫描 208,321 行：解析成功 208,321，有标题 70,573，写入断言 70,573，分类 112,730，解析失败 0
+[2026-11-04T11:03:57Z] [INFO ] [s03b_ingest_thirdparty] 第三方标题覆盖 70,573 / 253,059 个 ASIN = 27.89%
+[2026-11-04T11:03:57Z] [INFO ] [s03b_ingest_thirdparty] 分类分布: {'movie': 67860, 'series': 34113, 'non_movie': 9887, 'pending': 870}
+[2026-11-04T11:03:57Z] [INFO ] [run_all] [s03b] 完成，用时 99.8s
+[2026-11-04T11:03:57Z] [INFO ] [run_all] [6/13] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-04T11:03:57Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 806 份
+[2026-11-04T11:03:57Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-04T11:03:58Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.7s  {"pages": 806, "ok": 702, "partial": 104, "failed": 0, "classification": {"movie": 687, "pending": 92, "box_set": 12, "non_movie": 9, "concert_other": 3, "series": 3}}
+[2026-11-04T11:03:58Z] [INFO ] [s04_parse_and_classify] 解析 806 页（ok=702, partial=104, failed=0）；分类分布 {'movie': 687, 'pending': 92, 'box_set': 12, 'non_movie': 9, 'concert_other': 3, 'series': 3}
+[2026-11-04T11:03:59Z] [INFO ] [run_all] [s04] 完成，用时 1.7s
+[2026-11-04T11:03:59Z] [INFO ] [run_all] [7/13] 执行 s05: -m src.s05_extract_assertions
+[2026-11-04T11:03:59Z] [INFO ] [s05_extract_assertions] 待抽取字段的页面 806 份
+[2026-11-04T11:03:59Z] [INFO ] [s05_extract_assertions] 步骤开始: extract
+[2026-11-04T11:04:00Z] [INFO ] [s05_extract_assertions] 步骤完成: extract  1.4s  {"title": 806, "date": 694, "format": 694, "studio": 702, "director": 915, "cast": 2926}
+[2026-11-04T11:04:00Z] [INFO ] [s05_extract_assertions] 断言总数 77,308；分布 [('title', 71379), ('cast', 2926), ('director', 913), ('studio', 702), ('release_date', 694), ('edition_format', 694)]
+[2026-11-04T11:04:00Z] [INFO ] [run_all] [s05] 完成，用时 1.8s
+[2026-11-04T11:04:00Z] [INFO ] [run_all] [8/13] 执行 s06: -m src.s06_match_movies
+[2026-11-04T11:04:01Z] [INFO ] [s06_match_movies] 可参与匹配的产品 71,300 个
+[2026-11-04T11:04:01Z] [INFO ] [s06_match_movies] 分块：36,382 个桶，最大桶 86，候选对 41,539（全量两两比较需 2,541,809,350，省 100.00%）
+[2026-11-04T11:05:01Z] [INFO ] [s06_match_movies] 候选对 19,167：自动合并 2,291 / 人工复核 6,672 / 不合并 10,204
+[2026-11-04T11:05:01Z] [INFO ] [s06_match_movies] 产品 71,300 -> 作品 43,707（压缩比 1.63）；传递冲突 162
+[2026-11-04T11:05:01Z] [INFO ] [run_all] [s06] 完成，用时 60.6s
+[2026-11-04T11:05:01Z] [INFO ] [run_all] [9/13] 执行 s07: -m src.s07_resolve_persons
+[2026-11-04T11:05:01Z] [INFO ] [s07_resolve_persons] 演职员署名 3,799 条
+[2026-11-04T11:05:01Z] [INFO ] [s07_resolve_persons] 不同规范化姓名 532 个
+[2026-11-04T11:05:01Z] [INFO ] [s07_resolve_persons] 姓氏分块：243 块，最大块 8
+[2026-11-04T11:05:02Z] [INFO ] [s07_resolve_persons] 姓名 532 -> 人物 406（含别名的人物 128）；关系 972；自动合并 126，待复核 417
+[2026-11-04T11:05:02Z] [INFO ] [run_all] [s07] 完成，用时 0.8s
+[2026-11-04T11:05:02Z] [INFO ] [run_all] [10/13] 执行 s08: -m src.s08_enrich_release
+[2026-11-04T11:05:02Z] [INFO ] [s08_enrich_release] 待补全作品 800 部（全库 43,707 部，上限 800，排序=importance，接受阈值 0.7）
+[2026-11-04T11:05:02Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T11:06:20Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:06:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:06:47Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:07:15Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:07:39Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:08:05Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:08:27Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:08:57Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of ），2s 后重试 1/2
+[2026-11-04T11:09:26Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:09:56Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:09:59Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:10:32Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:11:04Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:11:25Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:11:33Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:11:51Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:12:00Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:12:42Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:12:54Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:13:22Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:13:48Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:14:26Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:14:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:14:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:15:25Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:15:34Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:15:53Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:16:14Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:16:23Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:16:41Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:16:51Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:17:22Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:17:31Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:17:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:17:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:18:28Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:18:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:18:56Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:19:22Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:19:31Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:19:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:19:58Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:20:28Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:20:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:20:55Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:21:27Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:21:49Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3s 后重试 2/2
+[2026-11-04T11:22:14Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:22:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:22:38Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:22:56Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:23:36Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:23:40Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:23:49Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:24:20Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:24:28Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:24:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:24:55Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:25:25Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:25:34Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:25:52Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:26:32Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:26:36Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:26:45Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:27:24Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:27:37Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8s 后重试 1/2
+[2026-11-04T11:27:46Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:28:24Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:28:58Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:29:01Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），16s 后重试 2/2
+[2026-11-04T11:29:48Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:30:13Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），2s 后重试 1/2
+[2026-11-04T11:30:16Z] [WARN ] [s08_enrich_release] 时间预算 1500s 用尽：已处理 172 部，剩余 628 部留待下次（缓存已保留，重跑会命中缓存）
+[2026-11-04T11:30:16Z] [INFO ] [s08_enrich_release] 步骤完成: enrich  1513.3s  {"queried": 172, "matched": 37, "not_found": 31, "rejected": 99, "ambiguous": 0, "source_unavailable": 5, "cached": 44, "assertions": 1398, "requests": 363, "precision": {"day": 37}, "search_variant_hits": {"The Godfather": 1, "The Matrix Revolutions": 1, "The Godfather Part II": 1, "The Lord of the Rings: The Return of the King": 1, "The Silence of the Lambs": 1, "The Lord of the Rings: The Two Towers": 1, "Aliens": 1, "Batman Begins": 1, "Cinema Paradiso": 1, "Ocean's Eleven": 2, "Seven Samurai": 1, "The Dark Knight": 1, "The Girl with the Dragon Tattoo": 2, "The Lord of the Rings: The Fellowship of the Ring": 1, "Apocalypse Now": 1, "Interstellar": 1, "Rocky": 1, "Spirited Away": 1, "True Grit": 2, "Casablanca": 1, "Creed": 1, "Kill Bill: Vol. 2": 2, "Princess Mononoke": 1, "Pulp Fiction": 1, "The Matrix": 1, "Amelie": 1, "Space Jam": 1, "Taxi Driver": 1, "The Shawshank Redemption": 1, "Alien": 1, "Blade Runner": 1, "Blade Runner 2049": 1, "The Matrix Reloaded": 1, "Goodfellas": 1, "Inception": 1, "Rashomon": 1, "Phantom of the Opera": 1, "Kill Bill: Vol. 1": 1, "Midsummer Night's Dream": 1, "Titanic": 1, "Treasure Island": 2, "Great Expectations": 1, "Heist": 1, "Little Women": 1, "-": 5, "Peter Pan": 1, "Three Musketeers": 1, "20,000 Leagues Under the Sea": 1, "A Christmas Carol": 1, "A Midsummer Night's Dream": 1, "Angel and the Badman/Blue Steel": 1, "Anne of Green Gables": 1, "Arabian Nights": 1, "Bachelor": 1, "Bad Company": 1, "Blood &amp; Sand": 1, "Borderline": 1, "Buffalo Soldiers": 1, "Carrie": 1, "Chaplin": 1, "Crime and Punishment": 1, "Cursed": 1, "Cyrano de Bergerac": 1, "Dead Silence": 1, "Deadline": 1, "Deep Red": 1, "Face": 1, "Fair Game": 1, "Father of the Bride": 1, "First Love": 1, "Freeway": 1, "Frightmare": 1, "Godzilla's Revenge": 1, "Hamlet": 1, "Harvest": 1, "Heidi": 1, "Hercules/Hercules Unchained": 1, "Immortal": 1, "Ivanhoe": 1, "JIGSAW": 1, "Jack the Ripper": 1, "Jumanji": 1, "Kickboxer": 1, "Legion of the Dead": 1, "Les Miserables": 1, "Like Water for Chocolate": 1, "Lost World": 1, "Mutiny on the Bounty": 1, "Once upon a Time": 1, "Parasite": 1, "Reckless": 1, "Romance": 1, "Romeo &amp; Juliet": 1, "Salome": 1, "Shall We Dance": 1, "She": 1, "Shock": 1, "Sleeping Dogs Lie": 1, "Suburbia": 1, "Terror of Mechagodzilla": 1, "The Canterville Ghost": 1, "The Circle": 1, "Hole": 1, "The Journey": 1, "The Last of the Mohicans": 1, "The Three Musketeers": 1, "The Trip": 1, "Trapped": 1, "Virus": 1, "12 Angry Men": 1, "A Fine Romance": 1, "A Killing Affair": 1, "A Simple Plan": 1, "A Star Is Born": 1, "Stranger Among Us": 1, "Abandon": 1, "Abide as the Self: The Essential Teachings of Ramana Maharshi": 1, "Absolution": 2, "Addams Family Values": 1, "Adios Amigo": 1, "Adventures of Kotetsu": 1, "Affliction": 1, "Africa Screams": 1, "After Sex": 1, "Agent Aika: Lace in Space": 1, "Alice": 1, "Alice Through The Looking Glass": 1, "Alice Through the Looking Glass": 1, "All Creatures Great &amp; Small": 1, "All Night Long": 1, "Alone in the Dark": 1, "Always": 1, "Amateur": 1, "American Beer": 1, "American History X": 1, "American Pie": 1, "Amore": 1, "Amy": 1, "And Now the Screaming Starts": 1, "Angel Eyes": 1, "Angel Heart": 1, "Angel of Death": 1, "Angel of the Night": 1, "Angela": 1, "Angelitos Negros": 1, "Angels": 1, "Anna Karenina": 1, "Another Woman": 1, "Apache Rose": 1, "Apollo 11: Men on the Moon": 1, "Are We There Yet?": 1, "Arlington Road": 1, "Armitage - Dual Matrix": 1, "Assassins/The Specialist": 1, "Asylum": 1, "Audition": 1, "Axe": 1, "Bad Girls": 1, "Bandits": 1, "Bandwagon": 1, "Bastard - The Complete Boxed Set": 1, "Bastard Kung Fu Master": 1}, "budget_exhausted": true, "processed": 172, "skipped_over_budget": 628}
+[2026-11-04T11:30:16Z] [INFO ] [s08_enrich_release] 查询 172 部：匹配 37，拒绝 99，歧义 0，未找到 31；新增断言 1398；HTTP 请求 363（缓存命中 44）
+[2026-11-04T11:30:16Z] [INFO ] [s08_enrich_release] 日期精度分布: {'day': 37}
+[2026-11-04T11:30:16Z] [INFO ] [run_all] [s08] 完成，用时 1514.1s
+[2026-11-04T11:30:16Z] [INFO ] [run_all] [11/13] 执行 s09: -m src.s09_resolve_fields
+[2026-11-04T11:30:16Z] [INFO ] [s09_resolve_fields] 待选择字段的作品 43,707 部
+[2026-11-04T11:30:16Z] [INFO ] [s09_resolve_fields] 步骤开始: select_movie_fields
+[2026-11-04T11:30:54Z] [INFO ] [s09_resolve_fields] 步骤完成: select_movie_fields  37.7s  {"movies": 43707, "with_theatrical": 37, "only_physical": 76, "no_date": 43594, "conflicts": 44, "genre_members": 262, "precision": {"day": 37}}
+[2026-11-04T11:30:55Z] [INFO ] [s09_resolve_fields] 上映日期选定 37 部；仅有发售日 76 部；完全缺失 43,594 部；冲突登记 44；投影不一致 0
+[2026-11-04T11:30:55Z] [INFO ] [run_all] [s09] 完成，用时 39.1s
+[2026-11-04T11:30:55Z] [INFO ] [run_all] [12/13] 执行 s10: -m src.s10_quality_checks

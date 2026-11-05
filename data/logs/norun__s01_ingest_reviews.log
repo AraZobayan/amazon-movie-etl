@@ -1,0 +1,492 @@
+[2026-11-03T01:22:57Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T012257-hslv  db=data/db/test.sqlite3  file=data/raw/movies.slice.gz (49.0 MB)
+[2026-11-03T01:22:57Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-03T01:22:57Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=609f8a57b19ca41b…  size=51380224  (0.0s)
+[2026-11-03T01:22:57Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T01:22:57Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=2000  有效=2000  隔离=0  -> 通过
+[2026-11-03T01:22:57Z] [INFO ] [s01_ingest_reviews] 逻辑评论 1,997 条（去重合并 2 条由多条原始记录产生）
+[2026-11-03T01:22:57Z] [INFO ] [s01_ingest_reviews] 不同产品 44  不同用户 1,930  用时 0.2s
+[2026-11-03T01:35:09Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T013509-t21h  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T01:35:09Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T01:35:19Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,061 条/s  批次 1  隔离 1
+[2026-11-03T01:35:39Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,628 条/s  批次 2  隔离 1
+[2026-11-03T01:35:50Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,914 条/s  批次 3  隔离 1
+[2026-11-03T01:35:59Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,207 条/s  批次 4  隔离 1
+[2026-11-03T01:36:08Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,392 条/s  批次 5  隔离 1
+[2026-11-03T01:36:17Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  3,520 条/s  批次 6  隔离 3
+[2026-11-03T01:36:27Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  3,601 条/s  批次 7  隔离 3
+[2026-11-03T01:36:37Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  3,649 条/s  批次 8  隔离 3
+[2026-11-03T01:36:47Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  3,684 条/s  批次 9  隔离 5
+[2026-11-03T01:36:57Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  3,701 条/s  批次 10  隔离 5
+[2026-11-03T01:37:08Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  3,706 条/s  批次 11  隔离 6
+[2026-11-03T01:37:29Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  3,435 条/s  批次 12  隔离 6
+[2026-11-03T01:38:00Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  3,040 条/s  批次 13  隔离 6
+[2026-11-03T01:38:03Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T01:38:15Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T01:38:15Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T01:38:15Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 186.1s
+[2026-11-03T01:54:57Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T015457-j73v  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T01:54:57Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T01:55:06Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,410 条/s  批次 1  隔离 1
+[2026-11-03T01:55:26Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,683 条/s  批次 2  隔离 1
+[2026-11-03T01:55:50Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,238 条/s  批次 3  隔离 1
+[2026-11-03T01:56:16Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  2,013 条/s  批次 4  隔离 1
+[2026-11-03T01:56:43Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,875 条/s  批次 5  隔离 1
+[2026-11-03T01:57:11Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,788 条/s  批次 6  隔离 3
+[2026-11-03T01:57:40Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,718 条/s  批次 7  隔离 3
+[2026-11-03T01:58:09Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,667 条/s  批次 8  隔离 3
+[2026-11-03T01:58:38Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,626 条/s  批次 9  隔离 5
+[2026-11-03T01:59:09Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,588 条/s  批次 10  隔离 5
+[2026-11-03T01:59:39Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,557 条/s  批次 11  隔离 6
+[2026-11-03T02:00:11Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,529 条/s  批次 12  隔离 6
+[2026-11-03T02:00:42Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,506 条/s  批次 13  隔离 6
+[2026-11-03T02:00:44Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:00:50Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:00:50Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:00:50Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 353.0s
+[2026-11-03T02:07:23Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T020723-0ooe  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:07:23Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:07:33Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,138 条/s  批次 1  隔离 1
+[2026-11-03T02:07:54Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,576 条/s  批次 2  隔离 1
+[2026-11-03T02:08:17Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,215 条/s  批次 3  隔离 1
+[2026-11-03T02:08:43Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  2,008 条/s  批次 4  隔离 1
+[2026-11-03T02:09:10Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,870 条/s  批次 5  隔离 1
+[2026-11-03T02:09:38Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,774 条/s  批次 6  隔离 3
+[2026-11-03T02:10:09Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,691 条/s  批次 7  隔离 3
+[2026-11-03T02:10:40Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,628 条/s  批次 8  隔离 3
+[2026-11-03T02:11:12Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,576 条/s  批次 9  隔离 5
+[2026-11-03T02:11:44Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,534 条/s  批次 10  隔离 5
+[2026-11-03T02:12:15Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,510 条/s  批次 11  隔离 6
+[2026-11-03T02:12:45Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,489 条/s  批次 12  隔离 6
+[2026-11-03T02:13:21Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,455 条/s  批次 13  隔离 6
+[2026-11-03T02:13:24Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:13:37Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:13:37Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:13:37Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 373.6s
+[2026-11-03T02:26:16Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T022616-pgui  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:26:17Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:26:27Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,043 条/s  批次 1  隔离 1
+[2026-11-03T02:26:48Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,559 条/s  批次 2  隔离 1
+[2026-11-03T02:27:11Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,200 条/s  批次 3  隔离 1
+[2026-11-03T02:27:37Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  1,988 条/s  批次 4  隔离 1
+[2026-11-03T02:28:05Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,849 条/s  批次 5  隔离 1
+[2026-11-03T02:28:32Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,771 条/s  批次 6  隔离 3
+[2026-11-03T02:29:01Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,703 条/s  批次 7  隔离 3
+[2026-11-03T02:29:31Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,648 条/s  批次 8  隔离 3
+[2026-11-03T02:30:01Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,603 条/s  批次 9  隔离 5
+[2026-11-03T02:30:31Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,573 条/s  批次 10  隔离 5
+[2026-11-03T02:31:02Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,544 条/s  批次 11  隔离 6
+[2026-11-03T02:31:33Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,519 条/s  批次 12  隔离 6
+[2026-11-03T02:32:05Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,491 条/s  批次 13  隔离 6
+[2026-11-03T02:32:08Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:32:20Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:32:20Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:32:20Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 363.4s
+[2026-11-03T02:36:37Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T023637-flkc  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:36:37Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:36:46Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,388 条/s  批次 1  隔离 1
+[2026-11-03T02:37:07Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,639 条/s  批次 2  隔离 1
+[2026-11-03T02:37:32Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,202 条/s  批次 3  隔离 1
+[2026-11-03T02:37:58Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  1,982 条/s  批次 4  隔离 1
+[2026-11-03T02:38:25Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,857 条/s  批次 5  隔离 1
+[2026-11-03T02:38:52Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,776 条/s  批次 6  隔离 3
+[2026-11-03T02:39:21Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,706 条/s  批次 7  隔离 3
+[2026-11-03T02:39:51Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,647 条/s  批次 8  隔离 3
+[2026-11-03T02:40:23Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,597 条/s  批次 9  隔离 5
+[2026-11-03T02:40:55Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,553 条/s  批次 10  隔离 5
+[2026-11-03T02:41:26Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,522 条/s  批次 11  隔离 6
+[2026-11-03T02:41:59Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,492 条/s  批次 12  隔离 6
+[2026-11-03T02:42:30Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,473 条/s  批次 13  隔离 6
+[2026-11-03T02:42:33Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:42:45Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:42:45Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:42:45Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 368.0s
+[2026-11-03T02:45:38Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T024538-nw58  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:45:38Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:45:49Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  7,832 条/s  批次 2  隔离 1
+[2026-11-03T02:45:57Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  6,372 条/s  批次 3  隔离 1
+[2026-11-03T02:46:06Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  5,850 条/s  批次 4  隔离 1
+[2026-11-03T02:46:14Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  5,547 条/s  批次 5  隔离 1
+[2026-11-03T02:46:23Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  5,378 条/s  批次 6  隔离 3
+[2026-11-03T02:46:32Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  5,259 条/s  批次 7  隔离 3
+[2026-11-03T02:46:40Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  5,166 条/s  批次 8  隔离 3
+[2026-11-03T02:46:49Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  5,092 条/s  批次 9  隔离 5
+[2026-11-03T02:46:58Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  5,035 条/s  批次 10  隔离 5
+[2026-11-03T02:47:07Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  4,990 条/s  批次 11  隔离 6
+[2026-11-03T02:47:15Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  4,947 条/s  批次 12  隔离 6
+[2026-11-03T02:47:24Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  4,921 条/s  批次 13  隔离 6
+[2026-11-03T02:47:25Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:47:37Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:47:37Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:47:37Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 118.8s
+[2026-11-03T02:50:35Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T025035-7ok4  db=data/db/recovery_test.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:50:35Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-03T02:50:35Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=20000  有效=20000  隔离=0  -> 通过
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 逻辑评论 19,963 条（去重合并 33 条由多条原始记录产生）
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 不同产品 584  不同用户 16,310  用时 2.2s
+[2026-11-03T02:50:38Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T025038-8zhv  db=data/db/recovery_test.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:50:38Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:50:44Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  6,584 条/s  批次 1  隔离 1
+[2026-11-03T02:51:05Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,903 条/s  批次 2  隔离 1
+[2026-11-03T02:51:29Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,335 条/s  批次 3  隔离 1
+[2026-11-03T02:51:56Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  2,039 条/s  批次 4  隔离 1
+[2026-11-03T02:52:24Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,882 条/s  批次 5  隔离 1
+[2026-11-03T02:52:51Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,798 条/s  批次 6  隔离 3
+[2026-11-03T02:53:20Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,728 条/s  批次 7  隔离 3
+[2026-11-03T02:53:49Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,670 条/s  批次 8  隔离 3
+[2026-11-03T02:54:20Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,623 条/s  批次 9  隔离 5
+[2026-11-03T02:54:50Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,583 条/s  批次 10  隔离 5
+[2026-11-03T02:55:24Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,539 条/s  批次 11  隔离 6
+[2026-11-03T02:55:56Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,510 条/s  批次 12  隔离 6
+[2026-11-03T02:56:28Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,486 条/s  批次 13  隔离 6
+[2026-11-03T02:56:31Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:56:43Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:56:43Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:56:43Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 365.2s
+[2026-11-03T02:57:09Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T025709-e842  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:57:10Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:57:19Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,403 条/s  批次 1  隔离 1
+[2026-11-03T02:57:40Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,628 条/s  批次 2  隔离 1
+[2026-11-03T02:58:04Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,192 条/s  批次 3  隔离 1
+[2026-11-03T02:58:30Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  1,985 条/s  批次 4  隔离 1
+[2026-11-03T02:58:57Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,854 条/s  批次 5  隔离 1
+[2026-11-03T02:59:26Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,756 条/s  批次 6  隔离 3
+[2026-11-03T02:59:56Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,684 条/s  批次 7  隔离 3
+[2026-11-03T03:00:25Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,638 条/s  批次 8  隔离 3
+[2026-11-03T03:00:54Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,601 条/s  批次 9  隔离 5
+[2026-11-03T03:01:26Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,562 条/s  批次 10  隔离 5
+[2026-11-03T03:01:57Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,532 条/s  批次 11  隔离 6
+[2026-11-03T03:02:28Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,506 条/s  批次 12  隔离 6
+[2026-11-03T03:03:01Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,479 条/s  批次 13  隔离 6
+[2026-11-03T03:03:04Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T03:03:16Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T03:03:16Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T03:03:16Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 366.5s
+[2026-11-04T09:10:33Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261104T091033-dqxa  db=data/db/smoke_full.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-04T09:10:36Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.0s)
+[2026-11-04T09:10:37Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-04T09:10:37Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=3000  有效=3000  隔离=0  -> 通过
+[2026-11-04T09:10:37Z] [INFO ] [s01_ingest_reviews] 逻辑评论 2,997 条（去重合并 2 条由多条原始记录产生）
+[2026-11-04T09:10:37Z] [INFO ] [s01_ingest_reviews] 不同产品 70  不同用户 2,888  用时 0.8s
+[2026-11-04T09:10:44Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261104T091044-8hwc  db=D:\课\大三\数据存储与管理\etl_project\data/db/etl.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-04T09:10:47Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (2.9s)
+[2026-11-04T09:10:59Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  3,415 条/s  批次 1  隔离 1
+[2026-11-04T09:11:11Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  3,450 条/s  批次 2  隔离 1
+[2026-11-04T09:11:23Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,395 条/s  批次 3  隔离 1
+[2026-11-04T09:11:35Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,365 条/s  批次 4  隔离 1
+[2026-11-04T09:11:48Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,284 条/s  批次 5  隔离 1
+[2026-11-04T09:12:01Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  3,258 条/s  批次 6  隔离 3
+[2026-11-04T09:12:13Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  3,265 条/s  批次 7  隔离 3
+[2026-11-04T09:12:25Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  3,263 条/s  批次 8  隔离 3
+[2026-11-04T09:12:38Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  3,261 条/s  批次 9  隔离 5
+[2026-11-04T09:12:51Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  3,230 条/s  批次 10  隔离 5
+[2026-11-04T09:13:05Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  3,196 条/s  批次 11  隔离 6
+[2026-11-04T09:13:14Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  3,281 条/s  批次 12  隔离 6
+[2026-11-04T09:13:19Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  3,422 条/s  批次 13  隔离 6
+[2026-11-04T09:13:25Z] [INFO ] [s01_ingest_reviews] 进度   560,000 条  3,554 条/s  批次 14  隔离 6
+[2026-11-04T09:13:31Z] [INFO ] [s01_ingest_reviews] 进度   600,000 条  3,675 条/s  批次 15  隔离 6
+[2026-11-04T09:13:36Z] [INFO ] [s01_ingest_reviews] 进度   640,000 条  3,786 条/s  批次 16  隔离 6
+[2026-11-04T09:13:43Z] [INFO ] [s01_ingest_reviews] 进度   680,000 条  3,874 条/s  批次 17  隔离 6
+[2026-11-04T09:13:51Z] [INFO ] [s01_ingest_reviews] 进度   720,000 条  3,927 条/s  批次 18  隔离 7
+[2026-11-04T09:13:57Z] [INFO ] [s01_ingest_reviews] 进度   760,000 条  4,006 条/s  批次 19  隔离 7
+[2026-11-04T09:14:03Z] [INFO ] [s01_ingest_reviews] 进度   800,000 条  4,080 条/s  批次 20  隔离 7
+[2026-11-04T09:14:10Z] [INFO ] [s01_ingest_reviews] 进度   840,000 条  4,145 条/s  批次 21  隔离 7
+[2026-11-04T09:14:17Z] [INFO ] [s01_ingest_reviews] 进度   880,000 条  4,206 条/s  批次 22  隔离 7
+[2026-11-04T09:14:23Z] [INFO ] [s01_ingest_reviews] 进度   920,000 条  4,259 条/s  批次 23  隔离 7
+[2026-11-04T09:14:30Z] [INFO ] [s01_ingest_reviews] 进度   960,000 条  4,304 条/s  批次 24  隔离 9
+[2026-11-04T09:14:38Z] [INFO ] [s01_ingest_reviews] 进度 1,000,000 条  4,345 条/s  批次 25  隔离 9
+[2026-11-04T09:14:45Z] [INFO ] [s01_ingest_reviews] 进度 1,040,000 条  4,385 条/s  批次 26  隔离 11
+[2026-11-04T09:14:52Z] [INFO ] [s01_ingest_reviews] 进度 1,080,000 条  4,417 条/s  批次 27  隔离 11
+[2026-11-04T09:14:59Z] [INFO ] [s01_ingest_reviews] 进度 1,120,000 条  4,448 条/s  批次 28  隔离 13
+[2026-11-04T09:15:07Z] [INFO ] [s01_ingest_reviews] 进度 1,160,000 条  4,474 条/s  批次 29  隔离 15
+[2026-11-04T09:15:14Z] [INFO ] [s01_ingest_reviews] 进度 1,200,000 条  4,498 条/s  批次 30  隔离 15
+[2026-11-04T09:15:22Z] [INFO ] [s01_ingest_reviews] 进度 1,240,000 条  4,517 条/s  批次 31  隔离 15
+[2026-11-04T09:15:39Z] [INFO ] [s01_ingest_reviews] 进度 1,280,000 条  4,382 条/s  批次 32  隔离 15
+[2026-11-04T09:16:02Z] [INFO ] [s01_ingest_reviews] 进度 1,320,000 条  4,198 条/s  批次 33  隔离 15
+[2026-11-04T09:16:24Z] [INFO ] [s01_ingest_reviews] 进度 1,360,000 条  4,037 条/s  批次 34  隔离 15
+[2026-11-04T09:16:47Z] [INFO ] [s01_ingest_reviews] 进度 1,400,000 条  3,891 条/s  批次 35  隔离 15
+[2026-11-04T09:17:09Z] [INFO ] [s01_ingest_reviews] 进度 1,440,000 条  3,769 条/s  批次 36  隔离 15
+[2026-11-04T09:17:32Z] [INFO ] [s01_ingest_reviews] 进度 1,480,000 条  3,654 条/s  批次 37  隔离 15
+[2026-11-04T09:17:56Z] [INFO ] [s01_ingest_reviews] 进度 1,520,000 条  3,542 条/s  批次 38  隔离 15
+[2026-11-04T09:18:20Z] [INFO ] [s01_ingest_reviews] 进度 1,560,000 条  3,444 条/s  批次 39  隔离 17
+[2026-11-04T09:18:44Z] [INFO ] [s01_ingest_reviews] 进度 1,600,000 条  3,356 条/s  批次 40  隔离 17
+[2026-11-04T09:19:10Z] [INFO ] [s01_ingest_reviews] 进度 1,640,000 条  3,266 条/s  批次 41  隔离 17
+[2026-11-04T09:19:35Z] [INFO ] [s01_ingest_reviews] 进度 1,680,000 条  3,187 条/s  批次 42  隔离 17
+[2026-11-04T09:20:00Z] [INFO ] [s01_ingest_reviews] 进度 1,720,000 条  3,115 条/s  批次 43  隔离 17
+[2026-11-04T09:20:26Z] [INFO ] [s01_ingest_reviews] 进度 1,760,000 条  3,044 条/s  批次 44  隔离 17
+[2026-11-04T09:20:51Z] [INFO ] [s01_ingest_reviews] 进度 1,800,000 条  2,982 条/s  批次 45  隔离 19
+[2026-11-04T09:21:17Z] [INFO ] [s01_ingest_reviews] 进度 1,840,000 条  2,924 条/s  批次 46  隔离 21
+[2026-11-04T09:21:43Z] [INFO ] [s01_ingest_reviews] 进度 1,880,000 条  2,869 条/s  批次 47  隔离 21
+[2026-11-04T09:22:09Z] [INFO ] [s01_ingest_reviews] 进度 1,920,000 条  2,816 条/s  批次 48  隔离 21
+[2026-11-04T09:22:37Z] [INFO ] [s01_ingest_reviews] 进度 1,960,000 条  2,761 条/s  批次 49  隔离 21
+[2026-11-04T09:23:06Z] [INFO ] [s01_ingest_reviews] 进度 2,000,000 条  2,710 条/s  批次 50  隔离 21
+[2026-11-04T09:23:32Z] [INFO ] [s01_ingest_reviews] 进度 2,040,000 条  2,669 条/s  批次 51  隔离 21
+[2026-11-04T09:23:58Z] [INFO ] [s01_ingest_reviews] 进度 2,080,000 条  2,630 条/s  批次 52  隔离 21
+[2026-11-04T09:24:24Z] [INFO ] [s01_ingest_reviews] 进度 2,120,000 条  2,595 条/s  批次 53  隔离 21
+[2026-11-04T09:24:51Z] [INFO ] [s01_ingest_reviews] 进度 2,160,000 条  2,561 条/s  批次 54  隔离 21
+[2026-11-04T09:25:17Z] [INFO ] [s01_ingest_reviews] 进度 2,200,000 条  2,530 条/s  批次 55  隔离 22
+[2026-11-04T09:25:43Z] [INFO ] [s01_ingest_reviews] 进度 2,240,000 条  2,500 条/s  批次 56  隔离 24
+[2026-11-04T09:26:11Z] [INFO ] [s01_ingest_reviews] 进度 2,280,000 条  2,470 条/s  批次 57  隔离 24
+[2026-11-04T09:26:38Z] [INFO ] [s01_ingest_reviews] 进度 2,320,000 条  2,440 条/s  批次 58  隔离 25
+[2026-11-04T09:27:08Z] [INFO ] [s01_ingest_reviews] 进度 2,360,000 条  2,408 条/s  批次 59  隔离 25
+[2026-11-04T09:27:38Z] [INFO ] [s01_ingest_reviews] 进度 2,400,000 条  2,376 条/s  批次 60  隔离 25
+[2026-11-04T09:28:07Z] [INFO ] [s01_ingest_reviews] 进度 2,440,000 条  2,348 条/s  批次 61  隔离 25
+[2026-11-04T09:28:42Z] [INFO ] [s01_ingest_reviews] 进度 2,480,000 条  2,307 条/s  批次 62  隔离 25
+[2026-11-04T09:29:20Z] [INFO ] [s01_ingest_reviews] 进度 2,520,000 条  2,265 条/s  批次 63  隔离 25
+[2026-11-04T09:29:52Z] [INFO ] [s01_ingest_reviews] 进度 2,560,000 条  2,236 条/s  批次 64  隔离 25
+[2026-11-04T09:30:25Z] [INFO ] [s01_ingest_reviews] 进度 2,600,000 条  2,208 条/s  批次 65  隔离 25
+[2026-11-04T09:30:58Z] [INFO ] [s01_ingest_reviews] 进度 2,640,000 条  2,180 条/s  批次 66  隔离 25
+[2026-11-04T09:31:28Z] [INFO ] [s01_ingest_reviews] 进度 2,680,000 条  2,161 条/s  批次 67  隔离 25
+[2026-11-04T09:31:58Z] [INFO ] [s01_ingest_reviews] 进度 2,720,000 条  2,141 条/s  批次 68  隔离 25
+[2026-11-04T09:32:34Z] [INFO ] [s01_ingest_reviews] 进度 2,760,000 条  2,112 条/s  批次 69  隔离 25
+[2026-11-04T09:33:14Z] [INFO ] [s01_ingest_reviews] 进度 2,800,000 条  2,080 条/s  批次 70  隔离 26
+[2026-11-04T09:33:45Z] [INFO ] [s01_ingest_reviews] 进度 2,840,000 条  2,061 条/s  批次 71  隔离 26
+[2026-11-04T09:34:18Z] [INFO ] [s01_ingest_reviews] 进度 2,880,000 条  2,042 条/s  批次 72  隔离 27
+[2026-11-04T09:34:51Z] [INFO ] [s01_ingest_reviews] 进度 2,920,000 条  2,023 条/s  批次 73  隔离 27
+[2026-11-04T09:35:23Z] [INFO ] [s01_ingest_reviews] 进度 2,960,000 条  2,006 条/s  批次 74  隔离 27
+[2026-11-04T09:35:57Z] [INFO ] [s01_ingest_reviews] 进度 3,000,000 条  1,987 条/s  批次 75  隔离 27
+[2026-11-04T09:36:27Z] [INFO ] [s01_ingest_reviews] 进度 3,040,000 条  1,974 条/s  批次 76  隔离 27
+[2026-11-04T09:36:56Z] [INFO ] [s01_ingest_reviews] 进度 3,080,000 条  1,964 条/s  批次 77  隔离 27
+[2026-11-04T09:37:25Z] [INFO ] [s01_ingest_reviews] 进度 3,120,000 条  1,952 条/s  批次 78  隔离 27
+[2026-11-04T09:38:00Z] [INFO ] [s01_ingest_reviews] 进度 3,160,000 条  1,936 条/s  批次 79  隔离 27
+[2026-11-04T09:38:32Z] [INFO ] [s01_ingest_reviews] 进度 3,200,000 条  1,922 条/s  批次 80  隔离 29
+[2026-11-04T09:39:05Z] [INFO ] [s01_ingest_reviews] 进度 3,240,000 条  1,909 条/s  批次 81  隔离 29
+[2026-11-04T09:39:36Z] [INFO ] [s01_ingest_reviews] 进度 3,280,000 条  1,898 条/s  批次 82  隔离 29
+[2026-11-04T09:40:08Z] [INFO ] [s01_ingest_reviews] 进度 3,320,000 条  1,886 条/s  批次 83  隔离 29
+[2026-11-04T09:40:39Z] [INFO ] [s01_ingest_reviews] 进度 3,360,000 条  1,875 条/s  批次 84  隔离 29
+[2026-11-04T09:41:13Z] [INFO ] [s01_ingest_reviews] 进度 3,400,000 条  1,862 条/s  批次 85  隔离 29
+[2026-11-04T09:41:49Z] [INFO ] [s01_ingest_reviews] 进度 3,440,000 条  1,848 条/s  批次 86  隔离 29
+[2026-11-04T09:42:19Z] [INFO ] [s01_ingest_reviews] 进度 3,480,000 条  1,839 条/s  批次 87  隔离 30
+[2026-11-04T09:42:52Z] [INFO ] [s01_ingest_reviews] 进度 3,520,000 条  1,829 条/s  批次 88  隔离 30
+[2026-11-04T09:43:24Z] [INFO ] [s01_ingest_reviews] 进度 3,560,000 条  1,820 条/s  批次 89  隔离 30
+[2026-11-04T09:43:55Z] [INFO ] [s01_ingest_reviews] 进度 3,600,000 条  1,811 条/s  批次 90  隔离 32
+[2026-11-04T09:44:26Z] [INFO ] [s01_ingest_reviews] 进度 3,640,000 条  1,803 条/s  批次 91  隔离 32
+[2026-11-04T09:44:58Z] [INFO ] [s01_ingest_reviews] 进度 3,680,000 条  1,795 条/s  批次 92  隔离 32
+[2026-11-04T09:45:32Z] [INFO ] [s01_ingest_reviews] 进度 3,720,000 条  1,785 条/s  批次 93  隔离 32
+[2026-11-04T09:46:06Z] [INFO ] [s01_ingest_reviews] 进度 3,760,000 条  1,774 条/s  批次 94  隔离 32
+[2026-11-04T09:46:40Z] [INFO ] [s01_ingest_reviews] 进度 3,800,000 条  1,766 条/s  批次 95  隔离 32
+[2026-11-04T09:47:11Z] [INFO ] [s01_ingest_reviews] 进度 3,840,000 条  1,758 条/s  批次 96  隔离 32
+[2026-11-04T09:47:45Z] [INFO ] [s01_ingest_reviews] 进度 3,880,000 条  1,749 条/s  批次 97  隔离 33
+[2026-11-04T09:48:19Z] [INFO ] [s01_ingest_reviews] 进度 3,920,000 条  1,741 条/s  批次 98  隔离 33
+[2026-11-04T09:48:50Z] [INFO ] [s01_ingest_reviews] 进度 3,960,000 条  1,735 条/s  批次 99  隔离 34
+[2026-11-04T09:49:22Z] [INFO ] [s01_ingest_reviews] 进度 4,000,000 条  1,728 条/s  批次 100  隔离 34
+[2026-11-04T09:49:56Z] [INFO ] [s01_ingest_reviews] 进度 4,040,000 条  1,720 条/s  批次 101  隔离 34
+[2026-11-04T09:50:30Z] [INFO ] [s01_ingest_reviews] 进度 4,080,000 条  1,712 条/s  批次 102  隔离 34
+[2026-11-04T09:51:06Z] [INFO ] [s01_ingest_reviews] 进度 4,120,000 条  1,704 条/s  批次 103  隔离 34
+[2026-11-04T09:51:40Z] [INFO ] [s01_ingest_reviews] 进度 4,160,000 条  1,696 条/s  批次 104  隔离 34
+[2026-11-04T09:52:15Z] [INFO ] [s01_ingest_reviews] 进度 4,200,000 条  1,688 条/s  批次 105  隔离 34
+[2026-11-04T09:52:51Z] [INFO ] [s01_ingest_reviews] 进度 4,240,000 条  1,680 条/s  批次 106  隔离 36
+[2026-11-04T09:53:26Z] [INFO ] [s01_ingest_reviews] 进度 4,280,000 条  1,673 条/s  批次 107  隔离 36
+[2026-11-04T09:54:01Z] [INFO ] [s01_ingest_reviews] 进度 4,320,000 条  1,666 条/s  批次 108  隔离 36
+[2026-11-04T09:54:33Z] [INFO ] [s01_ingest_reviews] 进度 4,360,000 条  1,660 条/s  批次 109  隔离 36
+[2026-11-04T09:55:09Z] [INFO ] [s01_ingest_reviews] 进度 4,400,000 条  1,653 条/s  批次 110  隔离 36
+[2026-11-04T09:55:41Z] [INFO ] [s01_ingest_reviews] 进度 4,440,000 条  1,648 条/s  批次 111  隔离 36
+[2026-11-04T09:56:16Z] [INFO ] [s01_ingest_reviews] 进度 4,480,000 条  1,642 条/s  批次 112  隔离 36
+[2026-11-04T09:56:52Z] [INFO ] [s01_ingest_reviews] 进度 4,520,000 条  1,635 条/s  批次 113  隔离 36
+[2026-11-04T09:57:27Z] [INFO ] [s01_ingest_reviews] 进度 4,560,000 条  1,629 条/s  批次 114  隔离 36
+[2026-11-04T09:58:02Z] [INFO ] [s01_ingest_reviews] 进度 4,600,000 条  1,623 条/s  批次 115  隔离 37
+[2026-11-04T09:58:36Z] [INFO ] [s01_ingest_reviews] 进度 4,640,000 条  1,617 条/s  批次 116  隔离 37
+[2026-11-04T09:59:11Z] [INFO ] [s01_ingest_reviews] 进度 4,680,000 条  1,612 条/s  批次 117  隔离 37
+[2026-11-04T09:59:47Z] [INFO ] [s01_ingest_reviews] 进度 4,720,000 条  1,605 条/s  批次 118  隔离 37
+[2026-11-04T10:00:21Z] [INFO ] [s01_ingest_reviews] 进度 4,760,000 条  1,601 条/s  批次 119  隔离 37
+[2026-11-04T10:00:55Z] [INFO ] [s01_ingest_reviews] 进度 4,800,000 条  1,596 条/s  批次 120  隔离 37
+[2026-11-04T10:01:29Z] [INFO ] [s01_ingest_reviews] 进度 4,840,000 条  1,591 条/s  批次 121  隔离 37
+[2026-11-04T10:02:04Z] [INFO ] [s01_ingest_reviews] 进度 4,880,000 条  1,586 条/s  批次 122  隔离 37
+[2026-11-04T10:02:39Z] [INFO ] [s01_ingest_reviews] 进度 4,920,000 条  1,581 条/s  批次 123  隔离 37
+[2026-11-04T10:03:14Z] [INFO ] [s01_ingest_reviews] 进度 4,960,000 条  1,576 条/s  批次 124  隔离 37
+[2026-11-04T10:03:50Z] [INFO ] [s01_ingest_reviews] 进度 5,000,000 条  1,571 条/s  批次 125  隔离 37
+[2026-11-04T10:04:27Z] [INFO ] [s01_ingest_reviews] 进度 5,040,000 条  1,566 条/s  批次 126  隔离 37
+[2026-11-04T10:05:02Z] [INFO ] [s01_ingest_reviews] 进度 5,080,000 条  1,561 条/s  批次 127  隔离 37
+[2026-11-04T10:05:38Z] [INFO ] [s01_ingest_reviews] 进度 5,120,000 条  1,556 条/s  批次 128  隔离 37
+[2026-11-04T10:06:15Z] [INFO ] [s01_ingest_reviews] 进度 5,160,000 条  1,551 条/s  批次 129  隔离 37
+[2026-11-04T10:06:52Z] [INFO ] [s01_ingest_reviews] 进度 5,200,000 条  1,545 条/s  批次 130  隔离 37
+[2026-11-04T10:07:53Z] [INFO ] [s01_ingest_reviews] 进度 5,240,000 条  1,530 条/s  批次 131  隔离 37
+[2026-11-04T10:08:17Z] [INFO ] [s01_ingest_reviews] 进度 5,280,000 条  1,531 条/s  批次 132  隔离 37
+[2026-11-04T10:08:47Z] [INFO ] [s01_ingest_reviews] 进度 5,320,000 条  1,529 条/s  批次 133  隔离 37
+[2026-11-04T10:09:24Z] [INFO ] [s01_ingest_reviews] 进度 5,360,000 条  1,524 条/s  批次 134  隔离 37
+[2026-11-04T10:10:05Z] [INFO ] [s01_ingest_reviews] 进度 5,400,000 条  1,518 条/s  批次 135  隔离 38
+[2026-11-04T10:10:46Z] [INFO ] [s01_ingest_reviews] 进度 5,440,000 条  1,512 条/s  批次 136  隔离 38
+[2026-11-04T10:11:24Z] [INFO ] [s01_ingest_reviews] 进度 5,480,000 条  1,507 条/s  批次 137  隔离 38
+[2026-11-04T10:12:01Z] [INFO ] [s01_ingest_reviews] 进度 5,520,000 条  1,502 条/s  批次 138  隔离 39
+[2026-11-04T10:12:35Z] [INFO ] [s01_ingest_reviews] 进度 5,560,000 条  1,499 条/s  批次 139  隔离 40
+[2026-11-04T10:13:12Z] [INFO ] [s01_ingest_reviews] 进度 5,600,000 条  1,495 条/s  批次 140  隔离 41
+[2026-11-04T10:13:50Z] [INFO ] [s01_ingest_reviews] 进度 5,640,000 条  1,491 条/s  批次 141  隔离 43
+[2026-11-04T10:14:28Z] [INFO ] [s01_ingest_reviews] 进度 5,680,000 条  1,487 条/s  批次 142  隔离 44
+[2026-11-04T10:15:04Z] [INFO ] [s01_ingest_reviews] 进度 5,720,000 条  1,483 条/s  批次 143  隔离 44
+[2026-11-04T10:15:40Z] [INFO ] [s01_ingest_reviews] 进度 5,760,000 条  1,480 条/s  批次 144  隔离 44
+[2026-11-04T10:16:14Z] [INFO ] [s01_ingest_reviews] 进度 5,800,000 条  1,477 条/s  批次 145  隔离 44
+[2026-11-04T10:16:53Z] [INFO ] [s01_ingest_reviews] 进度 5,840,000 条  1,473 条/s  批次 146  隔离 47
+[2026-11-04T10:17:30Z] [INFO ] [s01_ingest_reviews] 进度 5,880,000 条  1,469 条/s  批次 147  隔离 47
+[2026-11-04T10:18:17Z] [INFO ] [s01_ingest_reviews] 进度 5,920,000 条  1,462 条/s  批次 148  隔离 47
+[2026-11-04T10:18:54Z] [INFO ] [s01_ingest_reviews] 进度 5,960,000 条  1,458 条/s  批次 149  隔离 47
+[2026-11-04T10:19:31Z] [INFO ] [s01_ingest_reviews] 进度 6,000,000 条  1,455 条/s  批次 150  隔离 47
+[2026-11-04T10:20:08Z] [INFO ] [s01_ingest_reviews] 进度 6,040,000 条  1,452 条/s  批次 151  隔离 47
+[2026-11-04T10:20:45Z] [INFO ] [s01_ingest_reviews] 进度 6,080,000 条  1,449 条/s  批次 152  隔离 47
+[2026-11-04T10:21:20Z] [INFO ] [s01_ingest_reviews] 进度 6,120,000 条  1,446 条/s  批次 153  隔离 47
+[2026-11-04T10:21:59Z] [INFO ] [s01_ingest_reviews] 进度 6,160,000 条  1,442 条/s  批次 154  隔离 47
+[2026-11-04T10:22:42Z] [INFO ] [s01_ingest_reviews] 进度 6,200,000 条  1,437 条/s  批次 155  隔离 47
+[2026-11-04T10:23:42Z] [INFO ] [s01_ingest_reviews] 进度 6,240,000 条  1,427 条/s  批次 156  隔离 47
+[2026-11-04T10:24:25Z] [INFO ] [s01_ingest_reviews] 进度 6,280,000 条  1,422 条/s  批次 157  隔离 47
+[2026-11-04T10:25:04Z] [INFO ] [s01_ingest_reviews] 进度 6,320,000 条  1,418 条/s  批次 158  隔离 47
+[2026-11-04T10:25:41Z] [INFO ] [s01_ingest_reviews] 进度 6,360,000 条  1,415 条/s  批次 159  隔离 47
+[2026-11-04T10:26:19Z] [INFO ] [s01_ingest_reviews] 进度 6,400,000 条  1,412 条/s  批次 160  隔离 48
+[2026-11-04T10:26:53Z] [INFO ] [s01_ingest_reviews] 进度 6,440,000 条  1,410 条/s  批次 161  隔离 48
+[2026-11-04T10:27:32Z] [INFO ] [s01_ingest_reviews] 进度 6,480,000 条  1,407 条/s  批次 162  隔离 48
+[2026-11-04T10:28:09Z] [INFO ] [s01_ingest_reviews] 进度 6,520,000 条  1,405 条/s  批次 163  隔离 48
+[2026-11-04T10:28:45Z] [INFO ] [s01_ingest_reviews] 进度 6,560,000 条  1,402 条/s  批次 164  隔离 48
+[2026-11-04T10:29:25Z] [INFO ] [s01_ingest_reviews] 进度 6,600,000 条  1,399 条/s  批次 165  隔离 51
+[2026-11-04T10:30:19Z] [INFO ] [s01_ingest_reviews] 进度 6,640,000 条  1,391 条/s  批次 166  隔离 52
+[2026-11-04T10:31:07Z] [INFO ] [s01_ingest_reviews] 进度 6,680,000 条  1,386 条/s  批次 167  隔离 53
+[2026-11-04T10:31:53Z] [INFO ] [s01_ingest_reviews] 进度 6,720,000 条  1,381 条/s  批次 168  隔离 53
+[2026-11-04T10:32:36Z] [INFO ] [s01_ingest_reviews] 进度 6,760,000 条  1,377 条/s  批次 169  隔离 54
+[2026-11-04T10:33:17Z] [INFO ] [s01_ingest_reviews] 进度 6,800,000 条  1,374 条/s  批次 170  隔离 55
+[2026-11-04T10:33:58Z] [INFO ] [s01_ingest_reviews] 进度 6,840,000 条  1,371 条/s  批次 171  隔离 56
+[2026-11-04T10:34:42Z] [INFO ] [s01_ingest_reviews] 进度 6,880,000 条  1,367 条/s  批次 172  隔离 56
+[2026-11-04T10:35:50Z] [INFO ] [s01_ingest_reviews] 进度 6,920,000 条  1,356 条/s  批次 173  隔离 56
+[2026-11-04T10:36:36Z] [INFO ] [s01_ingest_reviews] 进度 6,960,000 条  1,352 条/s  批次 174  隔离 56
+[2026-11-04T10:37:22Z] [INFO ] [s01_ingest_reviews] 进度 7,000,000 条  1,348 条/s  批次 175  隔离 56
+[2026-11-04T10:38:25Z] [INFO ] [s01_ingest_reviews] 进度 7,040,000 条  1,339 条/s  批次 176  隔离 56
+[2026-11-04T10:39:23Z] [INFO ] [s01_ingest_reviews] 进度 7,080,000 条  1,332 条/s  批次 177  隔离 56
+[2026-11-04T10:40:12Z] [INFO ] [s01_ingest_reviews] 进度 7,120,000 条  1,327 条/s  批次 178  隔离 56
+[2026-11-04T10:40:52Z] [INFO ] [s01_ingest_reviews] 进度 7,160,000 条  1,325 条/s  批次 179  隔离 56
+[2026-11-04T10:41:37Z] [INFO ] [s01_ingest_reviews] 进度 7,200,000 条  1,321 条/s  批次 180  隔离 57
+[2026-11-04T10:42:17Z] [INFO ] [s01_ingest_reviews] 进度 7,240,000 条  1,319 条/s  批次 181  隔离 57
+[2026-11-04T10:42:59Z] [INFO ] [s01_ingest_reviews] 进度 7,280,000 条  1,316 条/s  批次 182  隔离 57
+[2026-11-04T10:43:42Z] [INFO ] [s01_ingest_reviews] 进度 7,320,000 条  1,313 条/s  批次 183  隔离 57
+[2026-11-04T10:44:25Z] [INFO ] [s01_ingest_reviews] 进度 7,360,000 条  1,310 条/s  批次 184  隔离 57
+[2026-11-04T10:45:05Z] [INFO ] [s01_ingest_reviews] 进度 7,400,000 条  1,308 条/s  批次 185  隔离 58
+[2026-11-04T10:45:48Z] [INFO ] [s01_ingest_reviews] 进度 7,440,000 条  1,305 条/s  批次 186  隔离 63
+[2026-11-04T10:46:32Z] [INFO ] [s01_ingest_reviews] 进度 7,480,000 条  1,302 条/s  批次 187  隔离 65
+[2026-11-04T10:47:16Z] [INFO ] [s01_ingest_reviews] 进度 7,520,000 条  1,299 条/s  批次 188  隔离 65
+[2026-11-04T10:47:58Z] [INFO ] [s01_ingest_reviews] 进度 7,560,000 条  1,297 条/s  批次 189  隔离 65
+[2026-11-04T10:48:38Z] [INFO ] [s01_ingest_reviews] 进度 7,600,000 条  1,295 条/s  批次 190  隔离 65
+[2026-11-04T10:49:18Z] [INFO ] [s01_ingest_reviews] 进度 7,640,000 条  1,293 条/s  批次 191  隔离 65
+[2026-11-04T10:49:59Z] [INFO ] [s01_ingest_reviews] 进度 7,680,000 条  1,290 条/s  批次 192  隔离 65
+[2026-11-04T10:50:42Z] [INFO ] [s01_ingest_reviews] 进度 7,720,000 条  1,288 条/s  批次 193  隔离 66
+[2026-11-04T10:51:22Z] [INFO ] [s01_ingest_reviews] 进度 7,760,000 条  1,286 条/s  批次 194  隔离 67
+[2026-11-04T10:52:04Z] [INFO ] [s01_ingest_reviews] 进度 7,800,000 条  1,284 条/s  批次 195  隔离 67
+[2026-11-04T10:52:45Z] [INFO ] [s01_ingest_reviews] 进度 7,840,000 条  1,281 条/s  批次 196  隔离 67
+[2026-11-04T10:53:30Z] [INFO ] [s01_ingest_reviews] 进度 7,880,000 条  1,279 条/s  批次 197  隔离 67
+[2026-11-04T10:54:09Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-04T10:58:16Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=7911696  有效=7911629  隔离=67  -> 通过
+[2026-11-04T10:58:16Z] [INFO ] [s01_ingest_reviews] 逻辑评论 7,895,810 条（去重合并 13,893 条由多条原始记录产生）
+[2026-11-04T10:58:16Z] [INFO ] [s01_ingest_reviews] 不同产品 253,059  不同用户 889,172  用时 6448.3s
+[2026-11-05T10:54:48Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T105448-6sty  db=data/db/recovery_ref.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T10:54:48Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T10:54:51Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (2.9s)
+[2026-11-05T10:55:02Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  3,647 条/s  批次 1  隔离 1
+[2026-11-05T10:55:13Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  3,561 条/s  批次 2  隔离 1
+[2026-11-05T10:55:25Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,534 条/s  批次 3  隔离 1
+[2026-11-05T10:55:37Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,502 条/s  批次 4  隔离 1
+[2026-11-05T10:55:45Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,665 条/s  批次 5  隔离 1
+[2026-11-05T10:55:45Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T10:55:46Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=200000  有效=199999  隔离=1  -> 通过
+[2026-11-05T10:55:46Z] [INFO ] [s01_ingest_reviews] 逻辑评论 199,645 条（去重合并 321 条由多条原始记录产生）
+[2026-11-05T10:55:46Z] [INFO ] [s01_ingest_reviews] 不同产品 6,156  不同用户 115,605  用时 55.3s
+[2026-11-05T10:55:47Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T105547-6buf  db=data/db/recovery_test.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T10:55:47Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T10:55:50Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.0s)
+[2026-11-05T10:55:53Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T10:55:53Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=20000  有效=20000  隔离=0  -> 通过
+[2026-11-05T10:55:53Z] [INFO ] [s01_ingest_reviews] 逻辑评论 19,963 条（去重合并 33 条由多条原始记录产生）
+[2026-11-05T10:55:53Z] [INFO ] [s01_ingest_reviews] 不同产品 584  不同用户 16,310  用时 3.1s
+[2026-11-05T10:55:53Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T105553-qxcn  db=data/db/recovery_test.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T10:55:56Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.1s)
+[2026-11-05T10:56:05Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  4,794 条/s  批次 1  隔离 1
+[2026-11-05T10:56:16Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  4,009 条/s  批次 2  隔离 1
+[2026-11-05T10:56:29Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,703 条/s  批次 3  隔离 1
+[2026-11-05T10:56:43Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,450 条/s  批次 4  隔离 1
+[2026-11-05T10:56:50Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T10:56:52Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=180000  有效=179999  隔离=1  -> 通过
+[2026-11-05T10:56:52Z] [INFO ] [s01_ingest_reviews] 逻辑评论 179,683 条（去重合并 286 条由多条原始记录产生）
+[2026-11-05T10:56:52Z] [INFO ] [s01_ingest_reviews] 不同产品 5,537  不同用户 105,854  用时 55.2s
+[2026-11-05T10:57:19Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T105719-1g8i  db=data/db/recovery_ref.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T10:57:19Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T10:57:22Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.0s)
+[2026-11-05T10:57:33Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  3,484 条/s  批次 1  隔离 1
+[2026-11-05T10:57:43Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  3,719 条/s  批次 2  隔离 1
+[2026-11-05T10:57:54Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,754 条/s  批次 3  隔离 1
+[2026-11-05T10:58:05Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,700 条/s  批次 4  隔离 1
+[2026-11-05T10:58:17Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,615 条/s  批次 5  隔离 1
+[2026-11-05T10:58:29Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  3,588 条/s  批次 6  隔离 3
+[2026-11-05T10:58:41Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  3,540 条/s  批次 7  隔离 3
+[2026-11-05T10:58:53Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  3,502 条/s  批次 8  隔离 3
+[2026-11-05T10:59:06Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  3,447 条/s  批次 9  隔离 5
+[2026-11-05T10:59:20Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  3,401 条/s  批次 10  隔离 5
+[2026-11-05T10:59:20Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T10:59:24Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=400000  有效=399995  隔离=5  -> 通过
+[2026-11-05T10:59:24Z] [INFO ] [s01_ingest_reviews] 逻辑评论 399,211 条（去重合并 699 条由多条原始记录产生）
+[2026-11-05T10:59:24Z] [INFO ] [s01_ingest_reviews] 不同产品 12,695  不同用户 194,072  用时 121.8s
+[2026-11-05T10:59:24Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T105924-rnde  db=data/db/recovery_test.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T10:59:24Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T10:59:27Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (2.7s)
+[2026-11-05T10:59:37Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  3,969 条/s  批次 1  隔离 1
+[2026-11-05T10:59:47Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  3,928 条/s  批次 2  隔离 1
+[2026-11-05T10:59:59Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,782 条/s  批次 3  隔离 1
+[2026-11-05T11:00:11Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,670 条/s  批次 4  隔离 1
+[2026-11-05T11:00:22Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,630 条/s  批次 5  隔离 1
+[2026-11-05T11:00:22Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T11:00:24Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=200000  有效=199999  隔离=1  -> 通过
+[2026-11-05T11:00:24Z] [INFO ] [s01_ingest_reviews] 逻辑评论 199,645 条（去重合并 321 条由多条原始记录产生）
+[2026-11-05T11:00:24Z] [INFO ] [s01_ingest_reviews] 不同产品 6,156  不同用户 115,605  用时 57.2s
+[2026-11-05T11:00:25Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T110025-ipni  db=data/db/recovery_test.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T11:00:28Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (2.9s)
+[2026-11-05T11:00:28Z] [INFO ] [s01_ingest_reviews] 从检查点续跑：跳过前 200000 条记录
+[2026-11-05T11:00:45Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  2,392 条/s  批次 1  隔离 2
+[2026-11-05T11:00:56Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,836 条/s  批次 2  隔离 2
+[2026-11-05T11:01:09Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,956 条/s  批次 3  隔离 2
+[2026-11-05T11:01:21Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,016 条/s  批次 4  隔离 4
+[2026-11-05T11:01:34Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,033 条/s  批次 5  隔离 4
+[2026-11-05T11:01:34Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T11:01:38Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=400000  有效=399995  隔离=5  -> 通过
+[2026-11-05T11:01:38Z] [INFO ] [s01_ingest_reviews] 逻辑评论 399,211 条（去重合并 699 条由多条原始记录产生）
+[2026-11-05T11:01:38Z] [INFO ] [s01_ingest_reviews] 不同产品 12,695  不同用户 194,072  用时 70.0s
+[2026-11-05T11:05:35Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T110535-893d  db=data/db/smoke.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T11:05:35Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T11:05:38Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.0s)
+[2026-11-05T11:05:54Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  2,480 条/s  批次 1  隔离 1
+[2026-11-05T11:05:54Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T11:05:54Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=40000  有效=39999  隔离=1  -> 通过
+[2026-11-05T11:05:54Z] [INFO ] [s01_ingest_reviews] 逻辑评论 39,922 条（去重合并 72 条由多条原始记录产生）
+[2026-11-05T11:05:54Z] [INFO ] [s01_ingest_reviews] 不同产品 1,248  不同用户 30,637  用时 16.3s
+[2026-11-05T11:17:37Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T111737-7x77  db=data/db/recovery_ref.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T11:17:37Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T11:17:40Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (2.9s)
+[2026-11-05T11:17:51Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  3,778 条/s  批次 1  隔离 1
+[2026-11-05T11:18:02Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  3,694 条/s  批次 2  隔离 1
+[2026-11-05T11:18:12Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,774 条/s  批次 3  隔离 1
+[2026-11-05T11:18:23Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,718 条/s  批次 4  隔离 1
+[2026-11-05T11:18:34Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,678 条/s  批次 5  隔离 1
+[2026-11-05T11:18:43Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  3,800 条/s  批次 6  隔离 3
+[2026-11-05T11:18:53Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  4,389 条/s  批次 8  隔离 3
+[2026-11-05T11:18:59Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  4,546 条/s  批次 9  隔离 5
+[2026-11-05T11:19:13Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  4,295 条/s  批次 10  隔离 5
+[2026-11-05T11:19:13Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T11:19:18Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=400000  有效=399995  隔离=5  -> 通过
+[2026-11-05T11:19:18Z] [INFO ] [s01_ingest_reviews] 逻辑评论 399,211 条（去重合并 699 条由多条原始记录产生）
+[2026-11-05T11:19:18Z] [INFO ] [s01_ingest_reviews] 不同产品 12,695  不同用户 194,072  用时 97.7s
+[2026-11-05T11:19:18Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T111918-b8qz  db=data/db/recovery_test.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T11:19:18Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-05T11:19:21Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.0s)
+[2026-11-05T11:19:33Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  3,347 条/s  批次 1  隔离 1
+[2026-11-05T11:19:46Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  3,256 条/s  批次 2  隔离 1
+[2026-11-05T11:19:57Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  3,346 条/s  批次 3  隔离 1
+[2026-11-05T11:20:09Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  3,350 条/s  批次 4  隔离 1
+[2026-11-05T11:20:22Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  3,288 条/s  批次 5  隔离 1
+[2026-11-05T11:20:22Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T11:20:24Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=200000  有效=199999  隔离=1  -> 通过
+[2026-11-05T11:20:24Z] [INFO ] [s01_ingest_reviews] 逻辑评论 199,645 条（去重合并 321 条由多条原始记录产生）
+[2026-11-05T11:20:24Z] [INFO ] [s01_ingest_reviews] 不同产品 6,156  不同用户 115,605  用时 62.9s
+[2026-11-05T11:20:25Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261105T112025-z46s  db=data/db/recovery_test.sqlite3  file=data/raw/movies.txt.gz (3167.9 MB)
+[2026-11-05T11:20:29Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4b6ee09ea4880f3f…  size=3321791660  (3.5s)
+[2026-11-05T11:20:29Z] [INFO ] [s01_ingest_reviews] 从检查点续跑：跳过前 200000 条记录
+[2026-11-05T11:20:48Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  2,047 条/s  批次 1  隔离 2
+[2026-11-05T11:21:01Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,473 条/s  批次 2  隔离 2
+[2026-11-05T11:21:12Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,770 条/s  批次 3  隔离 2
+[2026-11-05T11:21:26Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  2,784 条/s  批次 4  隔离 4
+[2026-11-05T11:21:41Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  2,777 条/s  批次 5  隔离 4
+[2026-11-05T11:21:41Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-05T11:21:44Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=400000  有效=399995  隔离=5  -> 通过
+[2026-11-05T11:21:44Z] [INFO ] [s01_ingest_reviews] 逻辑评论 399,211 条（去重合并 699 条由多条原始记录产生）
+[2026-11-05T11:21:44Z] [INFO ] [s01_ingest_reviews] 不同产品 12,695  不同用户 194,072  用时 75.7s

@@ -1,0 +1,17 @@
+{
+  "run_id": "RUN-20261105T105109-eexl",
+  "rules_version": "select-rules-v1.0.0",
+  "movies": 43838,
+  "release_date_selected": 39,
+  "only_physical_date_available": 176,
+  "no_date_at_all": 43623,
+  "precision_distribution": {
+    "day": 39
+  },
+  "conflicts_logged": 49,
+  "genre_members_selected": 269,
+  "field_selections": 131959,
+  "selections_without_value": 87637,
+  "projection_mismatch": 0,
+  "note": "only_physical_date_available 表示该作品只查到 DVD 发售日、查不到影院上映日 —— 按规则上映日期保持 NULL，商品发售日留在候选里可查。"
+}

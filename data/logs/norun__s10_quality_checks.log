@@ -1,0 +1,163 @@
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=0.0%  genres=0.0%  external_id=0.0%
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks] movie 评价集: n=32  P=0.8235  R=0.9333  F1=0.875  (误合并 3 / 漏合并 1)
+[2026-11-03T01:39:23Z] [INFO ] [s10_quality_checks] person 评价集: n=5  P=None  R=0.0  F1=None  (误合并 0 / 漏合并 1)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=84.1%  genres=84.1%  external_id=84.1%
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks] movie 评价集: n=65  P=0.9677  R=1.0  F1=0.9836  (误合并 1 / 漏合并 0)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   P=0.0 R=None F1=None
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks] person 评价集: n=62  P=1.0  R=0.1515  F1=0.2632  (误合并 0 / 漏合并 28)
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.18 F1=0.3051
+[2026-11-03T02:04:34Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   P=None R=None F1=None
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=82.2%  genres=82.2%  external_id=82.2%
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks] movie 评价集: n=64  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.0
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks] person 评价集: n=57  P=0.4167  R=0.7407  F1=0.5333  (误合并 28 / 漏合并 7)
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.76 F1=0.8636
+[2026-11-03T02:16:22Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.88
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=82.2%  genres=82.2%  external_id=82.2%
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] movie 评价集: n=64  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.0
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks] person 评价集: n=61  P=1.0  R=0.9032  F1=0.9492  (误合并 0 / 漏合并 3)
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.92 F1=0.9583
+[2026-11-03T02:22:44Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=83.7%  genres=83.7%  external_id=83.7%
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks] movie 评价集: n=53  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.02
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks] person 评价集: n=64  P=0.9667  R=0.8788  F1=0.9206  (误合并 1 / 漏合并 4)
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.88 F1=0.9362
+[2026-11-03T02:35:04Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.06
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=83.7%  genres=83.7%  external_id=83.7%
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks] movie 评价集: n=53  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.02
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks] person 评价集: n=63  P=1.0  R=0.7812  F1=0.8772  (误合并 0 / 漏合并 7)
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.76 F1=0.8636
+[2026-11-03T02:45:35Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=82.0%  genres=82.0%  external_id=82.0%
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks] movie 评价集: n=53  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.02
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks] person 评价集: n=62  P=1.0  R=0.7742  F1=0.8727  (误合并 0 / 漏合并 7)
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.84 F1=0.913
+[2026-11-03T02:50:32Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=55.1%  genres=55.1%  external_id=55.1%
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks] movie 评价集: n=53  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.02
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks] person 评价集: n=65  P=1.0  R=0.7059  F1=0.8276  (误合并 0 / 漏合并 10)
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.74 F1=0.8506
+[2026-11-04T08:37:38Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=83.7%  genres=83.7%  external_id=83.7%
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks] movie 评价集: n=53  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.02
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks] person 评价集: n=63  P=1.0  R=0.6562  F1=0.7925  (误合并 0 / 漏合并 11)
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.7 F1=0.8235
+[2026-11-04T08:45:42Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (16480 vs 16480)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (522333 vs 522327+6)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=83.7%  genres=83.7%  external_id=83.7%
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks] movie 评价集: n=53  P=1.0  R=1.0  F1=1.0  (误合并 0 / 漏合并 0)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=1.0 F1=1.0
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]     分层 similar_title              n=50   误合并率=0.02
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks] person 评价集: n=60  P=1.0  R=0.8276  F1=0.9057  (误合并 0 / 漏合并 5)
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=50   P=1.0 R=0.86 F1=0.9247
+[2026-11-04T10:07:57Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=50   误合并率=0.0
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]   [通过] 状态互斥性：状态数之和 = 产品总数  (253059 vs 253059)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]   [通过] 读取记录数 = 有效 + 隔离  (7911696 vs 7911629+67)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]   [通过] 外键有效性  (违规 0 条)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]   [通过] 主键唯一性（movie）  (重复 0 个)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]   [通过] 非空最终字段可追溯  (无法追溯 0 条)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]   [通过] movie.release_year 与血缘选择一致  (不一致 0 条)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks] ==============================================================================
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks] 覆盖率: canonical_title=100.0%  release_date=0.1%  genres=0.1%  external_id=0.1%
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks] movie 评价集: n=100  P=1.0  R=0.68  F1=0.8095  (误合并 0 / 漏合并 16)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]     分层 same_work_different_edition n=50   P=1.0 R=0.68 F1=0.8095
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]     分层 similar_title_mid          n=50   误合并率=0.0
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks] person 评价集: n=100  P=0.6667  R=1.0  F1=0.8  (误合并 1 / 漏合并 0)
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]     分层 random_different_person    n=82   误合并率=0.0
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]     分层 same_first_name            n=6    误合并率=0.0
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]     分层 same_person_alias          n=2    P=1.0 R=1.0 F1=1.0
+[2026-11-05T10:24:14Z] [INFO ] [s10_quality_checks]     分层 same_surname               n=10   误合并率=0.1

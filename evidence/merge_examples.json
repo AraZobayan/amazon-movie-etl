@@ -1,0 +1,1109 @@
+{
+  "db": "data/db/etl.sqlite3",
+  "generated_at": "2026-11-05T10:39:42Z",
+  "movie_version_merges": [
+    {
+      "movie_id": "M-c1a82e928b1f1b66",
+      "canonical_title": "The Godfather",
+      "version_count": 20,
+      "formats": [
+        "Blu-ray",
+        "DVD",
+        "Prime Video"
+      ],
+      "versions": [
+        {
+          "product_id": "B0032LO8DE",
+          "page_title": "The Godfather [Blu-ray] (Anniversary Edition)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "1972-08-29",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 509
+        },
+        {
+          "product_id": "B000BI5KV0",
+          "page_title": "The Godfather (DVD) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "1972-10-28",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 455
+        },
+        {
+          "product_id": "B000NQRV4O",
+          "page_title": "The Godfather [Blu-ray] (Reissue)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "1972-11-08",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 438
+        },
+        {
+          "product_id": "B001FB55HQ",
+          "page_title": "The Godfather (Reissue)",
+          "edition_format": "Prime Video",
+          "edition_release_date": "1972-11-11",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 402
+        },
+        {
+          "product_id": "B000GETWF4",
+          "page_title": "The Godfather (2-Disc Special Edition) (Anniversary Edition)",
+          "edition_format": "DVD",
+          "edition_release_date": "1972-12-28",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 375
+        },
+        {
+          "product_id": "B000127M62",
+          "page_title": "The Godfather (Anniversary Edition)",
+          "edition_format": "Prime Video",
+          "edition_release_date": "1972-08-08",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 328
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-17df8d49dfdc6e6e",
+          "pair": [
+            "B00004RVJO",
+            "B001FB55HQ"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        },
+        {
+          "decision_id": "D-e01855e7ecbf35a5",
+          "pair": [
+            "B00005UQZ5",
+            "B0032LO8DE"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "movie_id": "M-1b0e7cdc7002fd2a",
+      "canonical_title": "The Matrix Revolutions",
+      "version_count": 20,
+      "formats": [
+        "Blu-ray",
+        "DVD",
+        "Prime Video"
+      ],
+      "versions": [
+        {
+          "product_id": "B0014ERKO0",
+          "page_title": "The Matrix Revolutions [Blu-ray] (Reissue)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "2003-10-01",
+          "studio": "Warner Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 515
+        },
+        {
+          "product_id": "B0002ZUHD8",
+          "page_title": "The Matrix Revolutions (Reissue)",
+          "edition_format": "Prime Video",
+          "edition_release_date": "2004-02-17",
+          "studio": "Warner Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 496
+        },
+        {
+          "product_id": "B00004RUNT",
+          "page_title": "The Matrix Revolutions, The (DVD)",
+          "edition_format": "DVD",
+          "edition_release_date": "2003-11-29",
+          "studio": "Warner Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 476
+        },
+        {
+          "product_id": "B0033BISWK",
+          "page_title": "The Matrix Revolutions [Blu-ray]",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "2003-07-14",
+          "studio": "Warner Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 473
+        },
+        {
+          "product_id": "B002OHDRF2",
+          "page_title": "The Matrix Revolutions (Collector's Edition) [Blu-ray]",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "2003-09-04",
+          "studio": "Warner Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 402
+        },
+        {
+          "product_id": "B00005MHNI",
+          "page_title": "The Matrix Revolutions (Widescreen Edition) (Anniversary Edition)",
+          "edition_format": "DVD",
+          "edition_release_date": "2004-01-02",
+          "studio": "Warner Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 373
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-7ad4b9c9827ff5d9",
+          "pair": [
+            "B00004CIQV",
+            "B0033BISWK"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        },
+        {
+          "decision_id": "D-0d67a21b5e08f0ee",
+          "pair": [
+            "B000YAA2SQ",
+            "B0038N9X3G"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "movie_id": "M-b8642e901fdc9734",
+      "canonical_title": "The Godfather Part II",
+      "version_count": 19,
+      "formats": [
+        "Blu-ray",
+        "DVD",
+        "Prime Video"
+      ],
+      "versions": [
+        {
+          "product_id": "B007XF4J66",
+          "page_title": "The Godfather Part II (Widescreen Edition) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "1974-10-05",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 476
+        },
+        {
+          "product_id": "B0068THAGY",
+          "page_title": "The Godfather Part II",
+          "edition_format": "Prime Video",
+          "edition_release_date": "1974-08-10",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 467
+        },
+        {
+          "product_id": "B000VDDWEC",
+          "page_title": "The Godfather Part II (Anniversary Edition)",
+          "edition_format": "Prime Video",
+          "edition_release_date": "1974-08-27",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 445
+        },
+        {
+          "product_id": "B002P8ZOUQ",
+          "page_title": "The Godfather Part II, The (DVD) (Anniversary Edition)",
+          "edition_format": "DVD",
+          "edition_release_date": "1974-07-04",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 377
+        },
+        {
+          "product_id": "B004TRJRD6",
+          "page_title": "The Godfather Part II (Collector's Edition) [Blu-ray] (Reissue)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "1974-09-30",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 377
+        },
+        {
+          "product_id": "B0001EYTK2",
+          "page_title": "The Godfather Part II (DVD)",
+          "edition_format": "DVD",
+          "edition_release_date": "1974-12-20",
+          "studio": "Paramount",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 371
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-3d18ef5723e3b1ca",
+          "pair": [
+            "B00006AGH1",
+            "B000CNE0U6"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        },
+        {
+          "decision_id": "D-506a8171fa074bd6",
+          "pair": [
+            "B0001EYTK2",
+            "B0009XRZ92"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "movie_id": "M-9a4cf98926c105c1",
+      "canonical_title": "The Lord of the Rings: The Return of the King",
+      "version_count": 19,
+      "formats": [
+        "Blu-ray",
+        "DVD",
+        "Prime Video"
+      ],
+      "versions": [
+        {
+          "product_id": "B005CA4SJW",
+          "page_title": "The Lord of the Rings: The Return of the King (Collector's Edition) [Blu-ray]",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "2004-02-07",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 606
+        },
+        {
+          "product_id": "B0006Z2NJU",
+          "page_title": "The Lord of the Rings: The Return of the King (Collector's Edition) [Blu-ray] (Reissue)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "2003-08-20",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 523
+        },
+        {
+          "product_id": "B0030MM68O",
+          "page_title": "The Lord of the Rings: The Return of the King [Blu-ray] (Reissue)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "2003-09-22",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 514
+        },
+        {
+          "product_id": "6303953425",
+          "page_title": "The Lord of the Rings: The Return of the King (Widescreen Edition) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "2003-12-18",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 475
+        },
+        {
+          "product_id": "B0000640ZP",
+          "page_title": "The Lord of the Rings: The Return of the King, The (DVD)",
+          "edition_format": "DVD",
+          "edition_release_date": "2004-01-07",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 381
+        },
+        {
+          "product_id": "B007JRTV52",
+          "page_title": "The Lord of the Rings: The Return of the King, The (DVD) (Anniversary Edition)",
+          "edition_format": "DVD",
+          "edition_release_date": "2004-02-08",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 379
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-64e84ee44154df45",
+          "pair": [
+            "B0000640ZP",
+            "B0006Z2NJU"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 1,
+            "year_score": 1.0
+          }
+        },
+        {
+          "decision_id": "D-805e69083310fa2c",
+          "pair": [
+            "B001AQT0VI",
+            "B005CA4SJW"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 1,
+            "year_score": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "movie_id": "M-06d9a640ceaf39a3",
+      "canonical_title": "The Silence of the Lambs",
+      "version_count": 19,
+      "formats": [
+        "Blu-ray",
+        "DVD",
+        "Prime Video"
+      ],
+      "versions": [
+        {
+          "product_id": "B000067JG4",
+          "page_title": "The Silence of the Lambs (2-Disc Special Edition) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "1991-11-03",
+          "studio": "Criterion Collection",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 643
+        },
+        {
+          "product_id": "B000NQQ4ME",
+          "page_title": "The Silence of the Lambs [Blu-ray]",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "1991-11-10",
+          "studio": "Criterion Collection",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 586
+        },
+        {
+          "product_id": "B001G7Q0Z0",
+          "page_title": "The Silence of the Lambs (Collector's Edition) [Blu-ray] (Anniversary Edition)",
+          "edition_format": "Blu-ray",
+          "edition_release_date": "1991-07-01",
+          "studio": "Criterion Collection",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 472
+        },
+        {
+          "product_id": "B003ZY3050",
+          "page_title": "The Silence of the Lambs (Widescreen Edition) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "1992-01-10",
+          "studio": "Criterion Collection",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 397
+        },
+        {
+          "product_id": "B005LAJ22Q",
+          "page_title": "The Silence of the Lambs (2-Disc Special Edition)",
+          "edition_format": "DVD",
+          "edition_release_date": "1991-11-15",
+          "studio": "Criterion Collection",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 382
+        },
+        {
+          "product_id": "B000065K25",
+          "page_title": "The Silence of the Lambs (DVD)",
+          "edition_format": "DVD",
+          "edition_release_date": "1991-10-31",
+          "studio": "Criterion Collection",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 318
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-7a2b91b0da3f1be6",
+          "pair": [
+            "B00004CXXA",
+            "B000HOMU98"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        },
+        {
+          "decision_id": "D-ba7eec48de9178aa",
+          "pair": [
+            "B00004CXXA",
+            "B000MYFILK"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "movie_id": "M-c21f9f6a32947cec",
+      "canonical_title": "The Lord of the Rings: The Two Towers",
+      "version_count": 18,
+      "formats": [
+        "Blu-ray",
+        "DVD",
+        "Prime Video"
+      ],
+      "versions": [
+        {
+          "product_id": "B000KKQNRO",
+          "page_title": "The Lord of the Rings: The Two Towers (DVD) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "2002-11-26",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 608
+        },
+        {
+          "product_id": "B002SEQ8ZC",
+          "page_title": "The Lord of the Rings: The Two Towers (Anniversary Edition)",
+          "edition_format": "Prime Video",
+          "edition_release_date": "2002-12-15",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 397
+        },
+        {
+          "product_id": "B00006LLJ4",
+          "page_title": "The Lord of the Rings: The Two Towers (Widescreen Edition) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "2003-01-16",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 366
+        },
+        {
+          "product_id": "B000055XP5",
+          "page_title": "The Lord of the Rings: The Two Towers, The (DVD)",
+          "edition_format": "DVD",
+          "edition_release_date": "2002-10-29",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 366
+        },
+        {
+          "product_id": "6303566669",
+          "page_title": "The Lord of the Rings: The Two Towers (Reissue)",
+          "edition_format": "Prime Video",
+          "edition_release_date": "2002-10-13",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 360
+        },
+        {
+          "product_id": "B00004RYIR",
+          "page_title": "The Lord of the Rings: The Two Towers (2-Disc Special Edition) (Reissue)",
+          "edition_format": "DVD",
+          "edition_release_date": "2002-07-16",
+          "studio": "New Line Home Video",
+          "collect_status": "success",
+          "source_type": "synthetic_fixture",
+          "review_count": 312
+        }
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-23760788df325495",
+          "pair": [
+            "B00004RYIR",
+            "B0013Y1GEQ"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 1,
+            "year_score": 1.0
+          }
+        },
+        {
+          "decision_id": "D-55f518caaea39182",
+          "pair": [
+            "B000FILV1Y",
+            "B000KKQNRO"
+          ],
+          "score": 1.0,
+          "rule_id": "R-MRG-SAME-TITLE-SAME-CREW",
+          "evidence": {
+            "title_sim": 1.0,
+            "title_relation": "equal",
+            "director_sim": 1.0,
+            "cast_sim": 1.0,
+            "year_diff": 0,
+            "year_score": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "movie_not_merged": [
+    {
+      "decision_id": "D-361c9eecc5027d8b",
+      "action": "manual_review",
+      "id_a": "B002N14GPE",
+      "id_b": "B003ELMR9E",
+      "cluster_key": "bill|kill",
+      "score": 0.8583,
+      "rule_id": "R-MRG-MID-SCORE",
+      "evidence": {
+        "title_sim": 0.9333,
+        "title_relation": "overlap",
+        "director_sim": 1.0,
+        "cast_sim": 0.1667,
+        "year_diff": 1,
+        "year_score": 1.0
+      },
+      "title_a": "Kill Bill: Vol. 2 (2-Disc Special Edition)",
+      "title_b": "Kill Bill: Vol. 1 [Blu-ray] (Reissue)",
+      "movie_a": "M-0c390de622fb7cdc",
+      "movie_b": "M-0c390de622fb7cdc"
+    },
+    {
+      "decision_id": "D-468ab7fb309da0e6",
+      "action": "manual_review",
+      "id_a": "B004EPYZQ2",
+      "id_b": "B004J04KXU",
+      "cluster_key": "lord|rings",
+      "score": 0.8367,
+      "rule_id": "R-MRG-MID-SCORE",
+      "evidence": {
+        "title_sim": 0.7385,
+        "title_relation": "overlap",
+        "director_sim": 1.0,
+        "cast_sim": 0.75,
+        "year_diff": 1,
+        "year_score": 1.0
+      },
+      "title_a": "The Lord of the Rings Trilogy (Extended Edition) [Blu-ray]",
+      "title_b": "The Lord of the Rings: The Two Towers (2-Disc Special Edition)",
+      "movie_a": "M-b73ba84bc01d5903",
+      "movie_b": "M-c21f9f6a32947cec"
+    },
+    {
+      "decision_id": "D-b2fd2a2f5c3b5b63",
+      "action": "no_merge",
+      "id_a": "B00013F2J0",
+      "id_b": "B000ADKWNW",
+      "cluster_key": "abenobashi|arcade",
+      "score": 0.6199,
+      "rule_id": "R-MRG-LOW-SCORE",
+      "evidence": {
+        "title_sim": 0.9398,
+        "title_relation": "overlap",
+        "director_sim": 0.0,
+        "cast_sim": 0.0,
+        "year_diff": null,
+        "year_score": 1.0
+      },
+      "title_a": "magical shopping arcade abenobashi vol 2",
+      "title_b": "magical shopping arcade abenobashi vols 1 3 boxed set",
+      "movie_a": "M-289598203205d230",
+      "movie_b": "M-a9deb3622d92db70"
+    },
+    {
+      "decision_id": "D-1a730d4c7c406fa3",
+      "action": "no_merge",
+      "id_a": "6304400179",
+      "id_b": "B000059H9H",
+      "cluster_key": "fighter|street",
+      "score": 0.6194,
+      "rule_id": "R-MRG-LOW-SCORE",
+      "evidence": {
+        "title_sim": 0.9388,
+        "title_relation": "overlap",
+        "director_sim": 0.0,
+        "cast_sim": 0.0,
+        "year_diff": null,
+        "year_score": 1.0
+      },
+      "title_a": "street fighter ii volume 2 vhs",
+      "title_b": "street fighter ii vol 2",
+      "movie_a": "M-7481073074a437c9",
+      "movie_b": "M-54451ff64386b5fe"
+    },
+    {
+      "decision_id": "D-43b6430b52b173c6",
+      "action": "no_merge",
+      "id_a": "6304014457",
+      "id_b": "B0009X759C",
+      "cluster_key": "cabinet|caligari",
+      "score": 0.6194,
+      "rule_id": "R-MRG-LOW-SCORE",
+      "evidence": {
+        "title_sim": 0.9388,
+        "title_relation": "overlap",
+        "director_sim": 0.0,
+        "cast_sim": 0.0,
+        "year_diff": null,
+        "year_score": 1.0
+      },
+      "title_a": "the cabinet of dr caligari vhs",
+      "title_b": "the cabinet of caligari",
+      "movie_a": "M-234ce8891bfcdff4",
+      "movie_b": "M-7e27d0fa9f49b988"
+    },
+    {
+      "decision_id": "D-67481f5a21aacfa9",
+      "action": "no_merge",
+      "id_a": "6302230519",
+      "id_b": "6305976392",
+      "cluster_key": "massacre|party",
+      "score": 0.6194,
+      "rule_id": "R-MRG-LOW-SCORE",
+      "evidence": {
+        "title_sim": 0.9388,
+        "title_relation": "overlap",
+        "director_sim": 0.0,
+        "cast_sim": 0.0,
+        "year_diff": null,
+        "year_score": 1.0
+      },
+      "title_a": "slumber party massacre 3 vhs",
+      "title_b": "slumber party massacre ii vhs",
+      "movie_a": "M-2297caea869b5773",
+      "movie_b": "M-01346ef496827c92"
+    }
+  ],
+  "person_alias_merges": [
+    {
+      "person_id": "P-84bac9f8e15d0635",
+      "canonical_name": "Toshiro Mifune",
+      "aliases": [
+        "T. Mifune",
+        "Toshiro Mifune",
+        "Toshirô Mifune"
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-16de1bf55e9cf64a",
+          "pair": [
+            "t mifune",
+            "toshiro mifune"
+          ],
+          "score": 0.9,
+          "rule_id": "R-PER-INITIALS",
+          "evidence": {
+            "relation": "initials_first_abbrev",
+            "same_page": false,
+            "shared_pages": [],
+            "shared_movies": [
+              "M-8b0a093225c5d900",
+              "M-ded25aa841228d52"
+            ]
+          }
+        }
+      ],
+      "movies": [
+        "Complete Adventures of Indiana Jones",
+        "Rashomon",
+        "Seven Samurai",
+        "Pitch Black"
+      ]
+    },
+    {
+      "person_id": "P-f29ff566a1c7c586",
+      "canonical_name": "Al Pacino",
+      "aliases": [
+        "A. Pacino",
+        "Al Pacino",
+        "Pacino, Al"
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-d5dd642495fdb57f",
+          "pair": [
+            "a pacino",
+            "al pacino"
+          ],
+          "score": 0.9,
+          "rule_id": "R-PER-INITIALS",
+          "evidence": {
+            "relation": "initials_first_abbrev",
+            "same_page": false,
+            "shared_pages": [],
+            "shared_movies": [
+              "M-b8642e901fdc9734",
+              "M-c1a82e928b1f1b66"
+            ]
+          }
+        }
+      ],
+      "movies": [
+        "The Godfather",
+        "The Godfather Part II",
+        "Buffy the Vampire Slayer - The Complete Second Season",
+        "Evanescence - Anywhere But Home"
+      ]
+    },
+    {
+      "person_id": "P-00003f6e07827f27",
+      "canonical_name": "James Cameron",
+      "aliases": [
+        "J. Cameron",
+        "James Cameron"
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-9da70e1f339f9713",
+          "pair": [
+            "j cameron",
+            "james cameron"
+          ],
+          "score": 0.9,
+          "rule_id": "R-PER-INITIALS",
+          "evidence": {
+            "relation": "initials_first_abbrev",
+            "same_page": false,
+            "shared_pages": [],
+            "shared_movies": [
+              "M-b1154aac6a5ad72a"
+            ]
+          }
+        }
+      ],
+      "movies": [
+        "Aliens"
+      ]
+    },
+    {
+      "person_id": "P-013d21cd66243f90",
+      "canonical_name": "Matt Damon",
+      "aliases": [
+        "M. Damon",
+        "Matt Damon"
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-dae75c1339e69068",
+          "pair": [
+            "m damon",
+            "matt damon"
+          ],
+          "score": 0.9,
+          "rule_id": "R-PER-INITIALS",
+          "evidence": {
+            "relation": "initials_first_abbrev",
+            "same_page": false,
+            "shared_pages": [],
+            "shared_movies": [
+              "M-e50bd88fb72d6a8c"
+            ]
+          }
+        }
+      ],
+      "movies": [
+        "True Grit",
+        "Closer"
+      ]
+    },
+    {
+      "person_id": "P-0360bd8cef6e99bf",
+      "canonical_name": "Marlon Brando",
+      "aliases": [
+        "M. Brando",
+        "Marlon Brando"
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-be083510792dd557",
+          "pair": [
+            "m brando",
+            "marlon brando"
+          ],
+          "score": 0.9,
+          "rule_id": "R-PER-INITIALS",
+          "evidence": {
+            "relation": "initials_first_abbrev",
+            "same_page": false,
+            "shared_pages": [],
+            "shared_movies": [
+              "M-3e214856c2236fd4",
+              "M-c1a82e928b1f1b66"
+            ]
+          }
+        }
+      ],
+      "movies": [
+        "The Godfather",
+        "Apocalypse Now",
+        "Team America: World Police",
+        "The Godfather Collection"
+      ]
+    },
+    {
+      "person_id": "P-05db91d47e0aa05a",
+      "canonical_name": "Robert Duvall",
+      "aliases": [
+        "R. Duvall",
+        "Robert Duvall"
+      ],
+      "decisions": [
+        {
+          "decision_id": "D-23e713103a8a2662",
+          "pair": [
+            "r duvall",
+            "robert duvall"
+          ],
+          "score": 0.9,
+          "rule_id": "R-PER-INITIALS",
+          "evidence": {
+            "relation": "initials_first_abbrev",
+            "same_page": false,
+            "shared_pages": [],
+            "shared_movies": [
+              "M-3e214856c2236fd4",
+              "M-b8642e901fdc9734"
+            ]
+          }
+        }
+      ],
+      "movies": [
+        "Apocalypse Now",
+        "The Godfather Part II",
+        "Buffy the Vampire Slayer - The Complete Second Season",
+        "Evanescence - Anywhere But Home"
+      ]
+    }
+  ],
+  "person_not_merged": [
+    {
+      "decision_id": "D-07275fa252d9f8b1",
+      "action": "manual_review",
+      "id_a": "francis coppola",
+      "id_b": "roman coppola",
+      "cluster_key": "coppola",
+      "score": 0.55,
+      "rule_id": "R-PER-SURNAME-ALIAS",
+      "evidence": {
+        "relation": "same_surname",
+        "same_page": false,
+        "shared_pages": [],
+        "shared_movies": []
+      },
+      "verdict": "同姓、名字不同 → 规则判为两个人",
+      "person_a": "P-af9c4aa101fc1feb",
+      "person_b": "P-2259e9c99718380d",
+      "same_entity": false
+    },
+    {
+      "decision_id": "D-090c1718b0aa75bf",
+      "action": "manual_review",
+      "id_a": "lana wachowski",
+      "id_b": "larry wachowski",
+      "cluster_key": "wachowski",
+      "score": 0.55,
+      "rule_id": "R-PER-SURNAME-ALIAS",
+      "evidence": {
+        "relation": "same_surname",
+        "same_page": false,
+        "shared_pages": [],
+        "shared_movies": [
+          "M-1b0e7cdc7002fd2a",
+          "M-1fbf02c87c734098"
+        ]
+      },
+      "verdict": "同姓、名字不同 → 规则判为两个人",
+      "person_a": "P-2df863b2a965d391",
+      "person_b": "P-a7e0cc7439b55b53",
+      "same_entity": false
+    },
+    {
+      "decision_id": "D-1239e2eb5750e87f",
+      "action": "manual_review",
+      "id_a": "bill murray",
+      "id_b": "brian murray",
+      "cluster_key": "murray",
+      "score": 0.55,
+      "rule_id": "R-PER-SURNAME-ALIAS",
+      "evidence": {
+        "relation": "same_surname",
+        "same_page": false,
+        "shared_pages": [],
+        "shared_movies": []
+      },
+      "verdict": "同姓、名字不同 → 规则判为两个人",
+      "person_a": "P-d81a07af6671ea7d",
+      "person_b": "P-1a4d2467593de99b",
+      "same_entity": false
+    },
+    {
+      "decision_id": "D-13d22fd5fcabcf76",
+      "action": "manual_review",
+      "id_a": "bridget fonda",
+      "id_b": "peter fonda",
+      "cluster_key": "fonda",
+      "score": 0.55,
+      "rule_id": "R-PER-SURNAME-ALIAS",
+      "evidence": {
+        "relation": "same_surname",
+        "same_page": false,
+        "shared_pages": [],
+        "shared_movies": []
+      },
+      "verdict": "同姓、名字不同 → 规则判为两个人",
+      "person_a": "P-c5138848f499cf58",
+      "person_b": "P-543cc5c79d8dd3e8",
+      "same_entity": false
+    },
+    {
+      "decision_id": "D-0f101bdacb24dfc3",
+      "action": "manual_review",
+      "id_a": "b murray",
+      "id_b": "brian murray",
+      "cluster_key": "murray",
+      "score": 0.9,
+      "rule_id": "R-PER-INITIALS-AMBIGUOUS",
+      "evidence": {
+        "relation": "initials_first_abbrev",
+        "same_page": false,
+        "shared_pages": [],
+        "shared_movies": []
+      },
+      "verdict": "缩写可展开成多人 → 待复核，未合并",
+      "person_a": "P-f6e7d9759d9da02f",
+      "person_b": "P-1a4d2467593de99b",
+      "same_entity": false
+    },
+    {
+      "decision_id": "D-1ac0b30b1bfd9e12",
+      "action": "manual_review",
+      "id_a": "l wachowski",
+      "id_b": "lilly wachowski",
+      "cluster_key": "wachowski",
+      "score": 0.9,
+      "rule_id": "R-PER-INITIALS-AMBIGUOUS",
+      "evidence": {
+        "relation": "initials_first_abbrev",
+        "same_page": true,
+        "shared_pages": [
+          "B00004CIQG",
+          "B00004VYLC",
+          "B00005B6N8"
+        ],
+        "shared_movies": [
+          "M-1b0e7cdc7002fd2a",
+          "M-81b530c5e120a7b9"
+        ]
+      },
+      "verdict": "缩写可展开成多人 → 待复核，未合并",
+      "person_a": "P-20e6f53a6fd757a0",
+      "person_b": "P-ad47f09b127eca35",
+      "same_entity": false
+    }
+  ]
+}

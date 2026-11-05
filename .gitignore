@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# 大数据与数据库产物：不入库
+#
+# 这些都能按 README 第 7 节重新生成，体积合计约 45 GB，远超 Git 托管上限：
+#   data/raw/        3.9 GB   SNAP 源文件（movies.txt.gz 3.3 GB + 220 MB 切片）
+#   data/db/          42 GB   SQLite 库（etl 37.7 GB + 切片/恢复验证库）
+#   data/snapshots/  0.36 GB  页面与 Wikidata 快照（可由 fixtures/make_offline_snapshots.py 重建）
+#   data/tmp_pg/      12 MB   PostgreSQL 同步中间件（scripts/sync_to_pg.py 重新导出）
+#   data/out/                中间输出（运行时生成）
+#   data/queries/            查询结果（src/s11_queries.py 重新生成）
+#
+# 注意：data/logs/ 刻意保留在库内 —— 作业要求提交执行日志与失败分支证据。
+# ---------------------------------------------------------------------------
+data/db/
+data/raw/
+data/snapshots/
+data/tmp_pg/
+data/out/
+data/queries/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

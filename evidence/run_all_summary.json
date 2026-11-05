@@ -1,0 +1,66 @@
+{
+  "run_id": "RUN-20261103T024538-c8ym",
+  "total_seconds": 295.5,
+  "steps": [
+    {
+      "step": "s01",
+      "status": "ok",
+      "seconds": 119.4
+    },
+    {
+      "step": "s02",
+      "status": "ok",
+      "seconds": 0.5
+    },
+    {
+      "step": "s02b",
+      "status": "ok",
+      "seconds": 2.8
+    },
+    {
+      "step": "s03",
+      "status": "ok",
+      "seconds": 40.1
+    },
+    {
+      "step": "s04",
+      "status": "ok",
+      "seconds": 0.9
+    },
+    {
+      "step": "s05",
+      "status": "ok",
+      "seconds": 0.6
+    },
+    {
+      "step": "s06",
+      "status": "ok",
+      "seconds": 1.2
+    },
+    {
+      "step": "s07",
+      "status": "ok",
+      "seconds": 0.7
+    },
+    {
+      "step": "s08",
+      "status": "ok",
+      "seconds": 54.4
+    },
+    {
+      "step": "s09",
+      "status": "ok",
+      "seconds": 0.8
+    },
+    {
+      "step": "s10",
+      "status": "ok",
+      "seconds": 72.4
+    },
+    {
+      "step": "s11",
+      "status": "ok",
+      "seconds": 1.6
+    }
+  ]
+}

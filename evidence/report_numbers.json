@@ -1,0 +1,513 @@
+{
+  "source": {
+    "raw_source_files": 2,
+    "files": [
+      {
+        "name": "movies.txt.gz",
+        "byte_size": 3321791660,
+        "sha256": "4b6ee09ea4880f3fb197b1407d45dfb08a892fbb48a9e7a2d74aa0572cdcc715",
+        "range_start": 0,
+        "range_end": 3321791659,
+        "note": "全量源文件 3321791660 字节；官方统计 7911684 条评论，range 0..3321791659 覆盖整个文件"
+      },
+      {
+        "name": "meta_Movies_and_TV.json.gz",
+        "byte_size": 99875519,
+        "sha256": "8af9f02f7741a086ca1df60e17ea0277e8ef879ce3e0420f37d357b36a52fc0a",
+        "range_start": 0,
+        "range_end": 99875518,
+        "note": "SNAP 随 movies.txt 发布的同批 ASIN 商品元数据；格式为 Python repr（单引号），必须用 ast.literal_eval 解析；只含标题/类目/品牌，无演职员"
+      }
+    ]
+  },
+  "reviews": {
+    "records_read": 7911696,
+    "valid_records": 7911629,
+    "quarantined_records": 67,
+    "identity_left": 7911696,
+    "identity_right": 7911696,
+    "identity_ok": true,
+    "logical_reviews": 7895810,
+    "stg_review_rows": 7911629,
+    "quarantine_rows": 67,
+    "quarantine_reasons": {
+      "helpful_exceeds_total": 43,
+      "score_out_of_range,bad_review_time": 12,
+      "missing_or_bad_product_id,missing_reviewer_id": 12
+    },
+    "distinct_products": 253059,
+    "distinct_reviewers": 889172,
+    "multi_raw_reviews": 13893,
+    "official": {
+      "reviews": 7911684,
+      "products": 253059,
+      "users": 889176
+    },
+    "delta_vs_official": {
+      "reviews": 12,
+      "products": 0,
+      "users": -4
+    }
+  },
+  "collection": {
+    "products_in_list": 253059,
+    "status_sum": 253059,
+    "status_by_status": {
+      "not_collected": 251986,
+      "success": 905,
+      "access_restricted": 95,
+      "not_found": 42,
+      "parse_failed": 31
+    },
+    "status_by_source": {
+      "not_collected|None": 251986,
+      "success|synthetic_fixture": 702,
+      "success|live": 203,
+      "access_restricted|live": 61,
+      "access_restricted|synthetic_fixture": 34,
+      "not_found|synthetic_fixture": 24,
+      "parse_failed|live": 22,
+      "not_found|live": 18,
+      "parse_failed|synthetic_fixture": 9
+    },
+    "reason_by_code": {
+      "budget_exhausted": 251986,
+      "offline_snapshot": 702,
+      "http_200_product_page+snapshot_cache": 105,
+      "http_200_product_page": 98,
+      "captcha_page": 61,
+      "http_404": 42,
+      "captcha_page+snapshot_cache": 34,
+      "redirected_to_other_item": 11,
+      "no_canonical_link+snapshot_cache": 10,
+      "no_canonical_link": 10
+    },
+    "live_success": 203,
+    "live_attempted": 155,
+    "http_200_but_not_success": 126,
+    "with_canonical": 205,
+    "with_template_sig": 304
+  },
+  "third_party": {
+    "records": 112769,
+    "products_with_title": 70573,
+    "coverage_pct_of_all_asins": 27.89
+  },
+  "classification": {
+    "by_category": {
+      "movie": 68540,
+      "series": 34089,
+      "non_movie": 9896,
+      "pending": 922,
+      "box_set": 16,
+      "concert_other": 3
+    },
+    "by_rule": {
+      "R-CLS-SNAP-CATEGORY": 112561,
+      "R-CLS-MOVIE-CREW": 815,
+      "R-CLS-PENDING-EMPTY": 50,
+      "R-CLS-BOXSET": 16,
+      "R-CLS-NONMOVIE": 13,
+      "R-CLS-SERIES": 4,
+      "R-CLS-PENDING": 4,
+      "R-CLS-CONCERT": 3
+    }
+  },
+  "entities": {
+    "movies": 43838,
+    "movie_titles": 87960,
+    "persons": 406,
+    "person_names": 536,
+    "product_movie_links": 45515,
+    "movie_person_links": 972,
+    "movies_with_multiple_products": 1019,
+    "max_products_per_movie": 20
+  },
+  "merge_decisions": {
+    "pair_candidates": 19929,
+    "by_action": {
+      "no_merge": 10246,
+      "manual_review": 7266,
+      "auto_merge": 2417
+    },
+    "by_entity_type": {
+      "movie": 19386,
+      "person": 543
+    }
+  },
+  "fields": {
+    "assertions": 131293,
+    "assertions_by_entity": {
+      "movie": 49664,
+      "person": 3799,
+      "product": 77830
+    },
+    "assertions_by_field": {
+      "title": 117106,
+      "cast": 3967,
+      "canonical_name": 3799,
+      "studio": 1736,
+      "edition_format": 1716,
+      "release_date": 1668,
+      "director": 954,
+      "genre": 269,
+      "external_id": 78
+    },
+    "candidate_links": 51995,
+    "selections": 131959,
+    "selections_with_value": 44322,
+    "selections_unresolved": 87637,
+    "selections_by_rule": {
+      "R-SEL-TITLE-MODE": 43838,
+      "R-SEL-EXTERNAL-ID": 43838,
+      "R-SEL-DATE-THEATRICAL-ONLY": 43838,
+      "R-SEL-PERSON-CANONICAL": 406,
+      "R-SEL-GENRE-UNION": 39
+    },
+    "coverage": {
+      "canonical_title": {
+        "selected": 43838,
+        "denominator": 43838,
+        "pct": 100.0
+      },
+      "release_date": {
+        "selected": 39,
+        "denominator": 43838,
+        "pct": 0.09
+      },
+      "external_id": {
+        "selected": 39,
+        "denominator": 43838,
+        "pct": 0.09
+      },
+      "genres": {
+        "selected": 39,
+        "denominator": 43838,
+        "pct": 0.09
+      }
+    },
+    "entity_table_fields": {
+      "movie_title_rows": 87960,
+      "movie_person_rows": 972,
+      "note": "标题/演职员存在实体表里（movie_title / movie_person），不在 field_selection 中，所以不参与上面的覆盖率计算。"
+    }
+  },
+  "release_date": {
+    "by_precision": {
+      "unknown": 43799,
+      "day": 39
+    },
+    "by_rule": {
+      "R-EXT-DATE-PHYSICAL": 814,
+      "R-AGG-R-EXT-DATE-PHYSICAL": 803,
+      "R-EXT-DATE-THEATRICAL": 39,
+      "R-EXT-DATE-PHYSICAL-YEARONLY": 6,
+      "R-AGG-R-EXT-DATE-PHYSICAL-YEARONLY": 6
+    }
+  },
+  "quality": {
+    "issues": 463,
+    "issues_by_type": {
+      "enrichment_rejected": 174,
+      "transitive_merge_conflict": 162,
+      "enrichment_not_found": 73,
+      "source_conflict": 49,
+      "enrichment_source_unavailable": 5
+    },
+    "issues_by_severity": {
+      "info": 296,
+      "warn": 167
+    },
+    "foreign_key_violations": 0
+  },
+  "eval": {
+    "pairs": 200,
+    "pairs_by_type": {
+      "movie": 100,
+      "person": 100
+    },
+    "pairs_labeled": 200,
+    "pairs_by_group": {
+      "eval": 200
+    },
+    "metrics": [
+      {
+        "entity_type": "movie",
+        "sample_group": "dev",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "note": "真值来自人工标注的独立评价集（eval_movies.csv；100 对 IMDb 独立预标注，**尚未人工复核**。真值独立于本项目规则（tconst/nconst 交叉验证），但不是人工标注）"
+      },
+      {
+        "entity_type": "movie",
+        "sample_group": "eval",
+        "tp": 34,
+        "fp": 0,
+        "fn": 16,
+        "tn": 50,
+        "precision": 1.0,
+        "recall": 0.68,
+        "f1": 0.8095,
+        "note": "真值来自人工标注的独立评价集（eval_movies.csv；100 对 IMDb 独立预标注，**尚未人工复核**。真值独立于本项目规则（tconst/nconst 交叉验证），但不是人工标注）"
+      },
+      {
+        "entity_type": "person",
+        "sample_group": "dev",
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "tn": 0,
+        "precision": null,
+        "recall": null,
+        "f1": null,
+        "note": "真值来自人工标注的独立评价集（eval_persons.csv；100 对 IMDb 独立预标注，**尚未人工复核**。真值独立于本项目规则（tconst/nconst 交叉验证），但不是人工标注）"
+      },
+      {
+        "entity_type": "person",
+        "sample_group": "eval",
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "tn": 97,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "note": "真值来自人工标注的独立评价集（eval_persons.csv；100 对 IMDb 独立预标注，**尚未人工复核**。真值独立于本项目规则（tconst/nconst 交叉验证），但不是人工标注）"
+      }
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "RUN-20261105T105109-eexl",
+      "pipeline": "s09_resolve_fields",
+      "status": "success",
+      "started_at": "2026-11-05T10:51:09Z",
+      "finished_at": "2026-11-05T10:51:44Z"
+    },
+    {
+      "run_id": "RUN-20261105T105108-qqrz",
+      "pipeline": "s07_resolve_persons",
+      "status": "success",
+      "started_at": "2026-11-05T10:51:08Z",
+      "finished_at": "2026-11-05T10:51:08Z"
+    },
+    {
+      "run_id": "RUN-20261105T105012-ebw8",
+      "pipeline": "s06_match_movies",
+      "status": "success",
+      "started_at": "2026-11-05T10:50:12Z",
+      "finished_at": "2026-11-05T10:51:07Z"
+    },
+    {
+      "run_id": "RUN-20261105T105011-uk9q",
+      "pipeline": "s05_extract_assertions",
+      "status": "success",
+      "started_at": "2026-11-05T10:50:11Z",
+      "finished_at": "2026-11-05T10:50:11Z"
+    },
+    {
+      "run_id": "RUN-20261105T105006-2u9y",
+      "pipeline": "s04_parse_and_classify",
+      "status": "success",
+      "started_at": "2026-11-05T10:50:06Z",
+      "finished_at": "2026-11-05T10:50:10Z"
+    },
+    {
+      "run_id": "RUN-20261105T105001-jhoi",
+      "pipeline": "s02_build_product_list",
+      "status": "success",
+      "started_at": "2026-11-05T10:50:01Z",
+      "finished_at": "2026-11-05T10:50:05Z"
+    },
+    {
+      "run_id": "RUN-20261105T104030-215q",
+      "pipeline": "s04_parse_and_classify",
+      "status": "success",
+      "started_at": "2026-11-05T10:40:30Z",
+      "finished_at": "2026-11-05T10:40:32Z"
+    },
+    {
+      "run_id": "RUN-20261105T101849-ihh8",
+      "pipeline": "s10_quality_checks",
+      "status": "success",
+      "started_at": "2026-11-05T10:18:49Z",
+      "finished_at": "2026-11-05T10:24:14Z"
+    },
+    {
+      "run_id": "RUN-20261105T101812-eivd",
+      "pipeline": "s09_resolve_fields",
+      "status": "success",
+      "started_at": "2026-11-05T10:18:12Z",
+      "finished_at": "2026-11-05T10:18:45Z"
+    },
+    {
+      "run_id": "RUN-20261104T124423-xnts",
+      "pipeline": "s02_build_product_list",
+      "status": "success",
+      "started_at": "2026-11-04T12:44:23Z",
+      "finished_at": "2026-11-04T12:44:30Z"
+    },
+    {
+      "run_id": "RUN-20261104T122000-llic",
+      "pipeline": "s08_enrich_release",
+      "status": "aborted",
+      "started_at": "2026-11-04T12:20:00Z",
+      "finished_at": "2026-11-04T12:20:00Z"
+    },
+    {
+      "run_id": "RUN-20261104T120201-c7l0",
+      "pipeline": "s07_resolve_persons",
+      "status": "success",
+      "started_at": "2026-11-04T12:02:01Z",
+      "finished_at": "2026-11-04T12:02:01Z"
+    },
+    {
+      "run_id": "RUN-20261104T120117-3omn",
+      "pipeline": "s05_extract_assertions",
+      "status": "success",
+      "started_at": "2026-11-04T12:01:17Z",
+      "finished_at": "2026-11-04T12:01:17Z"
+    },
+    {
+      "run_id": "RUN-20261104T120117-magg",
+      "pipeline": "s06_match_movies",
+      "status": "success",
+      "started_at": "2026-11-04T12:01:17Z",
+      "finished_at": "2026-11-04T12:02:00Z"
+    },
+    {
+      "run_id": "RUN-20261104T115941-rzsh",
+      "pipeline": "s07_resolve_persons",
+      "status": "success",
+      "started_at": "2026-11-04T11:59:41Z",
+      "finished_at": "2026-11-04T11:59:41Z"
+    },
+    {
+      "run_id": "RUN-20261104T115856-uhq4",
+      "pipeline": "s05_extract_assertions",
+      "status": "success",
+      "started_at": "2026-11-04T11:58:56Z",
+      "finished_at": "2026-11-04T11:58:56Z"
+    },
+    {
+      "run_id": "RUN-20261104T115856-k1dq",
+      "pipeline": "s06_match_movies",
+      "status": "success",
+      "started_at": "2026-11-04T11:58:56Z",
+      "finished_at": "2026-11-04T11:59:40Z"
+    },
+    {
+      "run_id": "RUN-20261104T115853-uisa",
+      "pipeline": "s04_parse_and_classify",
+      "status": "success",
+      "started_at": "2026-11-04T11:58:53Z",
+      "finished_at": "2026-11-04T11:58:55Z"
+    },
+    {
+      "run_id": "RUN-20261104T115745-44ga",
+      "pipeline": "s07_resolve_persons",
+      "status": "success",
+      "started_at": "2026-11-04T11:57:45Z",
+      "finished_at": "2026-11-04T11:57:45Z"
+    },
+    {
+      "run_id": "RUN-20261104T115703-cr16",
+      "pipeline": "s06_match_movies",
+      "status": "success",
+      "started_at": "2026-11-04T11:57:03Z",
+      "finished_at": "2026-11-04T11:57:45Z"
+    },
+    {
+      "run_id": "RUN-20261104T115702-uwel",
+      "pipeline": "s05_extract_assertions",
+      "status": "success",
+      "started_at": "2026-11-04T11:57:02Z",
+      "finished_at": "2026-11-04T11:57:03Z"
+    },
+    {
+      "run_id": "RUN-20261104T115700-bpjk",
+      "pipeline": "s04_parse_and_classify",
+      "status": "success",
+      "started_at": "2026-11-04T11:57:00Z",
+      "finished_at": "2026-11-04T11:57:02Z"
+    },
+    {
+      "run_id": "RUN-20261104T115616-2jdv",
+      "pipeline": "s03b_ingest_thirdparty",
+      "status": "success",
+      "started_at": "2026-11-04T11:56:16Z",
+      "finished_at": "2026-11-04T11:56:59Z"
+    },
+    {
+      "run_id": "RUN-20261104T115114-quu2",
+      "pipeline": "s03_collect_pages",
+      "status": "success",
+      "started_at": "2026-11-04T11:51:14Z",
+      "finished_at": "2026-11-04T11:55:38Z"
+    },
+    {
+      "run_id": "RUN-20261104T115018-mfyn",
+      "pipeline": "s03_collect_pages",
+      "status": "aborted",
+      "started_at": "2026-11-04T11:50:18Z",
+      "finished_at": "2026-11-04T11:50:18Z"
+    },
+    {
+      "run_id": "RUN-20261104T114946-lhol",
+      "pipeline": "s03_collect_pages",
+      "status": "aborted",
+      "started_at": "2026-11-04T11:49:46Z",
+      "finished_at": "2026-11-04T11:49:46Z"
+    },
+    {
+      "run_id": "RUN-20261104T113838-3p85",
+      "pipeline": "s03_collect_pages",
+      "status": "aborted",
+      "started_at": "2026-11-04T11:38:38Z",
+      "finished_at": "2026-11-04T11:38:38Z"
+    },
+    {
+      "run_id": "RUN-20261104T113055-ywxu",
+      "pipeline": "s10_quality_checks",
+      "status": "aborted",
+      "started_at": "2026-11-04T11:30:55Z",
+      "finished_at": "2026-11-04T11:30:55Z"
+    },
+    {
+      "run_id": "RUN-20261104T113016-8wtk",
+      "pipeline": "s09_resolve_fields",
+      "status": "success",
+      "started_at": "2026-11-04T11:30:16Z",
+      "finished_at": "2026-11-04T11:30:55Z"
+    },
+    {
+      "run_id": "RUN-20261104T110502-itxc",
+      "pipeline": "s08_enrich_release",
+      "status": "success",
+      "started_at": "2026-11-04T11:05:02Z",
+      "finished_at": "2026-11-04T11:30:16Z"
+    }
+  ],
+  "steps": {
+    "build_list": "success",
+    "ingest_third_party": "success",
+    "parse_and_classify": "success",
+    "extract": "success",
+    "enrich": "success",
+    "select_movie_fields": "success"
+  },
+  "aborted_steps": [
+    {
+      "run_id": "RUN-20261104T122000-llic",
+      "step_name": "enrich",
+      "status": "failed",
+      "started_at": "2026-11-04T12:20:00Z",
+      "error": "运行被中止：进程未正常退出，父运行 RUN-20261104T122000-llic 已标记 aborted"
+    }
+  ]
+}

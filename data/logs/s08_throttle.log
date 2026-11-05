@@ -1,0 +1,28 @@
+[2026-11-04T12:20:00Z] [INFO ] [s08_enrich_release] 待补全作品 800 部（全库 43,838 部，上限 800，排序=importance，接受阈值 0.7）
+[2026-11-04T12:20:00Z] [INFO ] [s08_enrich_release] 步骤开始: enrich
+[2026-11-04T12:20:29Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），1.6s 后重试 1/2
+[2026-11-04T12:20:33Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），3.2s 后重试 2/2
+[2026-11-04T12:20:48Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），8.0s 后重试 1/2
+[2026-11-04T12:21:25Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3.0s 后重试 2/2
+[2026-11-04T12:24:39Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:26:05Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:27:36Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:31:56Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:32:54Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:34:42Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:35:58Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:37:01Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:37:28Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3.0s 后重试 2/2
+[2026-11-04T12:39:22Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:40:20Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:42:20Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:44:08Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:45:07Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:45:37Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:46:52Z] [WARN ] [s08_enrich_release] 请求失败（HTTP Error 429: Too Many Requests），6.0s 后重试 1/2
+[2026-11-04T12:47:31Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:48:29Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:51:38Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:52:12Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2
+[2026-11-04T12:52:39Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），3.0s 后重试 2/2
+[2026-11-04T12:53:27Z] [WARN ] [s08_enrich_release] 请求失败（<urlopen error _ssl.c:1015: The handshake operation timed out>），1.5s 后重试 1/2

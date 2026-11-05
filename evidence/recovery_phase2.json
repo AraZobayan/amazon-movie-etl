@@ -1,0 +1,34 @@
+{
+  "run_id": "RUN-20261105T112025-z46s",
+  "source_file": "data/raw/movies.txt.gz",
+  "source_sha256": "4b6ee09ea4880f3fb197b1407d45dfb08a892fbb48a9e7a2d74aa0572cdcc715",
+  "source_bytes": 3321791660,
+  "is_slice": false,
+  "elapsed_seconds": 75.7,
+  "throughput_records_per_sec": 2640,
+  "records_read": 400000,
+  "valid_records": 399995,
+  "quarantined_records": 5,
+  "quarantine_rows": 5,
+  "identity_check": {
+    "formula": "读取记录数 = 有效记录数 + 隔离记录数",
+    "left": 400000,
+    "right": 400000,
+    "ok": true
+  },
+  "stg_review_rows": 399995,
+  "logical_reviews": 399211,
+  "logical_reviews_merged_from_multiple_raw": 699,
+  "dedup_removed": 784,
+  "distinct_products": 12695,
+  "distinct_reviewers": 194072,
+  "quarantine_reasons": {
+    "helpful_exceeds_total": 4
+  },
+  "official_stats": {
+    "reviews": 7911684,
+    "products": 253059,
+    "users": 889176
+  },
+  "note": "全量运行：输入为完整源文件（3321791660 字节），记录数应与官方统计一致。"
+}

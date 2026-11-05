@@ -1,0 +1,12 @@
+[2026-11-04T11:50:19Z] [INFO ] [s03_collect_pages] 待处理产品 252,044 个；robots 允许 /dp/ ? True
+[2026-11-04T11:50:19Z] [INFO ] [s03_collect_pages] 检测到 246 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:50:19Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:50:21Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 300 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:50:21Z] [INFO ] [s03_collect_pages] 第二轮顺序：246 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:50:25Z] [INFO ] [s03_collect_pages]   实时 B000W7GFG4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:33Z] [INFO ] [s03_collect_pages]   实时 B000W7GKWI -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:37Z] [INFO ] [s03_collect_pages]   实时 B0010SQYE2 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:50:41Z] [INFO ] [s03_collect_pages]   实时 B0012GE91W -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:50:48Z] [INFO ] [s03_collect_pages]   实时 B001DTPZNY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:55Z] [INFO ] [s03_collect_pages]   实时 B001E75QGG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:01Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAK -> success (HTTP 200, 尝试 1 次)

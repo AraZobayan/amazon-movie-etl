@@ -1,0 +1,401 @@
+{
+  "run_id": "RUN-20261105T101849-ihh8",
+  "A_counts": {
+    "raw_reviews": 7911696,
+    "valid_reviews": 7911629,
+    "quarantined_reviews": 67,
+    "logical_reviews": 7895810,
+    "reviewers": 889172,
+    "products": 253059,
+    "movies": 43838,
+    "persons": 406,
+    "product_movie_links": 45515,
+    "movie_person_links": 972,
+    "field_assertions": 131293,
+    "field_selections": 131959
+  },
+  "A_checks": [
+    {
+      "check": "状态互斥性：状态数之和 = 产品总数",
+      "ok": true,
+      "detail": "253059 vs 253059",
+      "severity": "error"
+    },
+    {
+      "check": "读取记录数 = 有效 + 隔离",
+      "ok": true,
+      "detail": "7911696 vs 7911629+67",
+      "severity": "error"
+    },
+    {
+      "check": "外键有效性",
+      "ok": true,
+      "detail": "违规 0 条",
+      "severity": "error"
+    },
+    {
+      "check": "主键唯一性（movie）",
+      "ok": true,
+      "detail": "重复 0 个",
+      "severity": "error"
+    },
+    {
+      "check": "非空最终字段可追溯",
+      "ok": true,
+      "detail": "无法追溯 0 条",
+      "severity": "error"
+    },
+    {
+      "check": "movie.release_year 与血缘选择一致",
+      "ok": true,
+      "detail": "不一致 0 条",
+      "severity": "error"
+    }
+  ],
+  "A_coverage": {
+    "canonical_title": {
+      "covered": 43838,
+      "total": 43838,
+      "rate": 1.0
+    },
+    "release_date": {
+      "covered": 39,
+      "total": 43838,
+      "rate": 0.0009
+    },
+    "genres": {
+      "covered": 39,
+      "total": 43838,
+      "rate": 0.0009
+    },
+    "external_id": {
+      "covered": 39,
+      "total": 43838,
+      "rate": 0.0009
+    }
+  },
+  "A_classification": {
+    "box_set": 16,
+    "concert_other": 3,
+    "movie": 68540,
+    "non_movie": 9896,
+    "pending": 922,
+    "series": 34089
+  },
+  "A_collection": {
+    "access_restricted/live": 61,
+    "access_restricted/synthetic_fixture": 34,
+    "not_collected/None": 251986,
+    "not_found/live": 18,
+    "not_found/synthetic_fixture": 24,
+    "parse_failed/live": 22,
+    "parse_failed/synthetic_fixture": 9,
+    "success/live": 203,
+    "success/synthetic_fixture": 702
+  },
+  "A2_merge_effect": {
+    "movies": {
+      "before_each_product_as_work": 68540,
+      "after_entity_count": 43838,
+      "merged_away": 24702,
+      "note": "合并前 = 分类为 movie 的商品数；合并后 = movie 实体数"
+    },
+    "persons": {
+      "before_distinct_signatures": 536,
+      "after_entity_count": 406,
+      "merged_away": 130,
+      "note": "合并前 = 不同署名写法数（person_name）；合并后 = person 实体数"
+    }
+  },
+  "A3_identification_coverage": {
+    "total_products": 253059,
+    "products_classified_movie": 68540,
+    "identification_rate": 0.2708,
+    "products_with_any_metadata": 71388,
+    "products_with_page_or_snapshot": 1073,
+    "note": "识别覆盖率 = 判为电影的商品数 / 全部商品数。分母是 25 万级，所以它天然远小于以已识别作品为分母的字段覆盖率。"
+  },
+  "A4_value_provenance": {
+    "by_field": {
+      "canonical_title": {
+        "verified": 0,
+        "inferred": 43838,
+        "missing": 0,
+        "total": 43838,
+        "verified_rate": 0.0
+      },
+      "release_date": {
+        "verified": 39,
+        "inferred": 0,
+        "missing": 43799,
+        "total": 43838,
+        "verified_rate": 0.0009
+      },
+      "genres": {
+        "verified": 39,
+        "inferred": 0,
+        "missing": 43799,
+        "total": 43838,
+        "verified_rate": 0.0009
+      },
+      "external_id": {
+        "verified": 39,
+        "inferred": 0,
+        "missing": 43799,
+        "total": 43838,
+        "verified_rate": 0.0009
+      }
+    },
+    "definition": {
+      "verified": "最终值直接来自某条原始断言（规则前缀 R-EXT-）",
+      "inferred": "最终值由商品级断言按规则聚合而来（规则前缀 R-AGG-）",
+      "missing": "没有选出值（含「有候选但全被规则拒绝」和「从未产生候选」两种情况）"
+    }
+  },
+  "B_traceability_samples": [
+    {
+      "entity_type": "movie",
+      "entity_id": "M-06d9a640ceaf39a3",
+      "field_name": "release_date",
+      "normalized_value": "1991-01-30",
+      "raw_value": "1991-01-30",
+      "extractor_rule_id": "R-EXT-DATE-THEATRICAL",
+      "source_type": "third_party",
+      "url": "https://www.wikidata.org/wiki/Q133654",
+      "snapshot_path": "data/snapshots/wikidata/ent_3d71dcde1ef33d5a.json",
+      "content_hash": "82a1eafdc1d92156ca634d73b168ff0fab6a971e455cc41e7a01f0b2def119c6",
+      "decision_reason": "上映日期只接受影院上映（theatrical）语义；商品发售日期（physical）语义不同，不作为上映日期；采用 R-EXT-DATE-THEATRICAL（权威性 1.00，候选 1 个，共 20 个）"
+    },
+    {
+      "entity_type": "movie",
+      "entity_id": "M-0bccc97c731beed3",
+      "field_name": "release_date",
+      "normalized_value": "2014-10-26",
+      "raw_value": "2014-10-26",
+      "extractor_rule_id": "R-EXT-DATE-THEATRICAL",
+      "source_type": "third_party",
+      "url": "https://www.wikidata.org/wiki/Q13417189",
+      "snapshot_path": "data/snapshots/wikidata/ent_ce9fe98d03f53974.json",
+      "content_hash": "16e669399c21ebae7841ff63c063856d8d1ce7589fc54f4a6cf912c4c59dfb4f",
+      "decision_reason": "上映日期只接受影院上映（theatrical）语义；商品发售日期（physical）语义不同，不作为上映日期；采用 R-EXT-DATE-THEATRICAL（权威性 1.00，候选 1 个，共 17 个）"
+    },
+    {
+      "entity_type": "movie",
+      "entity_id": "M-0c390de622fb7cdc",
+      "field_name": "release_date",
+      "normalized_value": "2004-04-16",
+      "raw_value": "2004-04-16",
+      "extractor_rule_id": "R-EXT-DATE-THEATRICAL",
+      "source_type": "third_party",
+      "url": "https://www.wikidata.org/wiki/Q928019",
+      "snapshot_path": "data/snapshots/wikidata/ent_de3159dae47afe14.json",
+      "content_hash": "f30319a85235c5d1697f99e922c38c41292a7dce881ef29e0fb9ae9b1ad5bf78",
+      "decision_reason": "上映日期只接受影院上映（theatrical）语义；商品发售日期（physical）语义不同，不作为上映日期；采用 R-EXT-DATE-THEATRICAL（权威性 1.00，候选 1 个，共 16 个）"
+    }
+  ],
+  "C_evaluation": {
+    "movie": {
+      "pairs": 100,
+      "per_group": {
+        "dev": {
+          "n": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "eval": {
+          "n": 100,
+          "tp": 34,
+          "fp": 0,
+          "fn": 16,
+          "tn": 50,
+          "precision": 1.0,
+          "recall": 0.68,
+          "f1": 0.8095
+        }
+      },
+      "by_difficulty": {
+        "same_work_different_edition": {
+          "n": 50,
+          "tp": 34,
+          "fp": 0,
+          "fn": 16,
+          "tn": 0,
+          "precision": 1.0,
+          "recall": 0.68,
+          "f1": 0.8095
+        },
+        "similar_title_mid": {
+          "n": 50,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 50,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "false_merge_rate": 0.0,
+          "metric_note": "该层无正例，看 false_merge_rate（误合并率）而非 precision"
+        }
+      },
+      "error_examples": [
+        {
+          "a": "0790742802",
+          "b": "B0000AISJU",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B000F6IOBG",
+          "b": "B000F6IOC0",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B000W7F5SS",
+          "b": "B0024NSG48",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B000BYA5G4",
+          "b": "B000BYA5GE",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B00004Y7I1",
+          "b": "B00007CWIH",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B000FS9UKI",
+          "b": "B000FS9UKS",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B000W7GFG4",
+          "b": "B0024NSG48",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        },
+        {
+          "a": "B00005UW7E",
+          "b": "B00005UW7F",
+          "label": 1,
+          "predicted": 0,
+          "type": "漏合并",
+          "difficulty": "same_work_different_edition"
+        }
+      ]
+    },
+    "person": {
+      "pairs": 100,
+      "per_group": {
+        "dev": {
+          "n": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "precision": null,
+          "recall": null,
+          "f1": null
+        },
+        "eval": {
+          "n": 100,
+          "tp": 2,
+          "fp": 1,
+          "fn": 0,
+          "tn": 97,
+          "precision": 0.6667,
+          "recall": 1.0,
+          "f1": 0.8
+        }
+      },
+      "by_difficulty": {
+        "same_first_name": {
+          "n": 6,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 6,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "false_merge_rate": 0.0,
+          "metric_note": "该层无正例，看 false_merge_rate（误合并率）而非 precision"
+        },
+        "random_different_person": {
+          "n": 82,
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 82,
+          "precision": null,
+          "recall": null,
+          "f1": null,
+          "false_merge_rate": 0.0,
+          "metric_note": "该层无正例，看 false_merge_rate（误合并率）而非 precision"
+        },
+        "same_surname": {
+          "n": 10,
+          "tp": 0,
+          "fp": 1,
+          "fn": 0,
+          "tn": 9,
+          "precision": 0.0,
+          "recall": null,
+          "f1": null,
+          "false_merge_rate": 0.1,
+          "metric_note": "该层无正例，看 false_merge_rate（误合并率）而非 precision"
+        },
+        "same_person_alias": {
+          "n": 2,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "error_examples": [
+        {
+          "a": "R. Scott",
+          "b": "Ridley Scott",
+          "label": 0,
+          "predicted": 1,
+          "type": "误合并",
+          "difficulty": "same_surname(scott)"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "all_checks_passed": true,
+    "checks_total": 6,
+    "checks_failed": 0
+  }
+}

@@ -1,0 +1,301 @@
+[2026-11-03T01:35:08Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T013508-4y04，共 12 步
+[2026-11-03T01:35:08Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T01:38:15Z] [INFO ] [run_all] [s01] 完成，用时 186.7s
+[2026-11-03T01:38:15Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T01:38:16Z] [INFO ] [run_all] [s02] 完成，用时 0.6s
+[2026-11-03T01:38:16Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T01:38:16Z] [INFO ] [run_all] [s02b] 完成，用时 0.6s
+[2026-11-03T01:38:16Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T01:38:52Z] [INFO ] [run_all] [s03] 完成，用时 36.2s
+[2026-11-03T01:38:52Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T01:38:53Z] [INFO ] [run_all] [s04] 完成，用时 0.5s
+[2026-11-03T01:38:53Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T01:38:54Z] [INFO ] [run_all] [s05] 完成，用时 0.6s
+[2026-11-03T01:38:54Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T01:38:54Z] [INFO ] [run_all] [s06] 完成，用时 0.5s
+[2026-11-03T01:38:54Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T01:38:55Z] [INFO ] [run_all] [s07] 完成，用时 0.5s
+[2026-11-03T01:38:55Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T01:39:01Z] [INFO ] [run_all] [s08] 完成，用时 6.2s
+[2026-11-03T01:39:01Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T01:39:01Z] [INFO ] [run_all] [s09] 完成，用时 0.5s
+[2026-11-03T01:39:01Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T01:39:23Z] [INFO ] [run_all] [s10] 完成，用时 21.6s
+[2026-11-03T01:39:23Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T01:39:24Z] [ERROR] [run_all] [s11] 退出码 1，处置策略=continue
+[2026-11-03T01:39:24Z] [WARN ] [run_all] [s11] 非致命失败，继续后续步骤（依赖它的结果会缺失，需在报告中说明）
+[2026-11-03T01:39:24Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s01   ok            186.7s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s02   ok              0.6s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s02b  ok              0.6s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s03   ok             36.2s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s04   ok              0.5s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s05   ok              0.6s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s06   ok              0.5s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s07   ok              0.5s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s08   ok              6.2s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s09   ok              0.5s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s10   ok             21.6s
+[2026-11-03T01:39:24Z] [INFO ] [run_all]   s11   failed(continue)    1.1s
+[2026-11-03T01:39:24Z] [INFO ] [run_all] 总计 255.7s
+[2026-11-03T01:54:56Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T015456-y75o，共 12 步
+[2026-11-03T01:54:56Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T02:00:50Z] [INFO ] [run_all] [s01] 完成，用时 353.6s
+[2026-11-03T02:00:50Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T02:00:50Z] [INFO ] [run_all] [s02] 完成，用时 0.5s
+[2026-11-03T02:00:50Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T02:00:52Z] [INFO ] [run_all] [s02b] 完成，用时 1.5s
+[2026-11-03T02:00:52Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T02:01:23Z] [INFO ] [run_all] [s03] 完成，用时 31.6s
+[2026-11-03T02:01:23Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T02:01:24Z] [INFO ] [run_all] [s04] 完成，用时 0.7s
+[2026-11-03T02:01:24Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T02:01:26Z] [INFO ] [run_all] [s05] 完成，用时 1.5s
+[2026-11-03T02:01:26Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T02:01:27Z] [INFO ] [run_all] [s06] 完成，用时 1.2s
+[2026-11-03T02:01:27Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:01:27Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:01:27Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:03:23Z] [INFO ] [run_all] [s08] 完成，用时 115.2s
+[2026-11-03T02:03:23Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:03:24Z] [INFO ] [run_all] [s09] 完成，用时 1.1s
+[2026-11-03T02:03:24Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:04:34Z] [INFO ] [run_all] [s10] 完成，用时 70.5s
+[2026-11-03T02:04:34Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:04:36Z] [ERROR] [run_all] [s11] 退出码 1，处置策略=continue
+[2026-11-03T02:04:36Z] [WARN ] [run_all] [s11] 非致命失败，继续后续步骤（依赖它的结果会缺失，需在报告中说明）
+[2026-11-03T02:04:36Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s01   ok            353.6s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s02   ok              0.5s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s02b  ok              1.5s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s03   ok             31.6s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s04   ok              0.7s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s05   ok              1.5s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s06   ok              1.2s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s07   ok              0.6s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s08   ok            115.2s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s09   ok              1.1s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s10   ok             70.5s
+[2026-11-03T02:04:36Z] [INFO ] [run_all]   s11   failed(continue)    1.4s
+[2026-11-03T02:04:36Z] [INFO ] [run_all] 总计 579.6s
+[2026-11-03T02:07:23Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T020723-7okg，共 12 步
+[2026-11-03T02:07:23Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T02:13:37Z] [INFO ] [run_all] [s01] 完成，用时 374.3s
+[2026-11-03T02:13:37Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T02:13:37Z] [INFO ] [run_all] [s02] 完成，用时 0.5s
+[2026-11-03T02:13:37Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T02:13:40Z] [INFO ] [run_all] [s02b] 完成，用时 2.5s
+[2026-11-03T02:13:40Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T02:14:11Z] [INFO ] [run_all] [s03] 完成，用时 31.4s
+[2026-11-03T02:14:11Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T02:14:12Z] [INFO ] [run_all] [s04] 完成，用时 0.7s
+[2026-11-03T02:14:12Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T02:14:14Z] [INFO ] [run_all] [s05] 完成，用时 1.6s
+[2026-11-03T02:14:14Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T02:14:15Z] [INFO ] [run_all] [s06] 完成，用时 1.2s
+[2026-11-03T02:14:15Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:14:15Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:14:15Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:15:05Z] [INFO ] [run_all] [s08] 完成，用时 49.3s
+[2026-11-03T02:15:05Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:15:06Z] [INFO ] [run_all] [s09] 完成，用时 1.3s
+[2026-11-03T02:15:06Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:16:22Z] [INFO ] [run_all] [s10] 完成，用时 76.4s
+[2026-11-03T02:16:22Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:16:24Z] [INFO ] [run_all] [s11] 完成，用时 1.6s
+[2026-11-03T02:16:24Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s01   ok            374.3s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s02   ok              0.5s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s02b  ok              2.5s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s03   ok             31.4s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s04   ok              0.7s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s05   ok              1.6s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s06   ok              1.2s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s07   ok              0.6s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s08   ok             49.3s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s09   ok              1.3s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s10   ok             76.4s
+[2026-11-03T02:16:24Z] [INFO ] [run_all]   s11   ok              1.6s
+[2026-11-03T02:16:24Z] [INFO ] [run_all] 总计 541.3s
+[2026-11-03T02:18:35Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T021835-u01n，共 12 步
+[2026-11-03T02:18:35Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:18:36Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:18:36Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:19:22Z] [INFO ] [run_all] [s08] 完成，用时 46.6s
+[2026-11-03T02:19:22Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:19:23Z] [INFO ] [run_all] [s09] 完成，用时 1.0s
+[2026-11-03T02:19:23Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:20:45Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T022045-49v4，共 12 步
+[2026-11-03T02:20:45Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:20:45Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:20:45Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [s08] 完成，用时 46.5s
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [s09] 完成，用时 0.7s
+[2026-11-03T02:21:32Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:22:44Z] [INFO ] [run_all] [s10] 完成，用时 72.0s
+[2026-11-03T02:22:44Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:22:46Z] [INFO ] [run_all] [s11] 完成，用时 1.5s
+[2026-11-03T02:22:46Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s07   ok              0.6s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s08   ok             46.5s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s09   ok              0.7s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s10   ok             72.0s
+[2026-11-03T02:22:46Z] [INFO ] [run_all]   s11   ok              1.5s
+[2026-11-03T02:22:46Z] [INFO ] [run_all] 总计 121.3s
+[2026-11-03T02:26:16Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T022616-ojo8，共 12 步
+[2026-11-03T02:26:16Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T02:32:20Z] [INFO ] [run_all] [s01] 完成，用时 364.0s
+[2026-11-03T02:32:20Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T02:32:21Z] [INFO ] [run_all] [s02] 完成，用时 0.6s
+[2026-11-03T02:32:21Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T02:32:23Z] [INFO ] [run_all] [s02b] 完成，用时 2.7s
+[2026-11-03T02:32:23Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T02:32:54Z] [INFO ] [run_all] [s03] 完成，用时 30.4s
+[2026-11-03T02:32:54Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T02:32:55Z] [INFO ] [run_all] [s04] 完成，用时 0.8s
+[2026-11-03T02:32:55Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T02:32:56Z] [INFO ] [run_all] [s05] 完成，用时 1.6s
+[2026-11-03T02:32:56Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T02:32:57Z] [INFO ] [run_all] [s06] 完成，用时 1.2s
+[2026-11-03T02:32:57Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:32:58Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:32:58Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:33:53Z] [INFO ] [run_all] [s08] 完成，用时 54.5s
+[2026-11-03T02:33:53Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:33:53Z] [INFO ] [run_all] [s09] 完成，用时 0.9s
+[2026-11-03T02:33:53Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:35:04Z] [INFO ] [run_all] [s10] 完成，用时 70.5s
+[2026-11-03T02:35:04Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:35:05Z] [INFO ] [run_all] [s11] 完成，用时 1.4s
+[2026-11-03T02:35:05Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s01   ok            364.0s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s02   ok              0.6s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s02b  ok              2.7s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s03   ok             30.4s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s04   ok              0.8s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s05   ok              1.6s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s06   ok              1.2s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s07   ok              0.6s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s08   ok             54.5s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s09   ok              0.9s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s10   ok             70.5s
+[2026-11-03T02:35:05Z] [INFO ] [run_all]   s11   ok              1.4s
+[2026-11-03T02:35:05Z] [INFO ] [run_all] 总计 529.2s
+[2026-11-03T02:36:37Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T023637-96qh，共 12 步
+[2026-11-03T02:36:37Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T02:42:45Z] [INFO ] [run_all] [s01] 完成，用时 368.6s
+[2026-11-03T02:42:45Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T02:42:46Z] [INFO ] [run_all] [s02] 完成，用时 0.5s
+[2026-11-03T02:42:46Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T02:42:49Z] [INFO ] [run_all] [s02b] 完成，用时 2.8s
+[2026-11-03T02:42:49Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T02:43:21Z] [INFO ] [run_all] [s03] 完成，用时 32.5s
+[2026-11-03T02:43:21Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T02:43:22Z] [INFO ] [run_all] [s04] 完成，用时 0.8s
+[2026-11-03T02:43:22Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T02:43:24Z] [INFO ] [run_all] [s05] 完成，用时 1.7s
+[2026-11-03T02:43:24Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T02:43:25Z] [INFO ] [run_all] [s06] 完成，用时 1.2s
+[2026-11-03T02:43:25Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:43:25Z] [INFO ] [run_all] [s07] 完成，用时 0.6s
+[2026-11-03T02:43:25Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:44:18Z] [INFO ] [run_all] [s08] 完成，用时 52.9s
+[2026-11-03T02:44:18Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:44:20Z] [INFO ] [run_all] [s09] 完成，用时 1.6s
+[2026-11-03T02:44:20Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:45:35Z] [INFO ] [run_all] [s10] 完成，用时 75.3s
+[2026-11-03T02:45:35Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:45:37Z] [INFO ] [run_all] [s11] 完成，用时 1.5s
+[2026-11-03T02:45:37Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s01   ok            368.6s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s02   ok              0.5s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s02b  ok              2.8s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s03   ok             32.5s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s04   ok              0.8s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s05   ok              1.7s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s06   ok              1.2s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s07   ok              0.6s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s08   ok             52.9s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s09   ok              1.6s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s10   ok             75.3s
+[2026-11-03T02:45:37Z] [INFO ] [run_all]   s11   ok              1.5s
+[2026-11-03T02:45:37Z] [INFO ] [run_all] 总计 540.1s
+[2026-11-03T02:45:38Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T024538-c8ym，共 12 步
+[2026-11-03T02:45:38Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T02:47:37Z] [INFO ] [run_all] [s01] 完成，用时 119.4s
+[2026-11-03T02:47:37Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T02:47:38Z] [INFO ] [run_all] [s02] 完成，用时 0.5s
+[2026-11-03T02:47:38Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T02:47:41Z] [INFO ] [run_all] [s02b] 完成，用时 2.8s
+[2026-11-03T02:47:41Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T02:48:21Z] [INFO ] [run_all] [s03] 完成，用时 40.1s
+[2026-11-03T02:48:21Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T02:48:22Z] [INFO ] [run_all] [s04] 完成，用时 0.9s
+[2026-11-03T02:48:22Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T02:48:22Z] [INFO ] [run_all] [s05] 完成，用时 0.6s
+[2026-11-03T02:48:22Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T02:48:23Z] [INFO ] [run_all] [s06] 完成，用时 1.2s
+[2026-11-03T02:48:23Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T02:48:24Z] [INFO ] [run_all] [s07] 完成，用时 0.7s
+[2026-11-03T02:48:24Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-03T02:49:19Z] [INFO ] [run_all] [s08] 完成，用时 54.4s
+[2026-11-03T02:49:19Z] [INFO ] [run_all] [10/12] 执行 s09: -m src.s09_resolve_fields
+[2026-11-03T02:49:19Z] [INFO ] [run_all] [s09] 完成，用时 0.8s
+[2026-11-03T02:49:19Z] [INFO ] [run_all] [11/12] 执行 s10: -m src.s10_quality_checks
+[2026-11-03T02:50:32Z] [INFO ] [run_all] [s10] 完成，用时 72.4s
+[2026-11-03T02:50:32Z] [INFO ] [run_all] [12/12] 执行 s11: -m src.s11_queries
+[2026-11-03T02:50:33Z] [INFO ] [run_all] [s11] 完成，用时 1.6s
+[2026-11-03T02:50:33Z] [INFO ] [run_all] ==============================================================================
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s01   ok            119.4s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s02   ok              0.5s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s02b  ok              2.8s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s03   ok             40.1s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s04   ok              0.9s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s05   ok              0.6s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s06   ok              1.2s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s07   ok              0.7s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s08   ok             54.4s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s09   ok              0.8s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s10   ok             72.4s
+[2026-11-03T02:50:33Z] [INFO ] [run_all]   s11   ok              1.6s
+[2026-11-03T02:50:33Z] [INFO ] [run_all] 总计 295.5s
+[2026-11-03T02:57:09Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261103T025709-mt42，共 12 步
+[2026-11-03T02:57:09Z] [INFO ] [run_all] [1/12] 执行 s01: -m src.s01_ingest_reviews
+[2026-11-03T03:03:16Z] [INFO ] [run_all] [s01] 完成，用时 367.1s
+[2026-11-03T03:03:16Z] [INFO ] [run_all] [2/12] 执行 s02: -m src.s02_build_product_list
+[2026-11-03T03:03:17Z] [INFO ] [run_all] [s02] 完成，用时 0.6s
+[2026-11-03T03:03:17Z] [INFO ] [run_all] [3/12] 执行 s02b: -m fixtures.make_offline_snapshots
+[2026-11-03T03:03:20Z] [INFO ] [run_all] [s02b] 完成，用时 3.3s
+[2026-11-03T03:03:20Z] [INFO ] [run_all] [4/12] 执行 s03: -m src.s03_collect_pages
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [s03] 完成，用时 11.6s
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [5/12] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [s04] 完成，用时 0.6s
+[2026-11-03T03:03:32Z] [INFO ] [run_all] [6/12] 执行 s05: -m src.s05_extract_assertions
+[2026-11-03T03:03:34Z] [INFO ] [run_all] [s05] 完成，用时 1.5s
+[2026-11-03T03:03:34Z] [INFO ] [run_all] [7/12] 执行 s06: -m src.s06_match_movies
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [s06] 完成，用时 1.1s
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [8/12] 执行 s07: -m src.s07_resolve_persons
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [s07] 完成，用时 0.7s
+[2026-11-03T03:03:35Z] [INFO ] [run_all] [9/12] 执行 s08: -m src.s08_enrich_release
+[2026-11-04T11:01:43Z] [INFO ] [run_all] 作业启动 run_id=RUN-20261104T110143-tpw1，共 13 步
+[2026-11-04T11:01:43Z] [INFO ] [run_all] [2/13] 执行 s02: -m src.s02_build_product_list
+[2026-11-04T11:01:47Z] [INFO ] [run_all] [s02] 完成，用时 4.3s
+[2026-11-04T11:01:47Z] [INFO ] [run_all] [3/13] s02b 按 --skip-fixture-gen 跳过（已有夹具仍会被 s03 装载）
+[2026-11-04T11:01:47Z] [INFO ] [run_all] [4/13] 执行 s03: -m src.s03_collect_pages
+[2026-11-04T11:02:17Z] [INFO ] [run_all] [s03] 完成，用时 29.8s
+[2026-11-04T11:02:17Z] [INFO ] [run_all] [5/13] 执行 s03b: -m src.s03b_ingest_thirdparty
+[2026-11-04T11:03:57Z] [INFO ] [run_all] [s03b] 完成，用时 99.8s
+[2026-11-04T11:03:57Z] [INFO ] [run_all] [6/13] 执行 s04: -m src.s04_parse_and_classify
+[2026-11-04T11:03:59Z] [INFO ] [run_all] [s04] 完成，用时 1.7s
+[2026-11-04T11:03:59Z] [INFO ] [run_all] [7/13] 执行 s05: -m src.s05_extract_assertions
+[2026-11-04T11:04:00Z] [INFO ] [run_all] [s05] 完成，用时 1.8s
+[2026-11-04T11:04:00Z] [INFO ] [run_all] [8/13] 执行 s06: -m src.s06_match_movies
+[2026-11-04T11:05:01Z] [INFO ] [run_all] [s06] 完成，用时 60.6s
+[2026-11-04T11:05:01Z] [INFO ] [run_all] [9/13] 执行 s07: -m src.s07_resolve_persons
+[2026-11-04T11:05:02Z] [INFO ] [run_all] [s07] 完成，用时 0.8s
+[2026-11-04T11:05:02Z] [INFO ] [run_all] [10/13] 执行 s08: -m src.s08_enrich_release
+[2026-11-04T11:30:16Z] [INFO ] [run_all] [s08] 完成，用时 1514.1s
+[2026-11-04T11:30:16Z] [INFO ] [run_all] [11/13] 执行 s09: -m src.s09_resolve_fields
+[2026-11-04T11:30:55Z] [INFO ] [run_all] [s09] 完成，用时 39.1s
+[2026-11-04T11:30:55Z] [INFO ] [run_all] [12/13] 执行 s10: -m src.s10_quality_checks

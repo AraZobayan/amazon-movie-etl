@@ -1,0 +1,21 @@
+[2026-11-03T01:38:16Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T01:38:16Z] [INFO ] [make_fixtures] 已生成 88 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T01:38:16Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T02:00:51Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T02:00:52Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T02:00:52Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T02:13:38Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T02:13:40Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T02:13:40Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T02:32:21Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T02:32:23Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T02:32:23Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T02:42:46Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T02:42:49Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T02:42:49Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T02:47:38Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T02:47:41Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T02:47:41Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv
+[2026-11-03T03:03:17Z] [INFO ] [make_fixtures] 准备为 900 个 ASIN 生成离线快照夹具
+[2026-11-03T03:03:20Z] [INFO ] [make_fixtures] 已生成 777 份快照 -> D:\课\大三\数据存储与管理\etl_project\data/snapshots/pages
+[2026-11-03T03:03:20Z] [INFO ] [make_fixtures] 清单 -> D:\课\大三\数据存储与管理\etl_project\fixtures\fixture_manifest.csv

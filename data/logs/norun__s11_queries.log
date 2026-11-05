@@ -1,0 +1,144 @@
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-9d944aca3d226e79', 'person_name': '%coppola%', 'product_id': 'B005ZMUXDC', 'person_id': 'P-48f3545476a7bf08'}
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 5 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 4 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 0 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 5 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 4 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T01:39:24Z] [ERROR] [s11_queries] l3 执行失败: You did not supply a value for binding parameter :record_id.
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 4 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T01:39:24Z] [INFO ] [s11_queries] 共 9/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:04:35Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-9d944aca3d226e79', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:04:35Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 25 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:04:35Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 15 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:04:35Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 7 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:04:35Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:04:36Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:04:36Z] [ERROR] [s11_queries] l1 执行失败: You did not supply a value for binding parameter :field_name.
+[2026-11-03T02:04:36Z] [ERROR] [s11_queries] l1b 执行失败: You did not supply a value for binding parameter :field_name.
+[2026-11-03T02:04:36Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 17 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:04:36Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:04:36Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:04:36Z] [INFO ] [s11_queries] 共 8/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:04:53Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-9d944aca3d226e79', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:04:53Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 25 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:04:53Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 15 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:04:53Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 7 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:04:53Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 26 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 17 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:04:54Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:16:23Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-46ae9dc7205fcb63', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:16:23Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:16:23Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:16:23Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 8 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:16:23Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 16 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:16:24Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-46ae9dc7205fcb63', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 8 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:22:45Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 16 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:22:46Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:35:04Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:35:04Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:35:04Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:35:04Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 8 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:35:04Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 34 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:35:05Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:45:36Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:45:36Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:45:36Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:45:36Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 8 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:45:36Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 34 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:45:37Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-03T02:50:32Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-03T02:50:32Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-03T02:50:32Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-03T02:50:32Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 9 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-03T02:50:32Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 34 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-03T02:50:33Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-04T08:37:43Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-6194595254c1c79c', 'person_id': 'P-34550715062af006'}
+[2026-11-04T08:37:43Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-04T08:37:43Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-04T08:37:43Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-04T08:37:43Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 0 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 34 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 33 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-04T08:37:44Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-04T08:45:45Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%michael%', 'product_id': 'B005ZMUXDC', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-34550715062af006'}
+[2026-11-04T08:45:45Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-04T08:45:45Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 14 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-04T08:45:45Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 8 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-04T08:45:45Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 34 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 6 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-04T08:45:46Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-05T10:26:40Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%thurman%', 'product_id': 'B00005JPS8', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-716645ee047e25e0'}
+[2026-11-05T10:26:40Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 20 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-05T10:26:40Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 15 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-05T10:26:40Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-05T10:26:41Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-05T10:27:13Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md
+[2026-11-05T10:51:45Z] [INFO ] [s11_queries] 示例参数: {'limit': 12, 'field_name': 'release_date', 'movie_id': 'M-1b0e7cdc7002fd2a', 'person_name': '%thurman%', 'product_id': 'B00005JPS8', 'record_id': 'REC-caa0e7f8448c25ba', 'person_id': 'P-716645ee047e25e0'}
+[2026-11-05T10:51:45Z] [INFO ] [s11_queries] q1 验收1 作品的所有商品版本: 20 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q1.csv
+[2026-11-05T10:51:45Z] [INFO ] [s11_queries] q2 验收2 某导演的作品及来源: 15 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q2.csv
+[2026-11-05T10:51:45Z] [INFO ] [s11_queries] q3 验收3 缺失与推断的上映信息: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q3.csv
+[2026-11-05T10:51:45Z] [INFO ] [s11_queries] q4 验收4 字段冲突与选择理由: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q4.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] q5 验收5 按作品统计评论数与平均分: 12 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\q5.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] l1 血缘1 字段最终值 + 证据 + 理由: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] l1b 血缘1b 该字段的全部候选（含未采用）: 21 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l1b.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] l2 血缘2 ASIN -> 版本/作品/匹配状态: 1 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l2.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] l3 血缘3 源记录 -> 受影响实体与字段: 45 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l3.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] l4 血缘4 人物 -> 署名/别名/作品: 22 行 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\l4.csv
+[2026-11-05T10:52:24Z] [INFO ] [s11_queries] 共 10/10 个查询成功，摘要 -> D:\课\大三\数据存储与管理\etl_project\evidence\queries\查询结果.md

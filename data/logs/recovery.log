@@ -1,0 +1,33 @@
+[2026-11-03T02:50:35Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T025035-7ok4  db=data/db/recovery_test.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:50:35Z] [WARN ] [s01_ingest_reviews] 已清空原始层/暂存层与首批目标表
+[2026-11-03T02:50:35Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=20000  有效=20000  隔离=0  -> 通过
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 逻辑评论 19,963 条（去重合并 33 条由多条原始记录产生）
+[2026-11-03T02:50:37Z] [INFO ] [s01_ingest_reviews] 不同产品 584  不同用户 16,310  用时 2.2s
+[2026-11-03T02:50:38Z] [INFO ] [s01_ingest_reviews] run_id=RUN-20261103T025038-8zhv  db=data/db/recovery_test.sqlite3  file=data/raw/movies.slice.gz (209.8 MB)
+[2026-11-03T02:50:38Z] [INFO ] [s01_ingest_reviews] 源文件 SHA-256=4344a465065a4ba4…  size=220000000  (0.2s)
+[2026-11-03T02:50:44Z] [INFO ] [s01_ingest_reviews] 进度    40,000 条  6,584 条/s  批次 1  隔离 1
+[2026-11-03T02:51:05Z] [INFO ] [s01_ingest_reviews] 进度    80,000 条  2,903 条/s  批次 2  隔离 1
+[2026-11-03T02:51:29Z] [INFO ] [s01_ingest_reviews] 进度   120,000 条  2,335 条/s  批次 3  隔离 1
+[2026-11-03T02:51:56Z] [INFO ] [s01_ingest_reviews] 进度   160,000 条  2,039 条/s  批次 4  隔离 1
+[2026-11-03T02:52:24Z] [INFO ] [s01_ingest_reviews] 进度   200,000 条  1,882 条/s  批次 5  隔离 1
+[2026-11-03T02:52:51Z] [INFO ] [s01_ingest_reviews] 进度   240,000 条  1,798 条/s  批次 6  隔离 3
+[2026-11-03T02:53:20Z] [INFO ] [s01_ingest_reviews] 进度   280,000 条  1,728 条/s  批次 7  隔离 3
+[2026-11-03T02:53:49Z] [INFO ] [s01_ingest_reviews] 进度   320,000 条  1,670 条/s  批次 8  隔离 3
+[2026-11-03T02:54:20Z] [INFO ] [s01_ingest_reviews] 进度   360,000 条  1,623 条/s  批次 9  隔离 5
+[2026-11-03T02:54:50Z] [INFO ] [s01_ingest_reviews] 进度   400,000 条  1,583 条/s  批次 10  隔离 5
+[2026-11-03T02:55:24Z] [INFO ] [s01_ingest_reviews] 进度   440,000 条  1,539 条/s  批次 11  隔离 6
+[2026-11-03T02:55:56Z] [INFO ] [s01_ingest_reviews] 进度   480,000 条  1,510 条/s  批次 12  隔离 6
+[2026-11-03T02:56:28Z] [INFO ] [s01_ingest_reviews] 进度   520,000 条  1,486 条/s  批次 13  隔离 6
+[2026-11-03T02:56:31Z] [INFO ] [s01_ingest_reviews] 回填 review.raw_count …
+[2026-11-03T02:56:43Z] [INFO ] [s01_ingest_reviews] 统计核对: 读取=522333  有效=522327  隔离=6  -> 通过
+[2026-11-03T02:56:43Z] [INFO ] [s01_ingest_reviews] 逻辑评论 521,325 条（去重合并 886 条由多条原始记录产生）
+[2026-11-03T02:56:43Z] [INFO ] [s01_ingest_reviews] 不同产品 16,480  不同用户 231,147  用时 365.2s
+[阶段1] 只处理前 20000 条，模拟中途中断
+  阶段1 入库 20,000 条
+[阶段2] 从检查点续跑，处理剩余记录
+============================================================
+阶段1 20,000 条 -> 续跑后 522,333 条（参考 522,333）
+重复主键 0 条；恒等式 有效522,327+隔离6=522,333
+结论：断点恢复验证通过

@@ -1,0 +1,753 @@
+[2026-11-03T01:38:18Z] [INFO ] [s03_collect_pages] robots.txt 已获取 7947 字节
+[2026-11-03T01:38:18Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T01:38:18Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T01:38:18Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T01:38:22Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T01:38:26Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T01:38:29Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T01:38:31Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T01:38:35Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T01:38:40Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T01:38:45Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T01:38:51Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 16,392
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    77
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 2
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    2
+[2026-11-03T01:38:52Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    1
+[2026-11-03T02:00:53Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T02:00:53Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T02:00:54Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T02:00:57Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:01:01Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:01:03Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:01:05Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:01:09Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:01:13Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:01:17Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:01:22Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,703
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    709
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    36
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    18
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    6
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T02:01:23Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 2
+[2026-11-03T02:13:40Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T02:13:40Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T02:13:41Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T02:13:44Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:13:50Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:13:52Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:13:54Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:13:58Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:14:02Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:14:06Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:14:10Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,703
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    710
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    26
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    26
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    7
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T02:14:11Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 2
+[2026-11-03T02:32:24Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T02:32:24Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T02:32:25Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T02:32:28Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:32:32Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:32:34Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:32:36Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:32:40Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:32:45Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:32:49Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:32:52Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,703
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T02:32:54Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 2
+[2026-11-03T02:42:49Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T02:42:49Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T02:42:50Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T02:42:53Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:42:57Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:43:00Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:43:02Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> not_found (HTTP 404, 尝试 1 次)
+[2026-11-03T02:43:06Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:43:10Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:43:15Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:43:20Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,703
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T02:43:21Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 2
+[2026-11-03T02:47:41Z] [INFO ] [s03_collect_pages] 待处理产品 15,703 个；robots 允许 /dp/ ? True
+[2026-11-03T02:47:41Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T02:47:41Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T02:47:45Z] [INFO ] [s03_collect_pages]   实时 0790731010 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:47:50Z] [INFO ] [s03_collect_pages]   实时 B00005AXLU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:47:55Z] [INFO ] [s03_collect_pages]   实时 B000UGBOT0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:48:00Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GM -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:48:05Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GW -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:48:10Z] [INFO ] [s03_collect_pages]   实时 B004FQX5A2 -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:48:14Z] [INFO ] [s03_collect_pages]   实时 B00006AUMG -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:48:19Z] [INFO ] [s03_collect_pages]   实时 B0000AISJU -> success (HTTP 200, 尝试 1 次)
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,695
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   success            source_type=live                 14
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-03T02:48:21Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 2
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages] 待处理产品 16,480 个；robots 允许 /dp/ ? True
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 8 条，间隔 1.2s，超时 12.0s，重试 2 次
+[2026-11-03T03:03:21Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:22Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:24Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> access_restricted (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:25Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> access_restricted (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:26Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:28Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:29Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:30Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> success (HTTP 200, 尝试 0 次)
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,703
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   success            source_type=live                 6
+[2026-11-03T03:03:31Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 2
+[2026-11-04T08:54:23Z] [INFO ] [s03_collect_pages] 待处理产品 15,703 个；robots 允许 /dp/ ? True
+[2026-11-04T08:54:23Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T08:54:23Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3 条，间隔 1.2s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T08:54:31Z] [INFO ] [s03_collect_pages] 待处理产品 15,703 个；robots 允许 /dp/ ? True
+[2026-11-04T08:54:31Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T08:54:31Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3 条，间隔 1.2s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T08:54:31Z] [INFO ] [s03_collect_pages]   实时 0790731010 -> parse_failed (HTTP 200, 尝试 0 次) [landing_page_not_pdp+snapshot_cache]
+[2026-11-04T08:54:32Z] [INFO ] [s03_collect_pages]   实时 B00005AXLU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T08:54:33Z] [INFO ] [s03_collect_pages]   实时 B000UGBOT0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,700
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   success            source_type=live                 8
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 2
+[2026-11-04T08:54:35Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 1
+[2026-11-04T08:54:40Z] [INFO ] [s03_collect_pages] 待处理产品 15,700 个；robots 允许 /dp/ ? True
+[2026-11-04T08:54:40Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T08:54:40Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3000 条，间隔 1.2s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T08:54:40Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T08:54:42Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T08:54:43Z] [INFO ] [s03_collect_pages]   实时 B004FQX5A2 -> parse_failed (HTTP 200, 尝试 0 次) [landing_page_not_pdp+snapshot_cache]
+[2026-11-04T08:54:44Z] [INFO ] [s03_collect_pages]   实时 B00006AUMG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T08:54:46Z] [INFO ] [s03_collect_pages]   实时 B0000AISJU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T08:54:50Z] [INFO ] [s03_collect_pages]   实时 B0033BISW0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:54:54Z] [INFO ] [s03_collect_pages]   实时 B003L20IG0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:54:59Z] [INFO ] [s03_collect_pages]   实时 6300270971 -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:55:05Z] [INFO ] [s03_collect_pages]   实时 B0063FGG5E -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:55:09Z] [INFO ] [s03_collect_pages]   实时 6305763283 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:55:14Z] [INFO ] [s03_collect_pages]   实时 B00004WCM4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:55:18Z] [INFO ] [s03_collect_pages]   实时 B00005RDR9 -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:55:23Z] [INFO ] [s03_collect_pages]   实时 B000FSME5G -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:55:25Z] [INFO ] [s03_collect_pages]   实时 B000RHDZC6 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T08:55:29Z] [INFO ] [s03_collect_pages]   实时 B001GJ5CHA -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T08:55:34Z] [INFO ] [s03_collect_pages]   实时 B00267N3E0 -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:55:39Z] [INFO ] [s03_collect_pages]   实时 B00267N3EA -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:55:44Z] [INFO ] [s03_collect_pages]   实时 B002HQZX9I -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:55:47Z] [INFO ] [s03_collect_pages]   实时 B003XU02QG -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T08:55:51Z] [INFO ] [s03_collect_pages]   实时 B004GJ1YCO -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T08:55:56Z] [INFO ] [s03_collect_pages]   实时 B00004VYPW -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:56:00Z] [INFO ] [s03_collect_pages]   实时 B0014NZNAO -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:56:04Z] [INFO ] [s03_collect_pages]   实时 B001L57ZZG -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:56:08Z] [INFO ] [s03_collect_pages]   实时 B001L57ZZQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:56:10Z] [INFO ] [s03_collect_pages]   实时 B0095D5454 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T08:56:15Z] [INFO ] [s03_collect_pages]   实时 0767802594 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:56:21Z] [INFO ] [s03_collect_pages]   实时 B00004R6WT -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:56:25Z] [INFO ] [s03_collect_pages]   实时 B00004RLFN -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:56:31Z] [INFO ] [s03_collect_pages]   实时 B00004WI6S -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:56:36Z] [INFO ] [s03_collect_pages]   实时 B00005NGAL -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:56:40Z] [INFO ] [s03_collect_pages]   实时 B00006AUMZ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:56:45Z] [INFO ] [s03_collect_pages]   实时 B0002EXFNI -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:56:49Z] [INFO ] [s03_collect_pages]   实时 B00092ZLS0 -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:56:54Z] [INFO ] [s03_collect_pages]   实时 B001BTZVFS -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:57:00Z] [INFO ] [s03_collect_pages]   实时 B005FUTC1I -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:05Z] [INFO ] [s03_collect_pages]   实时 B0079ZWUNY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:10Z] [INFO ] [s03_collect_pages]   实时 B00005KHJX -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:14Z] [INFO ] [s03_collect_pages]   实时 B0002DRDBY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:19Z] [INFO ] [s03_collect_pages]   实时 B000EQ5UHS -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:57:24Z] [INFO ] [s03_collect_pages]   实时 B000JZ3TYA -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T08:57:35Z] [INFO ] [s03_collect_pages]   实时 B000SFOW8I -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:41Z] [INFO ] [s03_collect_pages]   实时 B00569I5BQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:45Z] [INFO ] [s03_collect_pages]   实时 B00004Y632 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:57:51Z] [INFO ] [s03_collect_pages]   实时 B0006OBPTA -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:57:55Z] [INFO ] [s03_collect_pages]   实时 B003Q7B7B0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:00Z] [INFO ] [s03_collect_pages]   实时 6301744136 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:04Z] [INFO ] [s03_collect_pages]   实时 B00005A8TY -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:58:08Z] [INFO ] [s03_collect_pages]   实时 B00006IUFW -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:58:13Z] [INFO ] [s03_collect_pages]   实时 B0001KZNDS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:18Z] [INFO ] [s03_collect_pages]   实时 B00006RCNY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:22Z] [INFO ] [s03_collect_pages]   实时 B003IB91FI -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T08:58:26Z] [INFO ] [s03_collect_pages]   实时 B006FYGF8Q -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:31Z] [INFO ] [s03_collect_pages]   实时 0783233477 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:35Z] [INFO ] [s03_collect_pages]   实时 6304946627 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:39Z] [INFO ] [s03_collect_pages]   实时 B00000693S -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:44Z] [INFO ] [s03_collect_pages]   实时 B00004CM9L -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:48Z] [INFO ] [s03_collect_pages]   实时 B00004R99P -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:58:53Z] [INFO ] [s03_collect_pages]   实时 B00004R99Q -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:58:57Z] [INFO ] [s03_collect_pages]   实时 B00004RNEN -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:02Z] [INFO ] [s03_collect_pages]   实时 B00005Q4GZ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:06Z] [INFO ] [s03_collect_pages]   实时 B00006420T -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:11Z] [INFO ] [s03_collect_pages]   实时 B000OHZL1C -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:15Z] [INFO ] [s03_collect_pages]   实时 B0018CWW9Q -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:19Z] [INFO ] [s03_collect_pages]   实时 B0024S48HC -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   实时 B003HFECN6 -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages] 待处理产品 15,636 个；robots 允许 /dp/ ? True
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages] 回溯分类：待检查 76 个已有实时快照的产品
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B002VRZEYM: access_restricted/captcha_page+snapshot_cache -> access_restricted/captcha_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B004WO6BPS: access_restricted/captcha_page+snapshot_cache -> access_restricted/captcha_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B000RHDZC6: not_found/http_404 -> access_restricted/captcha_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B003XU02QG: not_found/http_404 -> access_restricted/captcha_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B0095D5454: not_found/http_404 -> access_restricted/captcha_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   0790731010: parse_failed/landing_page_not_pdp+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   6300270971: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B00004R99Q: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B00004VYPW: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B00005A8TY: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B00005NGAL: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B00005RDR9: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B00006IUFW: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:24Z] [INFO ] [s03_collect_pages]   B0002EXFNI: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B0006OBPTA: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B00092ZLS0: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B000EQ5UHS: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B0014NZNAO: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B001BTZVFS: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B001L57ZZG: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B00267N3E0: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B00267N3EA: parse_failed/landing_page_not_pdp -> success/http_200_product_page
+[2026-11-04T08:59:25Z] [INFO ] [s03_collect_pages]   B004FQX5A2: parse_failed/landing_page_not_pdp+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:26Z] [INFO ] [s03_collect_pages]   实时 B004EAPX22 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T08:59:26Z] [INFO ] [s03_collect_pages]   B00005AXLU: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:27Z] [INFO ] [s03_collect_pages]   B00006AUMG: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:27Z] [INFO ] [s03_collect_pages]   B0000AISJU: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:28Z] [INFO ] [s03_collect_pages]   B000ARIS52: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:28Z] [INFO ] [s03_collect_pages]   B000I186FW: success/http_200_product_page+snapshot_cache -> parse_failed/no_canonical_link
+[2026-11-04T08:59:28Z] [INFO ] [s03_collect_pages]   B000ML11RI: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:29Z] [INFO ] [s03_collect_pages]   B000UGBOT0: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:29Z] [INFO ] [s03_collect_pages]   B001FZ9AAU: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:30Z] [INFO ] [s03_collect_pages]   实时 B006CVE6V0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:30Z] [INFO ] [s03_collect_pages]   B002I9Z8GM: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:30Z] [INFO ] [s03_collect_pages]   B002I9Z8GW: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:30Z] [INFO ] [s03_collect_pages]   B002LBKDYE: success/http_200_product_page+snapshot_cache -> success/http_200_product_page
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   B009NQKPUW: success/http_200_product_page+snapshot_cache -> parse_failed/no_canonical_link
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages] 回溯分类完成：76 个检查，35 个判定发生变化
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,633
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   success            source_type=live                 64
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 8
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 5
+[2026-11-04T08:59:32Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 1
+[2026-11-04T08:59:34Z] [INFO ] [s03_collect_pages]   实时 B006Z7Z3R2 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:38Z] [INFO ] [s03_collect_pages]   实时 0790732246 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:42Z] [INFO ] [s03_collect_pages] 待处理产品 15,631 个；robots 允许 /dp/ ? True
+[2026-11-04T08:59:42Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T08:59:42Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3000 条，间隔 1.2s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T08:59:43Z] [INFO ] [s03_collect_pages]   实时 B00004CJPG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:45Z] [INFO ] [s03_collect_pages]   实时 B00004CJPG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:48Z] [INFO ] [s03_collect_pages]   实时 B00005OCMS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:49Z] [INFO ] [s03_collect_pages]   实时 B00005OCMS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:52Z] [INFO ] [s03_collect_pages]   实时 B000096KHO -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:53Z] [INFO ] [s03_collect_pages]   实时 B000096KHO -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T08:59:56Z] [INFO ] [s03_collect_pages]   实时 B000E8N96K -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T08:59:59Z] [INFO ] [s03_collect_pages]   实时 B000E8N96K -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:01Z] [INFO ] [s03_collect_pages]   实时 B000T5O49O -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:03Z] [INFO ] [s03_collect_pages]   实时 B000XS8RPY -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T09:00:04Z] [INFO ] [s03_collect_pages]   实时 B000T5O49O -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:05Z] [INFO ] [s03_collect_pages]   实时 B000XS8RPY -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T09:00:08Z] [INFO ] [s03_collect_pages]   实时 B00112S8RS -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:00:11Z] [INFO ] [s03_collect_pages]   实时 B00112S8RS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:13Z] [INFO ] [s03_collect_pages]   实时 B0042RJWTC -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:00:17Z] [INFO ] [s03_collect_pages]   实时 B0042RJWTC -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:18Z] [INFO ] [s03_collect_pages]   实时 B008ALNQDY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:19Z] [INFO ] [s03_collect_pages]   实时 B008ALNQDY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T09:00:23Z] [INFO ] [s03_collect_pages]   实时 6300216195 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:24Z] [INFO ] [s03_collect_pages]   实时 6300216195 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:28Z] [INFO ] [s03_collect_pages]   实时 6303257933 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:29Z] [INFO ] [s03_collect_pages]   实时 6303257933 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:32Z] [INFO ] [s03_collect_pages]   实时 B00004CJP1 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:33Z] [INFO ] [s03_collect_pages]   实时 B00004CJP1 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:37Z] [INFO ] [s03_collect_pages]   实时 B000057X1K -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:37Z] [INFO ] [s03_collect_pages]   实时 B000057X1K -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:00:41Z] [INFO ] [s03_collect_pages]   实时 B0000C66B8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:42Z] [INFO ] [s03_collect_pages]   实时 B0000C66B8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:46Z] [INFO ] [s03_collect_pages]   实时 B000KWZ1UM -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:00:46Z] [INFO ] [s03_collect_pages]   实时 B000KWZ1UM -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:51Z] [INFO ] [s03_collect_pages]   实时 B000OYC7BW -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:00:51Z] [INFO ] [s03_collect_pages]   实时 B000OYC7BW -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:00:55Z] [INFO ] [s03_collect_pages]   实时 B0032SMR1W -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T09:00:56Z] [INFO ] [s03_collect_pages]   实时 B0032SMR1W -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T09:00:59Z] [INFO ] [s03_collect_pages]   实时 0790743515 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:00Z] [INFO ] [s03_collect_pages]   实时 0790743515 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:03Z] [INFO ] [s03_collect_pages]   实时 6300134946 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:04Z] [INFO ] [s03_collect_pages]   实时 6300134946 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:07Z] [INFO ] [s03_collect_pages]   实时 B00004CK6F -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:09Z] [INFO ] [s03_collect_pages]   实时 B00004CK6F -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:12Z] [INFO ] [s03_collect_pages]   实时 B00004R99I -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:14Z] [INFO ] [s03_collect_pages]   实时 B00004R99I -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:16Z] [INFO ] [s03_collect_pages]   实时 B00004R99J -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:18Z] [INFO ] [s03_collect_pages]   实时 B00004R99J -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:21Z] [INFO ] [s03_collect_pages]   实时 B00009ATIX -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:01:23Z] [INFO ] [s03_collect_pages]   实时 B00009ATIX -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:25Z] [INFO ] [s03_collect_pages]   实时 B0000V46Q8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:27Z] [INFO ] [s03_collect_pages]   实时 B0000V46Q8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:29Z] [INFO ] [s03_collect_pages]   实时 B0013527KC -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:31Z] [INFO ] [s03_collect_pages]   实时 B0013527KC -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:34Z] [INFO ] [s03_collect_pages]   实时 B00004CXZQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:36Z] [INFO ] [s03_collect_pages]   实时 B00004CXZQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:38Z] [INFO ] [s03_collect_pages]   实时 B00005ABTU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:40Z] [INFO ] [s03_collect_pages]   实时 B00005ABTU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:43Z] [INFO ] [s03_collect_pages]   实时 B00005K3NR -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:01:45Z] [INFO ] [s03_collect_pages]   实时 B00005K3NR -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:47Z] [INFO ] [s03_collect_pages]   实时 B0000AV3G4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:49Z] [INFO ] [s03_collect_pages]   实时 B0000AV3G4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:51Z] [INFO ] [s03_collect_pages]   实时 B000ANVPPQ -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:01:54Z] [INFO ] [s03_collect_pages]   实时 B000ANVPPQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:01:56Z] [INFO ] [s03_collect_pages]   实时 B0012OX7EO -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:01:58Z] [INFO ] [s03_collect_pages]   实时 B0012OX7EO -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:00Z] [INFO ] [s03_collect_pages]   实时 B001AYWYD6 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:03Z] [INFO ] [s03_collect_pages]   实时 B001AYWYD6 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:05Z] [INFO ] [s03_collect_pages]   实时 B007OM18SK -> parse_failed (HTTP 200, 尝试 1 次) [landing_page_not_pdp]
+[2026-11-04T09:02:07Z] [INFO ] [s03_collect_pages]   实时 B007OM18SK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:09Z] [INFO ] [s03_collect_pages]   实时 6304286961 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:11Z] [INFO ] [s03_collect_pages]   实时 B00004CNYM -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T09:02:12Z] [INFO ] [s03_collect_pages]   实时 6304286961 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004CNYM -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T09:02:18Z] [INFO ] [s03_collect_pages]   实时 B00004TT6G -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:21Z] [INFO ] [s03_collect_pages]   实时 B00377SS3E -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:02:25Z] [INFO ] [s03_collect_pages]   实时 0780624963 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:30Z] [INFO ] [s03_collect_pages]   实时 6305399255 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:34Z] [INFO ] [s03_collect_pages]   实时 B00004CXQ6 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:39Z] [INFO ] [s03_collect_pages]   实时 B0000DBJDM -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:41Z] [INFO ] [s03_collect_pages]   实时 B00020JQ76 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:02:45Z] [INFO ] [s03_collect_pages]   实时 B001FQKRUG -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T09:02:47Z] [INFO ] [s03_collect_pages]   实时 B001M9ELP8 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:02:49Z] [INFO ] [s03_collect_pages]   实时 B004WJT5H4 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:02:51Z] [INFO ] [s03_collect_pages]   实时 B0058YKDOQ -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:02:54Z] [INFO ] [s03_collect_pages]   实时 B00004CJP3 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:02:56Z] [INFO ] [s03_collect_pages]   实时 B001LMAKAG -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:02:59Z] [INFO ] [s03_collect_pages]   实时 B001LMAKAQ -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:02Z] [INFO ] [s03_collect_pages]   实时 6304765223 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:04Z] [INFO ] [s03_collect_pages]   实时 B00005BAUA -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:07Z] [INFO ] [s03_collect_pages]   实时 B00005LKL7 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:11Z] [INFO ] [s03_collect_pages]   实时 B001G6JB2U -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:14Z] [INFO ] [s03_collect_pages]   实时 B001Y8DJW8 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:16Z] [INFO ] [s03_collect_pages]   实时 B006GH79S2 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:19Z] [INFO ] [s03_collect_pages]   实时 6305074593 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:21Z] [INFO ] [s03_collect_pages]   实时 B0017V8Q3E -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:03:23Z] [WARN ] [s03_collect_pages] 连续 10 次访问受限（HTTP 200 / captcha_page），触发熔断：停止实时采集，剩余 ASIN 标为未采集。已采集 57 条。
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,574
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   success            source_type=live                 103
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 22
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 11
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-04T09:03:23Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 1
+[2026-11-04T09:04:18Z] [INFO ] [s03_collect_pages] 待处理产品 15,574 个；robots 允许 /dp/ ? True
+[2026-11-04T09:04:18Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T09:04:18Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3000 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T09:04:19Z] [INFO ] [s03_collect_pages]   实时 B005FITIF0 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:24Z] [INFO ] [s03_collect_pages]   实时 B006HGXGWU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T09:04:29Z] [INFO ] [s03_collect_pages]   实时 0783229100 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:33Z] [INFO ] [s03_collect_pages]   实时 0783241305 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:36Z] [INFO ] [s03_collect_pages]   实时 B007N31ZLA -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:40Z] [INFO ] [s03_collect_pages]   实时 0792838289 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:44Z] [INFO ] [s03_collect_pages]   实时 B00004CSRO -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:48Z] [INFO ] [s03_collect_pages]   实时 B000065MJ1 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:51Z] [INFO ] [s03_collect_pages]   实时 B0000AZVER -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:55Z] [INFO ] [s03_collect_pages]   实时 B000TV4MNG -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:04:59Z] [INFO ] [s03_collect_pages]   实时 B0013LRKTO -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:05:03Z] [INFO ] [s03_collect_pages]   实时 B00197YZ7M -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T09:05:06Z] [WARN ] [s03_collect_pages] 连续 10 次访问受限（HTTP 200 / captcha_page），触发熔断：停止实时采集，剩余 ASIN 标为未采集。已采集 12 条。
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages] 清单共 16,480 个产品；状态之和 16,480 -> 互斥性检查通过
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 15,562
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   success            source_type=live                 104
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 33
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 11
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-04T09:05:06Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 1
+[2026-11-04T11:01:48Z] [INFO ] [s03_collect_pages] 待处理产品 253,059 个；robots 允许 /dp/ ? True
+[2026-11-04T11:01:48Z] [INFO ] [s03_collect_pages] 检测到 149 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:01:48Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 3000 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages] 第二轮顺序：149 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B002LBKDYE -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B002VRZEYM -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:52Z] [INFO ] [s03_collect_pages]   实时 B004WO6BPS -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B000ARIS52 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B000ML11RI -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B009NQKPUW -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 B000I186FW -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:53Z] [INFO ] [s03_collect_pages]   实时 0790731010 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B00005AXLU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B000UGBOT0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B002I9Z8GW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:54Z] [INFO ] [s03_collect_pages]   实时 B004FQX5A2 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B00006AUMG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B0000AISJU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B0033BISW0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:55Z] [INFO ] [s03_collect_pages]   实时 B003L20IG0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 6300270971 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B0063FGG5E -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 6305763283 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B00004WCM4 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B00005RDR9 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B000FSME5G -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:56Z] [INFO ] [s03_collect_pages]   实时 B000RHDZC6 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B001GJ5CHA -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B00267N3E0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B00267N3EA -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B002HQZX9I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B003XU02QG -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:57Z] [INFO ] [s03_collect_pages]   实时 B004GJ1YCO -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B00004VYPW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B0014NZNAO -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B001L57ZZG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B001L57ZZQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 B0095D5454 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:01:58Z] [INFO ] [s03_collect_pages]   实时 0767802594 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00004R6WT -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00004RLFN -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00004WI6S -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00005NGAL -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:01:59Z] [INFO ] [s03_collect_pages]   实时 B00006AUMZ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B0002EXFNI -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B00092ZLS0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B001BTZVFS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B005FUTC1I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:00Z] [INFO ] [s03_collect_pages]   实时 B0079ZWUNY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B00005KHJX -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B0002DRDBY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B000EQ5UHS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:01Z] [INFO ] [s03_collect_pages]   实时 B000JZ3TYA -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B000SFOW8I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B00569I5BQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B00004Y632 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B0006OBPTA -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:02Z] [INFO ] [s03_collect_pages]   实时 B003Q7B7B0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 6301744136 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B00005A8TY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B00006IUFW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B0001KZNDS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B00006RCNY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:03Z] [INFO ] [s03_collect_pages]   实时 B003IB91FI -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 B006FYGF8Q -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 0783233477 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 6304946627 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 B00000693S -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:04Z] [INFO ] [s03_collect_pages]   实时 B00004CM9L -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00004R99P -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00004R99Q -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00004RNEN -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:05Z] [INFO ] [s03_collect_pages]   实时 B00005Q4GZ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B00006420T -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B000OHZL1C -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B0018CWW9Q -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B0024S48HC -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B003HFECN6 -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B004EAPX22 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:06Z] [INFO ] [s03_collect_pages]   实时 B006CVE6V0 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B006Z7Z3R2 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 0790732246 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B00004CJPG -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B00005OCMS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B000096KHO -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:07Z] [INFO ] [s03_collect_pages]   实时 B000E8N96K -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B000T5O49O -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B000XS8RPY -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B00112S8RS -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B0042RJWTC -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 B008ALNQDY -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:08Z] [INFO ] [s03_collect_pages]   实时 6300216195 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 6303257933 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B00004CJP1 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B000057X1K -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B0000C66B8 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B000KWZ1UM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:09Z] [INFO ] [s03_collect_pages]   实时 B000OYC7BW -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B0032SMR1W -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 0790743515 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 6300134946 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B00004CK6F -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B00004R99I -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:10Z] [INFO ] [s03_collect_pages]   实时 B00004R99J -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B00009ATIX -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B0000V46Q8 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B0013527KC -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B00004CXZQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:11Z] [INFO ] [s03_collect_pages]   实时 B00005ABTU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B00005K3NR -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B0000AV3G4 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B000ANVPPQ -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B0012OX7EO -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:12Z] [INFO ] [s03_collect_pages]   实时 B001AYWYD6 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B007OM18SK -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 6304286961 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004CNYM -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004TT6G -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00377SS3E -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 0780624963 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 6305399255 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:13Z] [INFO ] [s03_collect_pages]   实时 B00004CXQ6 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B0000DBJDM -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00020JQ76 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001FQKRUG -> parse_failed (HTTP 200, 尝试 0 次) [no_canonical_link+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001M9ELP8 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B004WJT5H4 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B0058YKDOQ -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00004CJP3 -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001LMAKAG -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001LMAKAQ -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 6304765223 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00005BAUA -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B00005LKL7 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001G6JB2U -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B001Y8DJW8 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B006GH79S2 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 6305074593 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [INFO ] [s03_collect_pages]   实时 B0017V8Q3E -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:02:14Z] [WARN ] [s03_collect_pages] 连续 10 次访问受限（HTTP 200 / captcha_page+snapshot_cache），触发熔断：停止实时采集，剩余 ASIN 标为未采集。已采集 137 条。
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages] 清单共 253,059 个产品；状态之和 253,059 -> 互斥性检查通过
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 252,153
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   success            source_type=live                 104
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 23
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 10
+[2026-11-04T11:02:17Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9
+[2026-11-04T11:38:39Z] [INFO ] [s03_collect_pages] 待处理产品 252,153 个；robots 允许 /dp/ ? True
+[2026-11-04T11:38:39Z] [INFO ] [s03_collect_pages] 检测到 149 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:38:39Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:38:41Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 160 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:38:41Z] [INFO ] [s03_collect_pages] 第二轮顺序：149 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:38:41Z] [INFO ] [s03_collect_pages]   实时 B005FITIF0 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:41Z] [INFO ] [s03_collect_pages]   实时 B006HGXGWU -> success (HTTP 200, 尝试 0 次)
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 0783229100 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 0783241305 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B007N31ZLA -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 0792838289 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B00004CSRO -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B000065MJ1 -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B0000AZVER -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B000TV4MNG -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B0013LRKTO -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:42Z] [INFO ] [s03_collect_pages]   实时 B00197YZ7M -> access_restricted (HTTP 200, 尝试 0 次) [captcha_page+snapshot_cache]
+[2026-11-04T11:38:46Z] [INFO ] [s03_collect_pages]   实时 B002QZ1RS6 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:38:52Z] [INFO ] [s03_collect_pages]   实时 B007FQDPL8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:38:59Z] [INFO ] [s03_collect_pages]   实时 B00005JPS8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:39:05Z] [INFO ] [s03_collect_pages]   实时 B001C08RHA -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:39:11Z] [INFO ] [s03_collect_pages]   实时 B001FD5KJM -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:39:18Z] [INFO ] [s03_collect_pages]   实时 B001GAPC1K -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:39:24Z] [INFO ] [s03_collect_pages]   实时 B001I1NGHY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:39:32Z] [INFO ] [s03_collect_pages]   实时 B001KZG99A -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:39:39Z] [INFO ] [s03_collect_pages]   实时 B001HUHBE0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:39:47Z] [INFO ] [s03_collect_pages]   实时 B004JMSIRC -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:39:54Z] [INFO ] [s03_collect_pages]   实时 B000H7I6CU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:00Z] [INFO ] [s03_collect_pages]   实时 7883685635 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:09Z] [INFO ] [s03_collect_pages]   实时 B00005JNS0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:14Z] [INFO ] [s03_collect_pages]   实时 B000ENV5WK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:21Z] [INFO ] [s03_collect_pages]   实时 B000H5U832 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:29Z] [INFO ] [s03_collect_pages]   实时 B000V1Y43W -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:33Z] [INFO ] [s03_collect_pages]   实时 B002LW9ITY -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:40:40Z] [INFO ] [s03_collect_pages]   实时 B0049J3QF4 -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:40:48Z] [INFO ] [s03_collect_pages]   实时 B004I654WQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:40:55Z] [INFO ] [s03_collect_pages]   实时 B004OBQDJ8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:41:01Z] [INFO ] [s03_collect_pages]   实时 B005ZMUQCK -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:41:07Z] [INFO ] [s03_collect_pages]   实时 B000S6LS66 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:41:11Z] [INFO ] [s03_collect_pages]   实时 B000W494SI -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:41:15Z] [INFO ] [s03_collect_pages]   实时 B000W4B0Z8 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:41:21Z] [INFO ] [s03_collect_pages]   实时 B001DWNUE2 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:41:25Z] [INFO ] [s03_collect_pages]   实时 B008UBYTRG -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:41:31Z] [INFO ] [s03_collect_pages]   实时 B0027BOL4G -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:41:35Z] [INFO ] [s03_collect_pages]   实时 B002UZ5CHO -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:41:41Z] [INFO ] [s03_collect_pages]   实时 B001HN68ZU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:41:47Z] [INFO ] [s03_collect_pages]   实时 B001KEHAFI -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:41:54Z] [INFO ] [s03_collect_pages]   实时 B001OHS8BQ -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:42:01Z] [INFO ] [s03_collect_pages]   实时 B0009XRZ9M -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:08Z] [INFO ] [s03_collect_pages]   实时 B000A468Y8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:16Z] [INFO ] [s03_collect_pages]   实时 B000AGTPUA -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:22Z] [INFO ] [s03_collect_pages]   实时 B000AGTPUK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:30Z] [INFO ] [s03_collect_pages]   实时 B000AGTPUU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:37Z] [INFO ] [s03_collect_pages]   实时 B000AM6MKU -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:43Z] [INFO ] [s03_collect_pages]   实时 B000I2JKCO -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:49Z] [INFO ] [s03_collect_pages]   实时 B000Q7ZO8U -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:42:54Z] [INFO ] [s03_collect_pages]   实时 B0011TNVLY -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:43:00Z] [INFO ] [s03_collect_pages]   实时 B001F12J3Y -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:43:07Z] [INFO ] [s03_collect_pages]   实时 B001F12J48 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:43:13Z] [INFO ] [s03_collect_pages]   实时 B002NZTZ8S -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:43:19Z] [INFO ] [s03_collect_pages]   实时 B00447G29S -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:43:25Z] [INFO ] [s03_collect_pages]   实时 B000E5LEXS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:43:29Z] [INFO ] [s03_collect_pages]   实时 B000NPNDFQ -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:43:33Z] [INFO ] [s03_collect_pages]   实时 B000S5KGH4 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:43:41Z] [INFO ] [s03_collect_pages]   实时 B001684L0A -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:43:47Z] [INFO ] [s03_collect_pages]   实时 B001KEGR8Y -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:43:53Z] [INFO ] [s03_collect_pages]   实时 B000M341QE -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:00Z] [INFO ] [s03_collect_pages]   实时 B000M341QO -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:06Z] [INFO ] [s03_collect_pages]   实时 B000M5AJQ8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:13Z] [INFO ] [s03_collect_pages]   实时 B000M5AJQI -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:20Z] [INFO ] [s03_collect_pages]   实时 B000M5AJQS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:27Z] [INFO ] [s03_collect_pages]   实时 B000NGTJTY -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:44:34Z] [INFO ] [s03_collect_pages]   实时 B000NHPCS0 -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:44:40Z] [INFO ] [s03_collect_pages]   实时 B000V7O0GM -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:47Z] [INFO ] [s03_collect_pages]   实时 B0010DRYS2 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:44:53Z] [INFO ] [s03_collect_pages]   实时 B0010DRYSC -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:00Z] [INFO ] [s03_collect_pages]   实时 B002VWOMLI -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:07Z] [INFO ] [s03_collect_pages]   实时 B004L9GLKE -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:13Z] [INFO ] [s03_collect_pages]   实时 B005GHP32W -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:19Z] [INFO ] [s03_collect_pages]   实时 B0083SI9AY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:25Z] [INFO ] [s03_collect_pages]   实时 B0090XJJT6 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:33Z] [INFO ] [s03_collect_pages]   实时 B001UV4XI8 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:39Z] [INFO ] [s03_collect_pages]   实时 B004MPEFBE -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:45:44Z] [INFO ] [s03_collect_pages]   实时 B004OBQDH0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:45:51Z] [INFO ] [s03_collect_pages]   实时 B004WMKSH2 -> parse_failed (HTTP 200, 尝试 1 次) [no_canonical_link]
+[2026-11-04T11:45:55Z] [INFO ] [s03_collect_pages]   实时 B004WO774M -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:45:58Z] [INFO ] [s03_collect_pages]   实时 B004WQ1LLA -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:46:05Z] [INFO ] [s03_collect_pages]   实时 B004WX8HFG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:11Z] [INFO ] [s03_collect_pages]   实时 B0064ORVCQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:17Z] [INFO ] [s03_collect_pages]   实时 B006AM4UUS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:23Z] [INFO ] [s03_collect_pages]   实时 B006FXJVHY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:30Z] [INFO ] [s03_collect_pages]   实时 B008UZ7MUI -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:36Z] [INFO ] [s03_collect_pages]   实时 B00005JNTX -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:42Z] [INFO ] [s03_collect_pages]   实时 B0009PBNFW -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:47Z] [INFO ] [s03_collect_pages]   实时 B0009VCSXW -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:46:55Z] [INFO ] [s03_collect_pages]   实时 B000A1C68S -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:01Z] [INFO ] [s03_collect_pages]   实时 B000BCKFWK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:08Z] [INFO ] [s03_collect_pages]   实时 B000BU0B6W -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:14Z] [INFO ] [s03_collect_pages]   实时 B000ML0YTE -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:21Z] [INFO ] [s03_collect_pages]   实时 B000ML18KS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:28Z] [INFO ] [s03_collect_pages]   实时 B000ML4VKC -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:35Z] [INFO ] [s03_collect_pages]   实时 B001R4KQDE -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:41Z] [INFO ] [s03_collect_pages]   实时 B004AH59TG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:47Z] [INFO ] [s03_collect_pages]   实时 B004SIP9Z6 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:47:54Z] [INFO ] [s03_collect_pages]   实时 B004SIPA0A -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:48:00Z] [INFO ] [s03_collect_pages]   实时 B004SIPA4G -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:48:04Z] [INFO ] [s03_collect_pages]   实时 B0065AVS0K -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:48:07Z] [INFO ] [s03_collect_pages]   实时 B0065AVWGU -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:48:13Z] [INFO ] [s03_collect_pages]   实时 B001BYLFFS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:48:17Z] [INFO ] [s03_collect_pages]   实时 B001D2WUAC -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:48:21Z] [INFO ] [s03_collect_pages]   实时 B0032CNOK6 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:48:28Z] [INFO ] [s03_collect_pages]   实时 B00005JPI2 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:48:34Z] [INFO ] [s03_collect_pages]   实时 B00005JPO1 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:49:47Z] [INFO ] [s03_collect_pages] 待处理产品 252,045 个；robots 允许 /dp/ ? True
+[2026-11-04T11:49:47Z] [INFO ] [s03_collect_pages] 检测到 245 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:49:47Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:49:49Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 300 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:49:49Z] [INFO ] [s03_collect_pages] 第二轮顺序：245 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:49:53Z] [INFO ] [s03_collect_pages]   实时 B000W7F5SS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:19Z] [INFO ] [s03_collect_pages] 待处理产品 252,044 个；robots 允许 /dp/ ? True
+[2026-11-04T11:50:19Z] [INFO ] [s03_collect_pages] 检测到 246 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:50:19Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:50:21Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 300 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:50:21Z] [INFO ] [s03_collect_pages] 第二轮顺序：246 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:50:25Z] [INFO ] [s03_collect_pages]   实时 B000W7GFG4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:33Z] [INFO ] [s03_collect_pages]   实时 B000W7GKWI -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:37Z] [INFO ] [s03_collect_pages]   实时 B0010SQYE2 -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:50:41Z] [INFO ] [s03_collect_pages]   实时 B0012GE91W -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:50:48Z] [INFO ] [s03_collect_pages]   实时 B001DTPZNY -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:50:55Z] [INFO ] [s03_collect_pages]   实时 B001E75QGG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:01Z] [INFO ] [s03_collect_pages]   实时 B001FZ9AAK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:15Z] [INFO ] [s03_collect_pages] 待处理产品 252,037 个；robots 允许 /dp/ ? True
+[2026-11-04T11:51:15Z] [INFO ] [s03_collect_pages] 检测到 253 个真实采集快照（live/），这些 ASIN 不再用合成夹具覆盖
+[2026-11-04T11:51:15Z] [INFO ] [s03_collect_pages] 第一轮：装载离线快照（教学夹具）
+[2026-11-04T11:51:16Z] [INFO ] [s03_collect_pages] 第二轮：真实请求最多 560 条，间隔 3.0s，超时 12.0s，重试 2 次，连续受阻熔断阈值 10
+[2026-11-04T11:51:16Z] [INFO ] [s03_collect_pages] 第二轮顺序：253 个已有真实快照的 ASIN 优先（不发请求）
+[2026-11-04T11:51:20Z] [INFO ] [s03_collect_pages]   实时 B001HUHBDQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:25Z] [INFO ] [s03_collect_pages]   实时 B001IA2PTK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:33Z] [INFO ] [s03_collect_pages]   实时 B0024NSG48 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:40Z] [INFO ] [s03_collect_pages]   实时 B004GJYRAK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:51:46Z] [INFO ] [s03_collect_pages]   实时 B004OOJ1Y4 -> parse_failed (HTTP 200, 尝试 1 次) [redirected_to_other_item]
+[2026-11-04T11:51:56Z] [INFO ] [s03_collect_pages]   实时 B004P9FAJS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:03Z] [INFO ] [s03_collect_pages]   实时 B004P9FAKW -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:10Z] [INFO ] [s03_collect_pages]   实时 B00118T63C -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:18Z] [INFO ] [s03_collect_pages]   实时 B0011BE3K0 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:26Z] [INFO ] [s03_collect_pages]   实时 B001MP44K4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:33Z] [INFO ] [s03_collect_pages]   实时 B001QIVEUK -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:40Z] [INFO ] [s03_collect_pages]   实时 B001QIVEV4 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:52:46Z] [INFO ] [s03_collect_pages]   实时 B00449H5UQ -> parse_failed (HTTP 200, 尝试 1 次) [redirected_to_other_item]
+[2026-11-04T11:52:52Z] [INFO ] [s03_collect_pages]   实时 B004SIP8ZM -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:53:01Z] [INFO ] [s03_collect_pages]   实时 B004SIP8ZW -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:53:09Z] [INFO ] [s03_collect_pages]   实时 B004SIP90G -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:53:15Z] [INFO ] [s03_collect_pages]   实时 B004SIP910 -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:53:19Z] [INFO ] [s03_collect_pages]   实时 B006H8JJXS -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:53:23Z] [INFO ] [s03_collect_pages]   实时 B006H90TLI -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:53:27Z] [INFO ] [s03_collect_pages]   实时 B009AJD5E0 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:53:31Z] [INFO ] [s03_collect_pages]   实时 B001G2MB2G -> not_found (HTTP 404, 尝试 1 次) [http_404]
+[2026-11-04T11:53:37Z] [INFO ] [s03_collect_pages]   实时 B008M4HANQ -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:53:41Z] [INFO ] [s03_collect_pages]   实时 B000FS9FC6 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:53:45Z] [INFO ] [s03_collect_pages]   实时 B000FS9FCG -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:53:49Z] [INFO ] [s03_collect_pages]   实时 B000FS9FCQ -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:53:54Z] [INFO ] [s03_collect_pages]   实时 B000HVHM5S -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:53:58Z] [INFO ] [s03_collect_pages]   实时 B000I2JKFG -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:02Z] [INFO ] [s03_collect_pages]   实时 B001TK80AW -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:07Z] [INFO ] [s03_collect_pages]   实时 B0090XHWVS -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:54:11Z] [INFO ] [s03_collect_pages]   实时 7799128836 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:15Z] [INFO ] [s03_collect_pages]   实时 B004G6009K -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:20Z] [INFO ] [s03_collect_pages]   实时 B004G6009U -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:54:23Z] [INFO ] [s03_collect_pages]   实时 B004G600A4 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:27Z] [INFO ] [s03_collect_pages]   实时 B004QKNXIQ -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:31Z] [INFO ] [s03_collect_pages]   实时 B005LAIHSG -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:54:35Z] [INFO ] [s03_collect_pages]   实时 B005LAIHSQ -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:39Z] [INFO ] [s03_collect_pages]   实时 B008Y1RTUG -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:43Z] [INFO ] [s03_collect_pages]   实时 B0098VYCCE -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:46Z] [INFO ] [s03_collect_pages]   实时 5559375241 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:50Z] [INFO ] [s03_collect_pages]   实时 B00064LJVE -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:54:55Z] [INFO ] [s03_collect_pages]   实时 B00064LJVO -> success (HTTP 200, 尝试 1 次)
+[2026-11-04T11:54:59Z] [INFO ] [s03_collect_pages]   实时 B00064LJVY -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:03Z] [INFO ] [s03_collect_pages]   实时 B0006989TE -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:07Z] [INFO ] [s03_collect_pages]   实时 B005LAIHXQ -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:11Z] [INFO ] [s03_collect_pages]   实时 B005LAIHY0 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:15Z] [INFO ] [s03_collect_pages]   实时 B0016RDEH2 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:18Z] [INFO ] [s03_collect_pages]   实时 B001MBUGLY -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:22Z] [INFO ] [s03_collect_pages]   实时 B0085Z8F4A -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:26Z] [INFO ] [s03_collect_pages]   实时 B00005JPA6 -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:30Z] [INFO ] [s03_collect_pages]   实时 B00005JPTK -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:34Z] [INFO ] [s03_collect_pages]   实时 B000O76ZQC -> access_restricted (HTTP 200, 尝试 1 次) [captcha_page]
+[2026-11-04T11:55:37Z] [WARN ] [s03_collect_pages] 连续 10 次访问受限（HTTP 200 / captcha_page），触发熔断：停止实时采集，剩余 ASIN 标为未采集。已采集 51 条。
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages] 清单共 253,059 个产品；状态之和 253,059 -> 互斥性检查通过
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   not_collected      source_type=None                 251,986
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   success            source_type=synthetic_fixture    702
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   success            source_type=live                 203
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=live                 61
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   access_restricted  source_type=synthetic_fixture    34
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   not_found          source_type=synthetic_fixture    24
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=live                 22
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   not_found          source_type=live                 18
+[2026-11-04T11:55:38Z] [INFO ] [s03_collect_pages]   parse_failed       source_type=synthetic_fixture    9

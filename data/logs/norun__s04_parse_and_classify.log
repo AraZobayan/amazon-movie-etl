@@ -1,0 +1,50 @@
+[2026-11-03T01:38:53Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 83 份
+[2026-11-03T01:38:53Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T01:38:53Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.1s  {"pages": 83, "ok": 77, "partial": 6, "failed": 0, "classification": {"movie": 60, "concert_other": 2, "box_set": 4, "series": 2, "non_movie": 9, "pending": 6}}
+[2026-11-03T01:38:53Z] [INFO ] [s04_parse_and_classify] 解析 83 页（ok=77, partial=6, failed=0）；分类分布 {'movie': 60, 'concert_other': 2, 'box_set': 4, 'series': 2, 'non_movie': 9, 'pending': 6}
+[2026-11-03T02:01:24Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 715 份
+[2026-11-03T02:01:24Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T02:01:24Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.3s  {"pages": 715, "ok": 709, "partial": 6, "failed": 0, "classification": {"movie": 694, "non_movie": 9, "concert_other": 2, "box_set": 3, "series": 1, "pending": 6}}
+[2026-11-03T02:01:24Z] [INFO ] [s04_parse_and_classify] 解析 715 页（ok=709, partial=6, failed=0）；分类分布 {'movie': 694, 'non_movie': 9, 'concert_other': 2, 'box_set': 3, 'series': 1, 'pending': 6}
+[2026-11-03T02:14:12Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 716 份
+[2026-11-03T02:14:12Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T02:14:12Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.3s  {"pages": 716, "ok": 710, "partial": 6, "failed": 0, "classification": {"movie": 695, "series": 2, "non_movie": 8, "box_set": 3, "pending": 6, "concert_other": 2}}
+[2026-11-03T02:14:12Z] [INFO ] [s04_parse_and_classify] 解析 716 页（ok=710, partial=6, failed=0）；分类分布 {'movie': 695, 'series': 2, 'non_movie': 8, 'box_set': 3, 'pending': 6, 'concert_other': 2}
+[2026-11-03T02:32:54Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 708 份
+[2026-11-03T02:32:54Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T02:32:55Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.3s  {"pages": 708, "ok": 702, "partial": 6, "failed": 0, "classification": {"movie": 687, "box_set": 4, "non_movie": 8, "concert_other": 2, "series": 1, "pending": 6}}
+[2026-11-03T02:32:55Z] [INFO ] [s04_parse_and_classify] 解析 708 页（ok=702, partial=6, failed=0）；分类分布 {'movie': 687, 'box_set': 4, 'non_movie': 8, 'concert_other': 2, 'series': 1, 'pending': 6}
+[2026-11-03T02:43:22Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 708 份
+[2026-11-03T02:43:22Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T02:43:22Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.3s  {"pages": 708, "ok": 702, "partial": 6, "failed": 0, "classification": {"movie": 687, "box_set": 4, "non_movie": 8, "concert_other": 2, "series": 1, "pending": 6}}
+[2026-11-03T02:43:22Z] [INFO ] [s04_parse_and_classify] 解析 708 页（ok=702, partial=6, failed=0）；分类分布 {'movie': 687, 'box_set': 4, 'non_movie': 8, 'concert_other': 2, 'series': 1, 'pending': 6}
+[2026-11-03T02:48:21Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 716 份
+[2026-11-03T02:48:21Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T02:48:22Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.5s  {"pages": 716, "ok": 702, "partial": 14, "failed": 0, "classification": {"movie": 687, "pending": 12, "box_set": 6, "non_movie": 8, "concert_other": 2, "series": 1}}
+[2026-11-03T02:48:22Z] [INFO ] [s04_parse_and_classify] 解析 716 页（ok=702, partial=14, failed=0）；分类分布 {'movie': 687, 'pending': 12, 'box_set': 6, 'non_movie': 8, 'concert_other': 2, 'series': 1}
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 708 份
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.2s  {"pages": 708, "ok": 702, "partial": 6, "failed": 0, "classification": {"movie": 687, "box_set": 4, "non_movie": 8, "concert_other": 2, "series": 1, "pending": 6}}
+[2026-11-03T03:03:32Z] [INFO ] [s04_parse_and_classify] 解析 708 页（ok=702, partial=6, failed=0）；分类分布 {'movie': 687, 'box_set': 4, 'non_movie': 8, 'concert_other': 2, 'series': 1, 'pending': 6}
+[2026-11-04T11:03:57Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 806 份
+[2026-11-04T11:03:57Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-04T11:03:58Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  0.7s  {"pages": 806, "ok": 702, "partial": 104, "failed": 0, "classification": {"movie": 687, "pending": 92, "box_set": 12, "non_movie": 9, "concert_other": 3, "series": 3}}
+[2026-11-04T11:03:58Z] [INFO ] [s04_parse_and_classify] 解析 806 页（ok=702, partial=104, failed=0）；分类分布 {'movie': 687, 'pending': 92, 'box_set': 12, 'non_movie': 9, 'concert_other': 3, 'series': 3}
+[2026-11-04T11:57:00Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 905 份
+[2026-11-04T11:57:00Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-04T11:57:02Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  1.8s  {"pages": 905, "ok": 702, "partial": 203, "failed": 0, "classification": {"movie": 687, "pending": 182, "box_set": 16, "non_movie": 13, "concert_other": 3, "series": 4}}
+[2026-11-04T11:57:02Z] [INFO ] [s04_parse_and_classify] 解析 905 页（ok=702, partial=203, failed=0）；分类分布 {'movie': 687, 'pending': 182, 'box_set': 16, 'non_movie': 13, 'concert_other': 3, 'series': 4}
+[2026-11-04T11:58:53Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 905 份
+[2026-11-04T11:58:53Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-04T11:58:55Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  1.7s  {"pages": 905, "ok": 905, "partial": 0, "failed": 0, "classification": {"movie": 815, "pending": 54, "box_set": 16, "non_movie": 13, "concert_other": 3, "series": 4}}
+[2026-11-04T11:58:55Z] [INFO ] [s04_parse_and_classify] 解析 905 页（ok=905, partial=0, failed=0）；分类分布 {'movie': 815, 'pending': 54, 'box_set': 16, 'non_movie': 13, 'concert_other': 3, 'series': 4}
+[2026-11-05T10:40:30Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 905 份
+[2026-11-05T10:40:30Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-05T10:40:32Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  2.1s  {"pages": 905, "ok": 905, "partial": 0, "failed": 0, "classification": {"movie": 815, "pending": 54, "box_set": 16, "non_movie": 13, "concert_other": 3, "series": 4}}
+[2026-11-05T10:40:32Z] [INFO ] [s04_parse_and_classify] 解析 905 页（ok=905, partial=0, failed=0）；本次分类 {'movie': 815, 'pending': 54, 'box_set': 16, 'non_movie': 13, 'concert_other': 3, 'series': 4}
+[2026-11-05T10:40:32Z] [INFO ] [s04_parse_and_classify] 全表分类分布（含 s03b 类目初判）{'box_set': 16, 'concert_other': 3, 'movie': 68540, 'non_movie': 9896, 'pending': 922, 'series': 34089}，共 113,466 行
+[2026-11-05T10:50:06Z] [INFO ] [s04_parse_and_classify] 待解析成功页面 905 份
+[2026-11-05T10:50:06Z] [INFO ] [s04_parse_and_classify] 步骤开始: parse_and_classify
+[2026-11-05T10:50:09Z] [INFO ] [s04_parse_and_classify] 步骤完成: parse_and_classify  2.5s  {"pages": 905, "ok": 905, "partial": 0, "failed": 0, "classification": {"movie": 815, "pending": 54, "box_set": 16, "non_movie": 13, "concert_other": 3, "series": 4}}
+[2026-11-05T10:50:10Z] [INFO ] [s04_parse_and_classify] 解析 905 页（ok=905, partial=0, failed=0）；本次分类 {'movie': 815, 'pending': 54, 'box_set': 16, 'non_movie': 13, 'concert_other': 3, 'series': 4}
+[2026-11-05T10:50:10Z] [INFO ] [s04_parse_and_classify] 全表分类分布（含 s03b 类目初判）{'box_set': 16, 'concert_other': 3, 'movie': 68540, 'non_movie': 9896, 'pending': 922, 'series': 34089}，共 113,466 行

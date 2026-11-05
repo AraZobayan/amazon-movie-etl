@@ -1,0 +1,64 @@
+{
+  "run_id": "RUN-20261104T115114-quu2",
+  "products_total": 253059,
+  "status_sum": 253059,
+  "status_partition_ok": true,
+  "status_by_source": [
+    {
+      "status": "not_collected",
+      "source_type": null,
+      "count": 251986
+    },
+    {
+      "status": "success",
+      "source_type": "synthetic_fixture",
+      "count": 702
+    },
+    {
+      "status": "success",
+      "source_type": "live",
+      "count": 203
+    },
+    {
+      "status": "access_restricted",
+      "source_type": "live",
+      "count": 61
+    },
+    {
+      "status": "access_restricted",
+      "source_type": "synthetic_fixture",
+      "count": 34
+    },
+    {
+      "status": "not_found",
+      "source_type": "synthetic_fixture",
+      "count": 24
+    },
+    {
+      "status": "parse_failed",
+      "source_type": "live",
+      "count": 22
+    },
+    {
+      "status": "not_found",
+      "source_type": "live",
+      "count": 18
+    },
+    {
+      "status": "parse_failed",
+      "source_type": "synthetic_fixture",
+      "count": 9
+    }
+  ],
+  "robots_sha256": "74fa27e28cd9d80bdd155ffecf3a033ea2e195a80c83d6fa46acb20665c3cb4d",
+  "robots_allows_dp": true,
+  "live": {
+    "attempted": 51,
+    "success": 20,
+    "cached_from_snapshot": 0,
+    "network_requests": 51
+  },
+  "offline_loaded": 0,
+  "not_collected": 251986,
+  "note": "实时采集成功率与离线可用率必须分开看：source_type=synthetic_fixture 的记录是合成教学夹具，不能计入真实采集成功率。另注意 live.network_requests 与 live.attempted 的差别：后者包含「命中本地快照、一个请求都没发」的条数。报告里说『采集了 N 条』时，必须说清其中多少来自本次网络请求。"
+}

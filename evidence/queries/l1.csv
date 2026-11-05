@@ -1,0 +1,2 @@
+﻿字段,最终值,原始值,抽取规则,规则版本,置信度,来源类型,证据定位,快照路径,内容哈希,获取时间,选择理由,选择规则,决策时间
+release_date,2003-11-05,2003-11-05,R-EXT-DATE-THEATRICAL,wikidata-rest-v2,0.9,third_party,https://www.wikidata.org/wiki/Q207536,data/snapshots/wikidata/ent_a4d0bff0ec97937f.json,b3da1751c47056b87379785734021af5b40bec0810b5fad5d176f73f020de6ba,2026-11-03T01:52:28Z,上映日期只接受影院上映（theatrical）语义；商品发售日期（physical）语义不同，不作为上映日期；采用 R-EXT-DATE-THEATRICAL（权威性 1.00，候选 1 个，共 21 个）,R-SEL-DATE-THEATRICAL-ONLY,2026-11-05T10:51:11Z

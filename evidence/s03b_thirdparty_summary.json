@@ -1,0 +1,27 @@
+{
+  "run_id": "RUN-20261104T115616-2jdv",
+  "file": "../_tmp/meta_Movies_and_TV.json.gz",
+  "file_bytes": 99875519,
+  "file_sha256": "8af9f02f7741a086ca1df60e17ea0277e8ef879ce3e0420f37d357b36a52fc0a",
+  "source_type": "third_party",
+  "extractor_version": "snap-meta-v1",
+  "lines": 208321,
+  "parsed": 208321,
+  "with_title": 70573,
+  "parse_error": 0,
+  "no_asin": 0,
+  "not_in_list": 95591,
+  "assertions": 70573,
+  "classified": 112730,
+  "by_category": {
+    "movie": 67860,
+    "series": 34113,
+    "non_movie": 9887,
+    "pending": 870
+  },
+  "products_total": 253059,
+  "products_with_thirdparty_title": 70573,
+  "coverage_pct": 27.89,
+  "boundary": "SNAP meta 只提供标题/类目/销量排名/品牌，没有演职员。演职员仍只能来自实时采集的页面，两类来源分开统计。",
+  "note": "离线快照 / 第三方补充 / 实时采集三者按 source_type 分开统计，不合并为同一个成功指标（作业要求）。"
+}
